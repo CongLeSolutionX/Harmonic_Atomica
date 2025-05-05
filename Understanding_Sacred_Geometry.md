@@ -284,6 +284,7 @@ config:
   }
 }%%
 flowchart TD
+	A_0@{ shape: f-circ, label: "The Initial Beginning" }
     A("Vesica Piscis")
     B(("Seed of Life"))
     C(("Flower of Life"))
@@ -291,6 +292,7 @@ flowchart TD
     E(("Metatron's Cube<br/>Lines connecting Fruit of Life centers"))
     F(("Platonic Solids"))
 
+	A_0 --> A
 	A --> B
 	A --> A_Expansion
 	A_Expansion@{ shape: dbl-circ, label: "Intersection of 2 circles" }
@@ -365,6 +367,7 @@ config:
   }
 }%%
 flowchart TD
+	A_0@{ shape: f-circ, label: "The Initial Beginning" }
     Vesica_Piscis("Vesica Piscis")
     Seed_of_Life(("Seed of Life"))
     Flower_of_Life(("Flower of Life"))
@@ -372,7 +375,7 @@ flowchart TD
     Metatron_Cube(("Metatron's Cube<br/>Lines connecting Fruit of Life centers"))
     Platonic_Solids["Platonic Solids"]
 
-
+	A_0 --> Vesica_Piscis
 	Vesica_Piscis --> Seed_of_Life
 	Vesica_Piscis --> Vesica_Piscis_Expansion
 	Vesica_Piscis_Expansion@{ shape: dbl-circ, label: "Intersection of 2 circles" }
@@ -433,9 +436,9 @@ flowchart TD
         
     end
 
-    style PS fill:#242,stroke:#333,stroke-width:2px
-    style Prop fill:#422,stroke:#333,stroke-width:2px
-    style Sym fill:#224,stroke:#333,stroke-width:2px
+    %% style PS fill:#242,stroke:#333,stroke-width:2px
+    %% style Prop fill:#422,stroke:#333,stroke-width:2px
+    %% style Sym fill:#224,stroke:#333,stroke-width:2px
 
 ```
 
