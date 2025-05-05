@@ -285,11 +285,11 @@ config:
 }%%
 flowchart TD
 	A_0@{ shape: f-circ, label: "The Initial Beginning" }
-    A("Vesica Piscis")
-    B(("Seed of Life"))
-    C(("Flower of Life"))
-    D(("Fruit of Life"))
-    E(("Metatron's Cube<br/>Lines connecting Fruit of Life centers"))
+    A("Vesica Piscis<br/>⚭")
+    B(("Seed of Life<br/>⚛"))
+    C(("Flower of Life<br/>𑁍"))
+    D(("Fruit of Life<br/>𓇢"))
+    E(("Metatron's Cube<br/>💠<br/>Lines connecting Fruit of Life centers"))
     F(("Platonic Solids"))
 
 	A_0 --> A
@@ -368,11 +368,11 @@ config:
 }%%
 flowchart TD
 	A_0@{ shape: f-circ, label: "The Initial Beginning" }
-    Vesica_Piscis("Vesica Piscis")
-    Seed_of_Life(("Seed of Life"))
-    Flower_of_Life(("Flower of Life"))
-    Fruit_of_Life(("Fruit of Life"))
-    Metatron_Cube(("Metatron's Cube<br/>Lines connecting Fruit of Life centers"))
+    Vesica_Piscis("Vesica Piscis<br/>⚭")
+    Seed_of_Life(("Seed of Life<br/>⚛"))
+    Flower_of_Life(("Flower of Life<br/>𑁍"))
+    Fruit_of_Life(("Fruit of Life<br/>𓇢"))
+    Metatron_Cube(("Metatron's Cube<br/>💠<br/>Lines connecting Fruit of Life centers"))
     Platonic_Solids["Platonic Solids"]
 
 	A_0 --> Vesica_Piscis
