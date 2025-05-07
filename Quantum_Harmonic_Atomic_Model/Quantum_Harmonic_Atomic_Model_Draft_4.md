@@ -624,12 +624,10 @@ The atom is reframed as a **musical mandala**: harmonic lattices, animated by qu
 ## Testing embedded code for gravizo
 
 
-=======
-
 
 ## How to include graphviz graphs in github md files 
 
-=======
+---
 
 
 <!-- 
@@ -698,4 +696,40 @@ custom_rain_maker2
 </details>
 ```
 
+---
+
+
+You can use indirect way to refer a source file as graph description. 
+
+Use this syntax: ```![Alt text](https://g.gravizo.com/source/<custom_rain_maker>?<url_source_url_encoded>```). And use html comment or summary tag ```<details><summary></summary></details>``` (you can use html comments but some graphs uses -->) to hide the source followed by your description graph in [DOT syntax](https://en.wikipedia.org/wiki/DOT_(graph_description_language)), [UMLGraph](http://www.umlgraph.org/doc/cd-intro.html), [PlantUML](http://plantuml.sourceforge.net/sequence.html) or [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) :
+
+![Alt text](https://g.gravizo.com/source/custom_rain_maker_3?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
+
+
+```
+![Alt text](https://g.gravizo.com/source/custom_rain_maker_3?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
+<details> 
+<summary></summary>
+custom_rain_maker_3
+  digraph G {
+    size ="4,4"
+    main [shape=box]
+    main -> parse [weight=8]
+    parse -> execute
+    main -> init [style=dotted]
+    main -> cleanup
+    execute -> { make_string; printf}
+    init -> make_string
+    edge [color=red]
+    main -> printf [style=bold,label="100 times"]
+    make_string [label="make a string"]
+    node [shape=box,style=filled,color=".7 .3 1.0"]
+    execute -> compare
+  }
+custom_rain_maker_3
+</details>
+```
+
+
+---
 
