@@ -189,6 +189,22 @@ my_dot_graph_end
 
 ---
 
+
+<details>
+<summary>View Graphviz DOT Source 1 (Embedded in MD)</summary>
+my_dot_graph_start
+digraph MySampleGraph {
+  A [label="Start Node"];
+  B [label="End Node"];
+  A -> B [label="Edge from A to B"];
+}
+my_dot_graph_end
+</details>
+
+
+
+----
+
 ## 3. Mapping Orbitals to Harmonic Concepts
 
 
