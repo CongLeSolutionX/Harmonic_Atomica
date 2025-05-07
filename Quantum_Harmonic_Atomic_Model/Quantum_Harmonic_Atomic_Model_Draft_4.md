@@ -433,15 +433,6 @@ digraph ChromaticDualRing {
 <details>
 <summary>View Graphviz DOT Source (Embedded DOT 4)</summary>
 my_embedded_dot_4
-/*
- * title: The Chromatic Dual Ring and Phi-Damping Concept
- * author: Cong Le
- * version: 1.0
- * license(s): MIT, CC BY 4.0
- * copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
- * 
- * 
- */
 digraph ChromaticDualRing {
   graph [fontsize=12]
   rankdir=LR
