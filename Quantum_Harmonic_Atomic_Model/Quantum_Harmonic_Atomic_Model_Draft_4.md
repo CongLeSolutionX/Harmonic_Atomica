@@ -215,6 +215,30 @@ Raw content link:
 [my_external_diagram.dot (raw)](https://raw.githubusercontent.com/CongLeSolutionX/Harmonic_Atomica/refs/heads/Quantum_Harmonic_Atomic_Model/Quantum_Harmonic_Atomic_Model/my_graph.dot)
 </details>
 
+---
+
+
+<!-- Other content in your Markdown file -->
+
+### My First Embedded Diagram
+
+![Graphviz Diagram: Embedded DOT 1](https://g.gravizo.com/source/my_embedded_dot_1?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
+
+<details>
+<summary>View Graphviz DOT Source (Embedded DOT 1)</summary>
+my_embedded_dot_1
+digraph EmbeddedExample1 {
+  rankdir=LR;
+  node [shape=record];
+  struct1 [label="<f0> Left|<f1> Middle|<f2> Right"];
+  struct2 [label="<f0> One|<f1> Two|<f2> Three"];
+  struct1:f1 -> struct2:f0;
+  struct1:f2 -> struct2:f2;
+}
+my_embedded_dot_1
+</details>
+
+<!-- More content -->
 
 ----
 
