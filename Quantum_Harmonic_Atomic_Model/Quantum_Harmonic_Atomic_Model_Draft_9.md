@@ -54,7 +54,7 @@ The document proposes a novel way of understanding atomic structure, quantum mec
 
 ```mermaid
 ---
-title: "CHANGE_ME_DADDY"
+title: "The Atomic Resonance Field"
 author: "Cong Le"
 version: "1.0"
 license(s): "MIT, CC BY 4.0"
@@ -127,7 +127,7 @@ flowchart LR
 
 ```mermaid
 ---
-title: "CHANGE_ME_DADDY"
+title: "Electron Orbits vs. Musical Harmonics"
 author: "Cong Le"
 version: "1.0"
 license(s): "MIT, CC BY 4.0"
@@ -193,7 +193,7 @@ flowchart LR
 
 ```mermaid
 ---
-title: "CHANGE_ME_DADDY"
+title: "The Chromatic Dual Ring - A DNA Map"
 author: "Cong Le"
 version: "1.0"
 license(s): "MIT, CC BY 4.0"
@@ -247,7 +247,7 @@ flowchart LR
 
 ```mermaid
 ---
-title: "CHANGE_ME_DADDY"
+title: "Solfeggio Frequencies and the Geometric Map"
 author: "Cong Le"
 version: "1.0"
 license(s): "MIT, CC BY 4.0"
@@ -293,7 +293,7 @@ flowchart LR
 
 ```mermaid
 ---
-title: "CHANGE_ME_DADDY"
+title: "Fractal Harmonics & Nested Shells"
 author: "Cong Le"
 version: "1.0"
 license(s): "MIT, CC BY 4.0"
@@ -339,7 +339,7 @@ flowchart LR
 
 ```mermaid
 ---
-title: "CHANGE_ME_DADDY"
+title: "Quantum Temple Architectures"
 author: "Cong Le"
 version: "1.0"
 license(s): "MIT, CC BY 4.0"
@@ -380,6 +380,7 @@ flowchart TD
 **Explanation:**
 
 *   This diagram illustrates how the concepts are expanded into the architectural realm. Linking cathedrals and ancient structures to the geometry and frequencies.
+
 
 
 ---
