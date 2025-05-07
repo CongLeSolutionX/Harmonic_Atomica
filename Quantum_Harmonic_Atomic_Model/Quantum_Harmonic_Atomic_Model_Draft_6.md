@@ -41,24 +41,24 @@ config:
     'flowchart': { 'htmlLabels': true, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#F522E3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
-      'primaryBorderColor': '#27AE60',
+      'primaryBorderColor': '#E629',
       'secondaryColor': '#EBDEF0',
       'secondaryTextColor': '#6C3483',
       'secondaryBorderColor': '#A569BD'
     }
   }
 }%%
-graph LR
+flowchart LR
     subgraph Hexagram["Quantum Hexagram<br/>(s & p Orbitals)"]
     direction LR
         A("s-Orbital:<br/>Inner<br>Downward Triangle<br>Spherical Symmetry") --Centrality--> B("p-Orbitals:<br/>Three<br>Outer Triangles<br>Directional px, py, pz")
         B --Orthogonal Resonance--> A
     end
-    style A fill:#ccf,stroke:#333,stroke-width:1px
-    style B fill:#fcc,stroke:#333,stroke-width:1px
+    style A fill:#c2b9,stroke:#333,stroke-width:1px
+    style B fill:#22B5,stroke:#333,stroke-width:1px
     
 ```
 
@@ -87,8 +87,8 @@ config:
     'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#FE3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBDEF0',
@@ -106,11 +106,11 @@ graph LR
         D --> E("Shell N:<br/> n=N")
     end
     
-    style A fill:#eee,stroke:#333,stroke-width:1px
-    style B fill:#cce,stroke:#333,stroke-width:1px
-    style C fill:#cce,stroke:#333,stroke-width:1px
-    style D fill:#cce,stroke:#333,stroke-width:1px
-    style E fill:#cce,stroke:#333,stroke-width:1px
+    style A fill:#eee2,stroke:#333,stroke-width:1px
+    style B fill:#cce2,stroke:#333,stroke-width:1px
+    style C fill:#cce2,stroke:#333,stroke-width:1px
+    style D fill:#cce2,stroke:#333,stroke-width:1px
+    style E fill:#cce2,stroke:#333,stroke-width:1px
     
 ```
 
@@ -139,8 +139,8 @@ config:
     'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#FE3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBDEF0',
@@ -149,17 +149,17 @@ config:
     }
   }
 }%%
-graph LR
+flowchart LR
 	subgraph Orbitals_and_Music["Orbitals to Music Mapping"]
 	    s("s-orbital:<br/> 1 node<br>Fundamental Tone") --> p("p-orbitals:<br/> 3 nodes<br>First Overtone Triad")
 	    p --> d("d-orbitals:<br/> 5 orientations<br>Pentatonic Scale")
 	    d --> f("f-orbitals:<br/> 7 orientations<br>Heptatonic Modes")
 	  end
   
-    style s fill:#cef,stroke:#333,stroke-width:1px
-    style p fill:#cef,stroke:#333,stroke-width:1px
-    style d fill:#cef,stroke:#333,stroke-width:1px
-    style f fill:#cef,stroke:#333,stroke-width:1px
+    style s fill:#cef2,stroke:#333,stroke-width:1px
+    style p fill:#cef2,stroke:#333,stroke-width:1px
+    style d fill:#cef2,stroke:#333,stroke-width:1px
+    style f fill:#cef2,stroke:#333,stroke-width:1px
     
 ```
 
@@ -185,11 +185,11 @@ config:
 %% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
 %%{
   init: {
-    'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
+    'flowchart': { 'htmlLabels': true, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#FE3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBDEF0',
@@ -198,15 +198,15 @@ config:
     }
   }
 }%%
-graph LR
+flowchart LR
 	subgraph Wave_Node["Wave Nodes"]
 		A["Vibrational Field"] --> B("Fermions:<br/>Fixed<br/>Harmonic Nodes<br/>(Particles)")
 		A --> C("Bosons:<br/>Connective<br/>Harmonics<br/>(Force Carriers)")
 	end
 
-style A fill:#efe,stroke:#333,stroke-width:1px
-style B fill:#efe,stroke:#333,stroke-width:1px
-style C fill:#efe,stroke:#333,stroke-width:1px
+style A fill:#efe2,stroke:#333,stroke-width:1px
+style B fill:#efe2,stroke:#333,stroke-width:1px
+style C fill:#efe2,stroke:#333,stroke-width:1px
 
 ```
 
@@ -232,11 +232,11 @@ config:
 %% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
 %%{
   init: {
-    'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
+    'flowchart': { 'htmlLabels': true, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#FE3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBDEF0',
@@ -245,17 +245,17 @@ config:
     }
   }
 }%%
-graph LR
+flowchart LR
 	subgraph Phi_Damping["Phi-Damping &<br/> Quantum Selection"]
 		A["Atomic System"] --> B{"Geometry Selection"}
 		B --> C("Frequency Selection")
 		C --> D("Reality Selection")
 	end
 
-	style A fill:#afe,stroke:#333,stroke-width:1px
-	style B fill:#afe,stroke:#333,stroke-width:1px
-	style C fill:#afe,stroke:#333,stroke-width:1px
-	style D fill:#afe,stroke:#333,stroke-width:1px
+	style A fill:#afe2,stroke:#333,stroke-width:1px
+	style B fill:#afe2,stroke:#333,stroke-width:1px
+	style C fill:#afe2,stroke:#333,stroke-width:1px
+	style D fill:#afe2,stroke:#333,stroke-width:1px
 
 ```
 
@@ -281,11 +281,11 @@ config:
 %% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
 %%{
   init: {
-    'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
+    'flowchart': { 'htmlLabels': true, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#FE3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBDEF0',
@@ -294,16 +294,16 @@ config:
     }
   }
 }%%
-graph LR
+flowchart LR
 	subgraph Chromatic_Ring["Chromatic Dual Ring"]
 	direction TB
 		A("Outer Ring:<br/>Cosine<br>Primary &<br/> Secondary Harmonics") --> B{"Phi Damping"}
 		B --> C("Inner Ring:<br/>Sine<br>Tonic Frequencies")
 	end
 	
-	style A fill:#caf,stroke:#333,stroke-width:1px
-	style B fill:#caf,stroke:#333,stroke-width:1px
-	style C fill:#caf,stroke:#333,stroke-width:1px
+	style A fill:#caf2,stroke:#333,stroke-width:1px
+	style B fill:#caf2,stroke:#333,stroke-width:1px
+	style C fill:#caf2,stroke:#333,stroke-width:1px
 	
 ```
 
@@ -329,11 +329,11 @@ config:
 %% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
 %%{
   init: {
-    'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
+    'flowchart': { 'htmlLabels': true, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#FE3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBDEF0',
@@ -342,16 +342,16 @@ config:
     }
   }
 }%%
-graph LR
+flowchart LR
 	subgraph Solfeggio["Solfeggio Frequencies &<br/> DNA Response"]
 	direction TB
 		A("Molecular vibrations,<br/ transitions,<br/>qubit states") --> B("528Hz Resonates with<br/>cytosine-guanine bonding")
 		A --> C("639Hz Affects<br/>oxytocin-mediated neural structures")
 	end
 	
-	style A fill:#aaf,stroke:#333,stroke-width:1px
-	style B fill:#aaf,stroke:#333,stroke-width:1px
-	style C fill:#aaf,stroke:#333,stroke-width:1px
+	style A fill:#aaf2,stroke:#333,stroke-width:1px
+	style B fill:#aaf2,stroke:#333,stroke-width:1px
+	style C fill:#aaf2,stroke:#333,stroke-width:1px
 	
 ```
 
@@ -377,11 +377,11 @@ config:
 %% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
 %%{
   init: {
-    'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
+    'flowchart': { 'htmlLabels': true, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#FE3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBDEF0',
@@ -390,14 +390,14 @@ config:
     }
   }
 }%%
-graph LR
+flowchart LR
 	subgraph Cymatics["Cymatics and Atomic Structure"]
 		A("Vibration") --> B("Geometry Formation")
 		B --> C("Electron Orbitals")
 	end
 	
-	style A fill:#beef,stroke:#333,stroke-width:1px
-	style B fill:#def,stroke:#333,stroke-width:1px
+	style A fill:#bef2,stroke:#333,stroke-width:1px
+	style B fill:#def2,stroke:#333,stroke-width:1px
 	
 ```
 
@@ -423,11 +423,11 @@ config:
 %% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
 %%{
   init: {
-    'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
+    'flowchart': { 'htmlLabels': true, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#FE3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBDEF0',
@@ -436,17 +436,17 @@ config:
     }
   }
 }%%
-graph LR
+flowchart LR
 	A(("Quantum Numbers")) --> B("n:<br/>Principal Quantum Number")
     A --> C("l:<br/>Azimuthal Quantum Number")
     A --> D("m<sub>l</sub>:<br/>Magnetic Quantum Number")
     A --> E("m<sub>s</sub>:<br/>Spin Quantum Number")
     
-style A fill:#afe,stroke:#333,stroke-width:1px
-style B fill:#eac,stroke:#333,stroke-width:1px
-style C fill:#eac,stroke:#333,stroke-width:1px
-style D fill:#eac,stroke:#333,stroke-width:1px
-style E fill:#eac,stroke:#333,stroke-width:1px
+style A fill:#afe2,stroke:#333,stroke-width:1px
+style B fill:#eac2,stroke:#333,stroke-width:1px
+style C fill:#eac2,stroke:#333,stroke-width:1px
+style D fill:#eac2,stroke:#333,stroke-width:1px
+style E fill:#eac2,stroke:#333,stroke-width:1px
 
 ```
 
@@ -472,11 +472,11 @@ config:
 %% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
 %%{
   init: {
-    'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
+    'flowchart': { 'htmlLabels': true, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#FE3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBDEF0',
@@ -485,15 +485,15 @@ config:
     }
   }
 }%%
-graph LR
+flowchart LR
   subgraph FRACTAL_LATTICES["Fractal Harmonics & Nested Shell Geometry"]
     direction TB
     A[Nucleus] --> B(Icosahedra and Dodecahedra Layers)
     B --> C(Harmonic Containment Lattices)
     end
-     style A fill:#afe,stroke:#333,stroke-width:1px
-     style B fill:#afe,stroke:#333,stroke-width:1px
-     style C fill:#afe,stroke:#333,stroke-width:1px
+     style A fill:#afe3,stroke:#333,stroke-width:1px
+     style B fill:#afe3,stroke:#333,stroke-width:1px
+     style C fill:#afe3,stroke:#333,stroke-width:1px
 ```
 
 *Explanation:* Shows the non-linear orbital stacking and how atomonica looks into layering the icosahedra and dodecahedra to the atomic nucleus.

@@ -56,8 +56,8 @@ config:
     'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#F522E3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBDEF0',
@@ -104,8 +104,8 @@ config:
     'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#F522E3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBDEF0',
@@ -129,7 +129,7 @@ graph TD
         P3 --- P1
     end
     
-    style Atomic_Structure fill:#fff,stroke:#333,stroke-width:2px
+    style Atomic_Structure fill:#fff2,stroke:#333,stroke-width:2px
     
 ```
 
@@ -167,8 +167,8 @@ config:
     'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#F522E3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBDEF0',
@@ -183,10 +183,10 @@ graph TD
     H2 --- H4{{"Hexagram Unit"}}
     H3 --- H4
     
-    style H1 fill:#ccf,stroke:#333,stroke-width:1px
-    style H2 fill:#ccf,stroke:#333,stroke-width:1px
-    style H3 fill:#ccf,stroke:#333,stroke-width:1px
-    style H4 fill:#ccf,stroke:#333,stroke-width:1px
+    style H1 fill:#ccf3,stroke:#333,stroke-width:1px
+    style H2 fill:#ccf3,stroke:#333,stroke-width:1px
+    style H3 fill:#ccf3,stroke:#333,stroke-width:1px
+    style H4 fill:#ccf3,stroke:#333,stroke-width:1px
     
 ```
 
@@ -239,8 +239,8 @@ config:
     'flowchart': { 'htmlLabels': true, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#F522E3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBDEF0',
@@ -249,7 +249,7 @@ config:
     }
   }
 }%%
-graph TD
+flowchart TD
     subgraph Cymatics["Cymatics<br/>(Vibration -> Geometry)"]
         Vibration --- Plate(("Cymatic Pattern"))
     end
@@ -293,8 +293,8 @@ config:
     'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#F5E3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBDEF0',
@@ -349,8 +349,8 @@ config:
     'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#F5E3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBDEF0',
@@ -424,8 +424,8 @@ config:
     'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#F5E3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBDEF0',
@@ -468,8 +468,8 @@ config:
     'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#F5E3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBDEF0',
@@ -513,8 +513,8 @@ config:
     'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
     'fontFamily': 'Monaco',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
-      'primaryTextColor': '#145A32',
+      'primaryColor': '#F5E3',
+      'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
       'secondaryColor': '#EBDEF0',
