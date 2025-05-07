@@ -201,6 +201,19 @@ digraph MySampleGraph {
 my_dot_graph_end
 </details>
 
+----
+
+![Graphviz Diagram: External DOT File Final](https://g.gravizo.com/g?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2Fmy_graph.dot)
+
+
+<details>
+<summary>View Graphviz DOT Source (External .dot File Final)</summary>
+The DOT source for this diagram is in the file:
+<code>Quantum_Harmonic_Atomic_Model/Quantum_Harmonic_Atomic_Model/my_graph.dot</code>
+
+Raw content link:
+[my_external_diagram.dot (raw)](https://raw.githubusercontent.com/CongLeSolutionX/Harmonic_Atomica/refs/heads/Quantum_Harmonic_Atomic_Model/Quantum_Harmonic_Atomic_Model/my_graph.dot)
+</details>
 
 
 ----
