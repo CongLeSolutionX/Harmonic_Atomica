@@ -560,6 +560,12 @@ Imagine the allowed vibrational frequencies and geometric forms being filtered t
 
 Instead of simple concentric shells, picture nested geometric solids (e.g., an octahedron within a cube, within an icosahedron), with each face or vertex representing a harmonic node. These nested structures exhibit fractal properties, with similar patterns repeating at different scales within the atom. Electron density plots can be seen as visualizations of these complex, fractal harmonic fields.
 
+---
+
+
+### Closing Image  
+The atom is reframed as a **musical mandala**: harmonic lattices, animated by quantum numbers, sifting frequencies through sacred ratios, manifesting as the beauty of both a DNA helix and a cathedral dome. Physics, music, and geometry are revealed as facets of the same universal resonance.
+
 
 
 ---
