@@ -203,7 +203,7 @@ flowchart LR
     subgraph Platonic_Solids["Platonic Solids<br/>(Regular Convex Polyhedra)"]
         PS(("Shapes")) --> T("Tetrahedron <br/>Fire<br/>🔥")
         T --> T_Expansion
-        T_Expansion@{ shape: tri, label: "4<br/>Triangle" }
+        T_Expansion@{ shape: tri, label: "4<br/>Triangles" }
 
 
         PS --> H("Hexahedron <br/>Earth<br/>🌎")
@@ -212,7 +212,7 @@ flowchart LR
         
         PS --> O("Octahedron<br/> Air<br/>🌬️")
         O --> O_Expansion
-        O_Expansion@{ shape: tri, label: "8<br/>Triangle" }
+        O_Expansion@{ shape: tri, label: "8<br/>Triangles" }
         
         PS --> D("Dodecahedron <br/> Aether<br/>✡")
 		D --> D_Expansion
@@ -220,7 +220,7 @@ flowchart LR
         
         PS --> I("Icosahedron<br/> Water<br/>🌊")
 		I --> I_Expansion
-        I_Expansion@{ shape: tri, label: "20<br/>Triangle" }
+        I_Expansion@{ shape: tri, label: "20<br/>Triangles" }
 
 
 
@@ -415,7 +415,7 @@ flowchart TD
     subgraph Platonic_Solids["Platonic Solids<br/>(Regular Convex Polyhedra)"]
         PS(("Shapes")) --> Tetrahedron("Tetrahedron <br/>Fire<br/>🔥")
         Tetrahedron --> Tetrahedron_Expansion
-        Tetrahedron_Expansion@{ shape: tri, label: "4<br/>Triangle" }
+        Tetrahedron_Expansion@{ shape: tri, label: "4<br/>Triangles" }
 
 
         PS --> Hexahedron("Hexahedron<br/>Earth<br/>🌎")
@@ -424,7 +424,7 @@ flowchart TD
         
         PS --> Octahedron("Octahedron <br/> Air<br/>🌬️")
         Octahedron --> Octahedron_Expansion
-        Octahedron_Expansion@{ shape: tri, label: "8<br/>Triangle" }
+        Octahedron_Expansion@{ shape: tri, label: "8<br/>Triangles" }
         
         PS --> Dodecahedron("Dodecahedron<br/> Aether<br/>✡")
 		Dodecahedron --> Dodecahedron_Expansion
@@ -432,7 +432,7 @@ flowchart TD
         
         PS --> Icosahedron("Icosahedron<br/> Water<br/>🌊")
 		Icosahedron --> Icosahedron_Expansion
-        Icosahedron_Expansion@{ shape: tri, label: "20<br/>Triangle" }
+        Icosahedron_Expansion@{ shape: tri, label: "20<br/>Triangles" }
         
     end
 
