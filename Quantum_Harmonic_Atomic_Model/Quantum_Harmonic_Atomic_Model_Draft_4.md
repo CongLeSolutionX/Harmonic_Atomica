@@ -731,5 +731,46 @@ custom_rain_maker_3
 ```
 
 
----
+This allows to include your graphs in the README and is still readable in a normal text editor.
+
+----
+
+
+**SVG output** it's ready. Only need to replace https://g.gravizo.com/g? by https://g.gravizo.com/svg? and https://g.gravizo.com/source? by https://g.gravizo.com/source/svg?
+
+![Alt text](https://g.gravizo.com/source/svg/custom_rain_maker_4?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md?3)
+
+```
+![Alt text](https://g.gravizo.com/source/svg/custom_rain_maker_4?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
+<details> 
+<summary></summary>
+custom_rain_maker_4
+/**
+*Structural Things
+*@opt commentname
+*@note Notes can
+*be extended to
+*span multiple lines
+*/
+class Structural{}
+
+/**
+*@opt all
+*@note Class
+*/
+class Counter extends Structural {
+        static public int counter;
+        public int getCounter();
+}
+
+/**
+*@opt shape activeclass
+*@opt all
+*@note Active Class
+*/
+class RunningCounter extends Counter{}
+custom_rain_maker_4
+</details>
+```
+
 
