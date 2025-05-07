@@ -164,6 +164,29 @@ digraph HexagramAtom {
 
 **Explanation:** This Graphviz diagram attempts to visualize the core geometric idea. The downward triangle represents the s-orbital, and the three upward triangles conceptually represent the 3 p-orbitals structured together. The dashed lines indicate the conceptual formation of the hexagram/tetrahedral unit. Labels and notes emphasize that this is a proposed geometric mapping and a potential "basic cell" in a larger structure. Position (`pos`) attributes are used to attempt a hexagram-like layout, though precise geometric fidelity in DOT is limited.
 
+
+---
+
+## Testing
+
+ <details>
+ <summary>View Graphviz DOT Source</summary>
+ my_dot_graph_start
+ digraph MySampleGraph {
+ A [label="Start Node"];
+B [label="End Node"];
+A -> B [label="Edge from A to B"];
+}
+my_dot_graph_end
+</details>
+
+---
+
+ <details>
+ <summary>View Graphviz DOT Source 2</summary>
+![my_graph](./my_graph.dot)
+</details>
+
 ---
 
 ## 3. Mapping Orbitals to Harmonic Concepts

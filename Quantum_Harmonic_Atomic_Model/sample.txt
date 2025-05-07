@@ -1,0 +1,7 @@
+digraph MySampleGraph {
+    // Your DOT syntax here
+    // Example:
+    A [label="Start Node"];
+    B [label="End Node"];
+    A -> B [label="Edge from A to B"];
+}
