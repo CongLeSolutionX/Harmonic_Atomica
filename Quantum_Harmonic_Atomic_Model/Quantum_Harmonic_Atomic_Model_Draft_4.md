@@ -164,11 +164,6 @@ digraph HexagramAtom {
 
 **Explanation:** This Graphviz diagram attempts to visualize the core geometric idea. The downward triangle represents the s-orbital, and the three upward triangles conceptually represent the 3 p-orbitals structured together. The dashed lines indicate the conceptual formation of the hexagram/tetrahedral unit. Labels and notes emphasize that this is a proposed geometric mapping and a potential "basic cell" in a larger structure. Position (`pos`) attributes are used to attempt a hexagram-like layout, though precise geometric fidelity in DOT is limited.
 
-
----
-
-## Testing
-
 ---
 
 ### Atomic Geometric Structure: The S-P Hexagram Unit
