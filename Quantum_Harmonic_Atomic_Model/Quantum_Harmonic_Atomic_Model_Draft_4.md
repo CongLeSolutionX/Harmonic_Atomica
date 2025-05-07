@@ -417,6 +417,78 @@ digraph ChromaticDualRing {
 
 ---
 
+
+
+## Testing
+
+---
+
+
+<!-- Other content in your Markdown file -->
+
+### The Chromatic Dual Ring and Phi-Damping Concept
+
+![Graphviz Diagram: Embedded DOT 4](https://g.gravizo.com/source/my_embedded_dot_4?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
+
+<details>
+<summary>View Graphviz DOT Source (Embedded DOT 4)</summary>
+my_embedded_dot_4
+/*
+ * title: The Chromatic Dual Ring and Phi-Damping Concept
+ * author: Cong Le
+ * version: 1.0
+ * license(s): MIT, CC BY 4.0
+ * copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
+ * 
+ * 
+ */
+digraph ChromaticDualRing {
+  graph [fontsize=12]
+  rankdir=LR
+
+  node [shape=circle, style=filled]
+
+  // Outer Cosine Ring
+  subgraph cluster_CosineRing {
+    style=rounded
+    color=blue
+    label="Outer Cosine Ring"
+    oc [label="Primary/Secondary Harmonics\nOuter Electrons", fillcolor=lightblue]
+  }
+
+  // Inner Sine Ring
+  subgraph cluster_SineRing {
+    style=rounded
+    color=red
+    label="Inner Sine Ring"
+    is [label="Subtler/Tonic Frequencies\nS-Orbitals", fillcolor=pink]
+  }
+
+  // Damping/Filtration mechanism
+  phi [shape=diamond, label="Phi (Φ)\nDamping\nEnergetic Filtration"]
+
+  // Connections illustrating the relationship and filtration
+  oc -> phi [label="Modulated by?"]
+  is -> phi [label="Filtered through?"]
+  phi -> oc [label="Shapes Outer?"]
+  phi -> is [label="Shapes Inner?"] // Conceptual flow
+
+  // Add a general title
+  label = "\nChromatic Dual Ring & Phi-Damping Concept"
+  labelloc = "t"
+  labeljust = "c"
+}
+my_embedded_dot_4
+</details>
+
+<!-- More content -->
+
+
+-----
+
+
+---
+
 ## 5. Solfeggio Frequencies as a Quantum Tuning Grid
 
 
