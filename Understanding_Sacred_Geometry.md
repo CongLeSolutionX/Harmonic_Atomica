@@ -109,7 +109,7 @@ config:
     'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
     'fontFamily': 'Luminari',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
+      'primaryColor': '#DE3',
       'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
@@ -188,11 +188,11 @@ config:
     'flowchart': { 'htmlLabels': false, 'curve': 'basis' },
     'fontFamily': 'Luminari',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
+      'primaryColor': '#D12',
       'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
-      'secondaryColor': '#EBDEF0',
+      'secondaryColor': '#DE2F',
       'secondaryTextColor': '#6C3483',
       'secondaryBorderColor': '#A569BD',
       'fontSize': '18px'
@@ -201,24 +201,24 @@ config:
 }%%
 flowchart LR
     subgraph Platonic_Solids["Platonic Solids<br/>(Regular Convex Polyhedra)"]
-        PS(("Shapes")) --> T("Tetrahedron <br/> 4 Triangles <br/>Fire<br/>🔥")
+        PS(("Shapes")) --> T("Tetrahedron <br/>Fire<br/>🔥")
         T --> T_Expansion
         T_Expansion@{ shape: tri, label: "4<br/>Triangle" }
 
 
-        PS --> H("Hexahedron <br/> 6 Squares <br/>Earth<br/>🌎")
+        PS --> H("Hexahedron <br/>Earth<br/>🌎")
         H --> H_Expansion
         H_Expansion["6<br/>Squares"]
         
-        PS --> O("Octahedron <br/> 8 Triangles <br/> Air<br/>🌬️")
+        PS --> O("Octahedron<br/> Air<br/>🌬️")
         O --> O_Expansion
         O_Expansion@{ shape: tri, label: "8<br/>Triangle" }
         
-        PS --> D("Dodecahedron <br/> 12 Pentagons <br/> Aether<br/>✡")
+        PS --> D("Dodecahedron <br/> Aether<br/>✡")
 		D --> D_Expansion
 		D_Expansion@{ shape: notch-pent, label: "12<br/>Pentagons" }
         
-        PS --> I("Icosahedron <br/> 20 Triangles <br/> Water<br/>🌊")
+        PS --> I("Icosahedron<br/> Water<br/>🌊")
 		I --> I_Expansion
         I_Expansion@{ shape: tri, label: "20<br/>Triangle" }
 
@@ -272,7 +272,7 @@ config:
     'flowchart': { 'htmlLabels': false, 'curve': 'basis' },
     'fontFamily': 'Luminari',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
+      'primaryColor': '#DE32',
       'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
@@ -355,7 +355,7 @@ config:
     'flowchart': { 'htmlLabels': false, 'curve': 'basis' },
     'fontFamily': 'Luminari',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
+      'primaryColor': '#DE23',
       'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
@@ -413,24 +413,24 @@ flowchart TD
 	%% Platonic_Solids_Expansion --> Platonic_Solids 
 
     subgraph Platonic_Solids["Platonic Solids<br/>(Regular Convex Polyhedra)"]
-        PS(("Shapes")) --> Tetrahedron("Tetrahedron <br/> 4 Triangles <br/>Fire<br/>🔥")
+        PS(("Shapes")) --> Tetrahedron("Tetrahedron <br/>Fire<br/>🔥")
         Tetrahedron --> Tetrahedron_Expansion
         Tetrahedron_Expansion@{ shape: tri, label: "4<br/>Triangle" }
 
 
-        PS --> Hexahedron("Hexahedron <br/> 6 Squares <br/>Earth<br/>🌎")
+        PS --> Hexahedron("Hexahedron<br/>Earth<br/>🌎")
         Hexahedron --> Hexahedron_Expansion
         Hexahedron_Expansion["6<br/>Squares"]
         
-        PS --> Octahedron("Octahedron <br/> 8 Triangles <br/> Air<br/>🌬️")
+        PS --> Octahedron("Octahedron <br/> Air<br/>🌬️")
         Octahedron --> Octahedron_Expansion
         Octahedron_Expansion@{ shape: tri, label: "8<br/>Triangle" }
         
-        PS --> Dodecahedron("Dodecahedron <br/> 12 Pentagons <br/> Aether<br/>✡")
+        PS --> Dodecahedron("Dodecahedron<br/> Aether<br/>✡")
 		Dodecahedron --> Dodecahedron_Expansion
 		Dodecahedron_Expansion@{ shape: notch-pent, label: "12<br/>Pentagons" }
         
-        PS --> Icosahedron("Icosahedron <br/> 20 Triangles <br/> Water<br/>🌊")
+        PS --> Icosahedron("Icosahedron<br/> Water<br/>🌊")
 		Icosahedron --> Icosahedron_Expansion
         Icosahedron_Expansion@{ shape: tri, label: "20<br/>Triangle" }
         
