@@ -166,6 +166,54 @@ digraph HexagramAtom {
 
 ---
 
+### Atomic Geometric Structure: The S-P Hexagram Unit
+
+![Atomic Geometric Structure: The S-P Hexagram Unit: Embedded DOT 2](https://g.gravizo.com/source/my_embedded_dot_2?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
+
+<details>
+<summary>View Graphviz DOT Source (Embedded DOT 2)</summary>
+my_embedded_dot_2
+digraph HexagramAtom {
+  rankdir=TB
+  graph [fontsize=12]
+  node [shape=triangle, style=filled, fillcolor=lightblue, width=1]
+  edge [color=gray]
+
+  subgraph cluster_Structure {
+    style=filled
+    color=lightgrey
+    label="Proposed Atomic Unit Geometry"
+
+    s_orbital [label="s-Orbital\n(Central, Stillness)", shape=invtriangle, fillcolor=gold, pos="0,0!"]
+
+    p_px [label="p-Orbital (px)\n(Spatial, Orthogonal)", pos="-1,-1.5!"]
+    p_py [label="p-Orbital (py)\n(Spatial, Orthogonal)", pos="1,-1.5!"]
+    p_pz [label="p-Orbital (pz)\n(Spatial, Orthogonal)", pos="0,1.5!"] // Using z conceptually here for 3D hint
+
+    s_orbital -> p_px [label="Extension?"]
+    s_orbital -> p_py [label="Extension?"]
+    s_orbital -> p_pz [label="Extension?"]
+
+    p_px -> p_py [style=dashed, label="Relation?"]
+    p_py -> p_pz [style=dashed, label="Relation?"]
+    p_pz -> p_px [style=dashed, label="Relation?"]
+  }
+
+   note_hex [shape=note, label="Represents S + P Interaction\nDynamic Symmetry, Equilibrium", pos="2,0!"]
+   note_lattice [shape=note, label="Conceptual Cell\nIn Larger Crystalline Field", pos="-2,0!"]
+
+   s_orbital -> note_lattice [style=invis]; // Invisible edge for layout
+   note_hex -> s_orbital [style=invis]; // Invisible edge for layout
+
+  label = "\nProposed Atomic S-P Geometric Unit (Hexagram/Tetrahedral Analogy)"
+  labelloc = "t"
+  labeljust = "c"
+}
+my_embedded_dot_2
+</details>
+
+----
+
 ## 3. Mapping Orbitals to Harmonic Concepts
 
 
@@ -299,6 +347,56 @@ digraph ChromaticDualRing {
 ```
 
 **Explanation:** Using nested subgraphs and styled nodes/edges in Graphviz, this diagram attempts to represent the abstract idea of the Chromatic Dual Ring. It shows an "Outer Cosine Ring" associated with primary harmonics and outer electrons, and an "Inner Sine Ring" linked to tonic frequencies and s-orbitals. The diamond node labeled "Phi Damping" is placed between and connected to the rings, illustrating its role as an "energetic filtration" mechanism shaping the frequencies and structures.
+
+---
+
+
+### The Chromatic Dual Ring and Phi-Damping Concept
+
+![Graphviz Diagram: Embedded DOT 4](https://g.gravizo.com/source/my_embedded_dot_4?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
+
+<details>
+<summary>View Graphviz DOT Source (Embedded DOT 4)</summary>
+my_embedded_dot_4
+digraph ChromaticDualRing {
+  graph [fontsize=12]
+  rankdir=LR
+
+  node [shape=circle, style=filled]
+
+  // Outer Cosine Ring
+  subgraph cluster_CosineRing {
+    style=rounded
+    color=blue
+    label="Outer Cosine Ring"
+    oc [label="Primary/Secondary Harmonics\nOuter Electrons", fillcolor=lightblue]
+  }
+
+  // Inner Sine Ring
+  subgraph cluster_SineRing {
+    style=rounded
+    color=red
+    label="Inner Sine Ring"
+    is [label="Subtler/Tonic Frequencies\nS-Orbitals", fillcolor=pink]
+  }
+
+  // Damping/Filtration mechanism
+  phi [shape=diamond, label="Phi (Φ)\nDamping\nEnergetic Filtration"]
+
+  // Connections illustrating the relationship and filtration
+  oc -> phi [label="Modulated by?"]
+  is -> phi [label="Filtered through?"]
+  phi -> oc [label="Shapes Outer?"]
+  phi -> is [label="Shapes Inner?"] // Conceptual flow
+
+  // Add a general title
+  label = "\nChromatic Dual Ring & Phi-Damping Concept"
+  labelloc = "t"
+  labeljust = "c"
+}
+my_embedded_dot_4
+</details>
+
 
 ---
 
