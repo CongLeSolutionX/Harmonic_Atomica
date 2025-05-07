@@ -566,7 +566,7 @@ Instead of simple concentric shells, picture nested geometric solids (e.g., an o
 ### Closing Image  
 The atom is reframed as a **musical mandala**: harmonic lattices, animated by quantum numbers, sifting frequencies through sacred ratios, manifesting as the beauty of both a DNA helix and a cathedral dome. Physics, music, and geometry are revealed as facets of the same universal resonance.
 
-
+![Quantum_Harmonic_Atomic_Model_Draft_7](./ASSETS/Quantum_Harmonic_Atomic_Model_Draft_7.png)
 
 ---
 
