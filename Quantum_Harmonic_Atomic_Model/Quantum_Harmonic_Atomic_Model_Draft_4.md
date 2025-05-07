@@ -200,9 +200,9 @@ my_embedded_dot_1
 
 <!-- Other content in your Markdown file -->
 
-### My First Embedded Diagram
+### Atomic Geometric Structure: The S-P Hexagram Unit
 
-![Graphviz Diagram: Embedded DOT 2](https://g.gravizo.com/source/my_embedded_dot_2?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
+![Atomic Geometric Structure: The S-P Hexagram Unit: Embedded DOT 2](https://g.gravizo.com/source/my_embedded_dot_2?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
 
 <details>
 <summary>View Graphviz DOT Source (Embedded DOT 2)</summary>
