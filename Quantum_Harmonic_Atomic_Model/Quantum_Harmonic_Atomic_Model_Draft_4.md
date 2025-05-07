@@ -194,6 +194,68 @@ my_embedded_dot_1
 
 <!-- More content -->
 
+
+-----
+
+
+<!-- Other content in your Markdown file -->
+
+### My First Embedded Diagram
+
+![Graphviz Diagram: Embedded DOT 1](https://g.gravizo.com/source/my_embedded_dot_2?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
+
+<details>
+<summary>View Graphviz DOT Source (Embedded DOT 1)</summary>
+my_embedded_dot_2
+digraph HexagramAtom {
+  rankdir=TB
+  graph [fontsize=12]
+  node [shape=triangle, style=filled, fillcolor=lightblue, width=1]
+  edge [color=gray]
+
+  // Representing the core structure
+  subgraph cluster_Structure {
+    style=filled
+    color=lightgrey
+    label="Proposed Atomic Unit Geometry"
+
+    // S-orbital as inner downward triangle
+    s_orbital [label="s-Orbital\n(Central, Stillness)", shape=invtriangle, fillcolor=gold, pos="0,0!"]
+
+    // P-orbitals as outer upward triangles
+    p_px [label="p-Orbital (px)\n(Spatial, Orthogonal)", pos="-1,-1.5!"]
+    p_py [label="p-Orbital (py)\n(Spatial, Orthogonal)", pos="1,-1.5!"]
+    p_pz [label="p-Orbital (pz)\n(Spatial, Orthogonal)", pos="0,1.5!"] // Using z conceptually here for 3D hint
+
+    // Connections forming the hexagram shape conceptually
+    s_orbital -> p_px [label="Extension?"]
+    s_orbital -> p_py [label="Extension?"]
+    s_orbital -> p_pz [label="Extension?"]
+
+    p_px -> p_py [style=dashed, label="Relation?"]
+    p_py -> p_pz [style=dashed, label="Relation?"]
+    p_pz -> p_px [style=dashed, label="Relation?"]
+  }
+
+   // Add conceptual notes
+   note_hex [shape=note, label="Represents S + P Interaction\nDynamic Symmetry, Equilibrium", pos="2,0!"]
+   note_lattice [shape=note, label="Conceptual Cell\nIn Larger Crystalline Field", pos="-2,0!"]
+
+   s_orbital -> note_lattice [style=invis]; // Invisible edge for layout
+   note_hex -> s_orbital [style=invis]; // Invisible edge for layout
+
+  // Add a general title
+  label = "\nProposed Atomic S-P Geometric Unit (Hexagram/Tetrahedral Analogy)"
+  labelloc = "t"
+  labeljust = "c"
+}
+my_embedded_dot_2
+</details>
+
+<!-- More content -->
+
+
+
 ----
 
 ## 3. Mapping Orbitals to Harmonic Concepts
