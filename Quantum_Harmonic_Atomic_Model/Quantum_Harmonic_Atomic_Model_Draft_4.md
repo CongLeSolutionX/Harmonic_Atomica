@@ -222,7 +222,7 @@ Raw content link:
 
 ### My First Embedded Diagram
 
-![Graphviz Diagram: Embedded DOT 1](https://g.gravizo.com/source/my_embedded_dot_1?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
+![Graphviz Diagram: Embedded DOT 1](https://g.gravizo.com/source/my_embedded_dot_1?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
 
 <details>
 <summary>View Graphviz DOT Source (Embedded DOT 1)</summary>
