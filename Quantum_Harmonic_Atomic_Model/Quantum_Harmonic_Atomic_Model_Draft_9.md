@@ -398,9 +398,9 @@ flowchart TD
 The atom is reframed as a **musical mandala**: harmonic lattices, animated by quantum numbers, sifting frequencies through sacred ratios, manifesting as the beauty of both a DNA helix and a cathedral dome. Physics, music, and geometry are revealed as facets of the same universal resonance.
 
 
-![Quantum_Harmonic_Atomic_Model_Draft_9](./ASSETS/Quantum_Harmonic_Atomic_Model_Draft_9.png)
+<!-- ![Quantum_Harmonic_Atomic_Model_Draft_9](./ASSETS/Quantum_Harmonic_Atomic_Model_Draft_9.png) -->
 
-
+![Atom as musical universal resonance](https://upload.wikimedia.org/wikipedia/commons/1/15/Atom_as_musical_universal_resonance_-_illustration_9.png "Atom as musical universal resonance")
 
 ---
 
@@ -414,18 +414,13 @@ The atom is reframed as a **musical mandala**: harmonic lattices, animated by qu
 6. Gardner, M. (Ambidextrous Universe)  
 7. Lincoln Xavier N. N. (2025). SACRED GEOMETRY - BEYOND THE EYES.
 
----
-
-
-
-
-
 
 
 ---
-**Licenses:**
-
-- **MIT License:**  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) - Full text in [LICENSE](LICENSE) file.
-- **Creative Commons Attribution 4.0 International:** [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](LICENSE-CC-BY) - Legal details in [LICENSE-CC-BY](LICENSE-CC-BY) and at [Creative Commons official site](http://creativecommons.org/licenses/by/4.0/).
+>
+>**Licenses:**
+>
+>- **MIT License:**  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) - Full text in [LICENSE](LICENSE) file.
+>- **Creative Commons Attribution 4.0 International:** [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](LICENSE-CC-BY) - Legal details in [LICENSE-CC-BY](LICENSE-CC-BY) and at [Creative Commons official site](http://creativecommons.org/licenses/by/4.0/).
 
 ---
