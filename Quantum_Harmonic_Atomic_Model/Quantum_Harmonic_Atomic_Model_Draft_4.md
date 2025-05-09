@@ -402,6 +402,10 @@ digraph ChromaticDualRing {
 my_embedded_dot_4
 </details>
 
+<!-- 
+![The Chromatic_Dual_Ring_and_Phi-Damping_Concept_Draft](https://upload.wikimedia.org/wikipedia/commons/b/b4/Chromatic_Dual_Ring_and_Phi-Damping_Concept_Draft.png "The Chromatic_Dual_Ring_and_Phi-Damping_Concept_Draft")
+ -->
+
 
 ---
 
