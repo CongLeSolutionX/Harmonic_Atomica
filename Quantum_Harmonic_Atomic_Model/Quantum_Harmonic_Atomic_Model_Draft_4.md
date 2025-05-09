@@ -212,6 +212,11 @@ digraph HexagramAtom {
 my_embedded_dot_2
 </details>
 
+<!-- 
+![The S-P_Hexagram_Unit_Draft](https://upload.wikimedia.org/wikipedia/commons/b/b8/S-P_Hexagram_Unit_Draft.png "The S-P_Hexagram_Unit_Draft")
+ -->
+
+
 ----
 
 ## 3. Mapping Orbitals to Harmonic Concepts
