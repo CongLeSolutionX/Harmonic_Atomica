@@ -271,7 +271,11 @@ The world of quantum mechanics is probabilistic, not deterministic like the clas
 ---
 # ⚛️ The Hydrogen Atom Wave Function & Electron Clouds
 
-The provided image beautifully illustrates the concept of the wave function through probability density plots for an electron in a hydrogen atom. Electrons don't orbit the nucleus like planets; instead, their locations are described by probabilities, often visualized as "electron clouds." ☁️
+![Hydrogen_Density_Plots](https://upload.wikimedia.org/wikipedia/commons/e/e7/Hydrogen_Density_Plots.png)
+
+*(Image source: https://en.m.wikipedia.org/wiki/File:Hydrogen_Density_Plots.png)*
+
+The Hydrogen Density Plots above beautifully illustrates the concept of the wave function through probability density plots for an electron in a hydrogen atom. Electrons don't orbit the nucleus like planets; instead, their locations are described by probabilities, often visualized as "electron clouds." ☁️
 
 The mathematical equation for the hydrogen atom's wave function (which is a solution to the Schrödinger equation for the hydrogen atom potential) is:
 
@@ -279,7 +283,7 @@ $$
 \psi_{nlm}(r, \vartheta, \varphi) = \sqrt{\left(\frac{2}{na_0}\right)^3 \frac{(n-l-1)!}{2n[(n+l)!]}} e^{-\rho/2} \rho^l L_{n-l-1}^{2l+1}(\rho) \cdot Y_{lm}(\vartheta, \varphi)
 $$
 
-(Equation from image provided by user, implicitly a solution to the Schrödinger equation for Hydrogen [^BetheSalpeter1957])
+*(The equation on the image used by the website [DOE Explains](https://www.energy.gov/science/doe-explainsquantum-mechanics), implicitly a solution to the Schrödinger equation for Hydrogen [^BetheSalpeter1957])*
 
 Let's break down these symbols:
 
