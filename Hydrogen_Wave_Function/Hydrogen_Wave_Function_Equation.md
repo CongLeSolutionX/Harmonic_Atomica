@@ -38,7 +38,9 @@ Conceptually, the wave function can be separated into two main parts:
 2.  An **Angular Part**, $Y_{lm}(\vartheta, \varphi)$, which depends on the angles $\vartheta$ (polar) and $\varphi$ (azimuthal).
 
 So, we can write:
+
 $$ \psi_{nlm}(r, \vartheta, \varphi) = R_{nl}(r) Y_{lm}(\vartheta, \varphi) $$
+
 *(Source: Standard Quantum Mechanics textbooks discussing separation of variables for central potentials).* [^1]
 
 ----
@@ -48,6 +50,7 @@ $$ \psi_{nlm}(r, \vartheta, \varphi) = R_{nl}(r) Y_{lm}(\vartheta, \varphi) $$
 The complete hydrogen wave function, as shown in your image, is given by:
 
 $$ \psi_{nlm}(r, \vartheta, \varphi) = \sqrt{\left(\frac{2}{na_0}\right)^3 \frac{(n-l-1)!}{2n[(n+l)!]}} e^{-\rho/2} \rho^l L_{n-l-1}^{2l+1}(\rho) \cdot Y_{lm}(\vartheta, \varphi) $$
+
 *(This is the normalized wave function for Hydrogen-like atoms. Source: Standard Quantum Mechanics textbooks, e.g., Liboff, R.L. "Introductory Quantum Mechanics").* [^2]
 
 Where:
@@ -148,13 +151,17 @@ These numbers arise from solving the Schrödinger equation with appropriate boun
     *   Symbol: $n$
     *   Allowed values: $1, 2, 3, \dots$
     *   Determines: The electron's **energy level**. For Hydrogen and hydrogen-like atoms, the energy is given by:
+        
         $$ E_n = -\frac{\mu e^4}{2(4\pi\epsilon_0)^2\hbar^2} \frac{1}{n^2} = -\frac{E_0}{n^2} $$
+        
         where $E_0 \approx 13.6 \text{ eV}$ is the Rydberg energy. *(Source: Derived from solving TISE for Hydrogen atom, e.g., Griffiths, D.J. "Introduction to Quantum Mechanics").* [^1]
 *   **Azimuthal or Angular Momentum Quantum Number $(l)$**:
     *   Symbol: $l$
     *   Allowed values: For a given $n$, $l = 0, 1, 2, \dots, n-1$.
     *   Determines: The **shape** of the orbital and the magnitude of the electron's orbital angular momentum, $|L|$:
+        
         $$ |L| = \sqrt{l(l+1)}\hbar $$
+        
         *(Source: General result from the quantum theory of angular momentum, e.g., Griffiths, D.J. "Introduction to Quantum Mechanics").* [^1]
         *   $l=0$: **s** orbital (spherical)
         *   $l=1$: **p** orbital (dumbbell-shaped)
@@ -163,7 +170,9 @@ These numbers arise from solving the Schrödinger equation with appropriate boun
     *   Symbol: $m_l$ (or $m$ in the main equation)
     *   Allowed values: For a given $l$, $m_l = -l, -l+1, \dots, 0, \dots, l-1, l$. ($2l+1$ values).
     *   Determines: The **orientation** of the orbital in space. Specifically, it quantifies the z-component of the orbital angular momentum, $L_z$:
+        
         $$ L_z = m_l\hbar $$
+        
         *(Source: General result from the quantum theory of angular momentum, e.g., Griffiths, D.J. "Introduction to Quantum Mechanics").* [^1]
 
 (The Mermaid diagram from the previous response effectively visualizes the relationships between these quantum numbers.)
@@ -173,7 +182,9 @@ These numbers arise from solving the Schrödinger equation with appropriate boun
 ## 🎨 Visualizing the Invisible: Probability Density Plots 🎨
 
 The plots visualize the **probability density**:
+
 $$ P(r, \vartheta, \varphi) = |\psi_{nlm}(r, \vartheta, \varphi)|^2 $$
+
 This gives the probability per unit volume of finding the electron.
 *   **Brighter Regions**: Higher probability density.
 *   **Darker Regions**: Lower probability density.
@@ -196,20 +207,29 @@ This gives the probability per unit volume of finding the electron.
 
 *   **Associated Laguerre Polynomials $L_{q}^{p}(x)$**:
     The general definition that gives rise to these polynomials in the context of the radial equation is:
+    
     $$ x \frac{d^2u}{dx^2} + (p+1-x)\frac{du}{dx} + q u = 0 $$
+    
     Solutions are $L_q^p(x)$. For the hydrogen atom, $q = n-l-1$ and $p = 2l+1$, and the variable is $\rho$.
     One common explicit form is:
+    
     $$ L_q^p(x) = (-1)^p \frac{d^p}{dx^p} L_{p+q}(x) $$
+    
     where $L_k(x)$ is the $k$-th Laguerre polynomial: $L_k(x) = e^x \frac{d^k}{dx^k}(x^k e^{-x})$.
     *(Source: Mathematical physics texts, e.g., Arfken, G.B., Weber, H.J., Harris, F.E. "Mathematical Methods for Physicists").* [^4]
 
 *   **Spherical Harmonics $Y_{lm_l}(\vartheta, \varphi)$**:
     These are the angular solutions. The previous response correctly provided their definition:
+    
     $$ Y_{lm_l}(\vartheta, \varphi) = (-1)^{(m_l+|m_l|)/2} \sqrt{\frac{(2l+1)}{4\pi}\frac{(l-|m_l|)!}{(l+|m_l|)!}} P_l^{|m_l|}(\cos\vartheta) e^{im_l\varphi} $$
+    
     where $P_l^{|m_l|}(\cos\vartheta)$ are the **Associated Legendre Polynomials**.
     The Associated Legendre Polynomials are solutions to the Legendre differential equation and are given by:
+    
     $$ P_l^m(x) = (-1)^m (1-x^2)^{m/2} \frac{d^m}{dx^m} P_l(x) $$
+    
     where $P_l(x)$ is the $l$-th Legendre polynomial: $P_l(x) = \frac{1}{2^l l!} \frac{d^l}{dx^l}(x^2-1)^l$.
+    
     *(Source: Mathematical physics texts, e.g., Arfken, G.B., Weber, H.J., Harris, F.E. "Mathematical Methods for Physicists").* [^4]
 
 ---
