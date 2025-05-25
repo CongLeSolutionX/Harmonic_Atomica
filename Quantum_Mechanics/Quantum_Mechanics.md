@@ -27,12 +27,15 @@ source: https://www.energy.gov/science/doe-explainsquantum-mechanics
 Quantum mechanics is the theory that explains the dual nature of extremely small objects – they behave as both **particles** (discrete bits of matter) and **waves** (disturbances transferring energy). Physicists call this intriguing phenomenon **wave-particle duality**.
 
 This duality is beautifully captured by a couple of key equations:
+
 1. **De Broglie Wavelength:** Louis de Broglie proposed that all matter exhibits wave-like properties. The wavelength ($\lambda$) of a particle is inversely proportional to its momentum ($p$):
+
 $$
 \lambda = \frac{h}{p}
 $$
 
 where $h$ is Planck's constant (approximately $6.626 \times 10^{-34} \text{ J} \cdot \text{s}$) [^DeBroglie1924]. This equation links a wave property ($\lambda$) to a particle property ($p$).
+
 2. **Photon Energy and Momentum:** For light, which can behave as a particle (photon), its energy ($E$) is related to its frequency ($f$) or wavelength ($\lambda$):
 
 $$
@@ -40,6 +43,7 @@ E = hf = \frac{hc}{\lambda}
 $$
 
 And its momentum ($p$) is:
+
 $$
 p = \frac{E}{c} = \frac{h}{\lambda}
 $$
@@ -162,8 +166,6 @@ end
 style Atom fill:#f9f2,stroke:#333,stroke-width:2px
 
 Photon["Photon:<br/>A Quantum of Light ⚡ <br/> Energy: $E=hf$"]
-
-  
 
 style Photon fill:#FFD700,stroke:#FFA500,stroke-width:2px
 
