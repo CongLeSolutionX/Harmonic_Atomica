@@ -67,6 +67,7 @@ Where:
 
 This equation looks a bit daunting, but let's break it down!
 
+
 -----
 
 ## 🧩 Deconstructing the Masterpiece: Components of $\psi_{nlm}$ 🧩 
