@@ -47,7 +47,7 @@ $$\psi_{nlm}(r, \vartheta, \varphi) = R_{nl}(r) Y_{lm}(\vartheta, \varphi)$$
 
 ## 🔬 The Grand Equation Unveiled! 🔬
 
-The complete hydrogen wave function, as shown in your image, is given by:
+The complete hydrogen wave function, as shown in the provided image (TODO: Upload the source image), is given by:
 
 $$\psi_{nlm}(r, \vartheta, \varphi) = \sqrt{\left(\frac{2}{na_0}\right)^3 \frac{(n-l-1)!}{2n[(n+l)!]}} e^{-\rho/2} \rho^l L_{n-l-1}^{2l+1}(\rho) \cdot Y_{lm}(\vartheta, \varphi)$$
 
