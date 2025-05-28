@@ -420,9 +420,9 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 ### 24. Tractrix Spiral 🚜
 *   **First Described**: 1704 by Pierre Varignon [^8]
 *   **Equation**: Parametric equations:
-    $$
-    \begin{cases} r = A\cos(t) \\ \theta = \tan(t) - t \end{cases}
-    $$
+    
+    $$\begin{cases} r = A\cos(t) \\ \theta = \tan(t) - t \end{cases}$$
+
 *   **Comment**: Related to the tractrix curve.
 *   **Image**: N/A in the provided list.
 
@@ -431,9 +431,9 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 ### 25. Pappus Spiral 🗼
 *   **First Described**: Studied by Pappus of Alexandria (~320 AD), later Blaise Pascal (17th century). The reference date is 1779. [^9]
 *   **Equation**: Defined for a conical spiral. A 2D representation often uses $(r, \theta)$ with an additional parameter $\psi$ for the cone angle.
-    $$
-    \begin{cases} r = a\theta \\ \psi = k \end{cases}
-    $$
+    
+    $$\begin{cases} r = a\theta \\ \psi = k \end{cases}$$
+
     Where $r$ is the distance from the cone's axis in a plane perpendicular to the axis, $\theta$ is the angle of rotation, and $\psi$ is the constant angle that the curve makes with the generators of the cone.
 *   **Comment**: A 3D conical spiral.
 *   **Image**: N/A in the provided list.
@@ -443,55 +443,61 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 ### 26. Doppler Spiral 📡
 *   **First Described**: (Related to Pappus spiral) [^10]
 *   **Equation**:
-    $$
-    x = a \cdot (t \cdot \cos(t) + k \cdot t)
-    $$
-    $$
-    y = a \cdot t \cdot \sin(t)
-    $$
+    
+    $$x = a \cdot (t \cdot \cos(t) + k \cdot t)$$
+    
+    $$y = a \cdot t \cdot \sin(t)$$
+
 *   **Comment**: A 2D projection of Pappus spiral. The name suggests a connection to Doppler effects or wave phenomena.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Doppler_spiral.svg/120px-Doppler_spiral.svg.png)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Doppler_spiral.svg/120px-Doppler_spiral.svg.png)
 
 ---
 
 ### 27. Atzema Spiral 🔊
 *   **First Described**: (Modern, by P. J. Atzema) [^11]
 *   **Equation**:
-    $$
-    x = \frac{\sin(t)}{t} - 2 \cdot \cos(t) - t \cdot \sin(t)
-    $$
-    $$
-    y = -\frac{\cos(t)}{t} - 2 \cdot \sin(t) + t \cdot \cos(t)
-    $$
+    
+    $$x = \frac{\sin(t)}{t} - 2 \cdot \cos(t) - t \cdot \sin(t)$$
+    
+    $$y = -\frac{\cos(t)}{t} - 2 \cdot \sin(t) + t \cdot \cos(t)$$
+
 *   **Comment**: The curve that has a [catacaustic](https://en.wikipedia.org/wiki/Caustic_\(mathematics\) "Caustic (mathematics)") (envelope of reflected rays) forming a circle. Approximates the Archimedean spiral.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Atzema_spiral.svg/120px-Atzema_spiral.svg.png)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Atzema_spiral.svg/120px-Atzema_spiral.svg.png)
 
 ---
 
 ### 28. Atomic Spiral ⚛️
 *   **First Described**: 2002 [^12]
 *   **Equation**:
-    $$
-    r = \frac{\theta}{\theta - a}
-    $$
-*   **Comment**: This spiral has two [asymptotes](https://en.wikipedia.org/wiki/Asymptote "Asymptote"); one is the circle of radius $1$ (as $\theta \to \infty$) and the other is the line $\theta = a$ (where $r \to \infty$).
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/AtomicSpiral.svg/120px-AtomicSpiral.svg.png)
+    
+    $$r = \frac{\theta}{\theta - a}$$
+
+*   **Comment**: This spiral has two [asymptotes](https://en.wikipedia.org/wiki/Asymptote "Asymptote"); one is the circle of radius $1$ (as $\theta \to \infty$ ) and the other is the line $\theta = a$ (where $r \to \infty$ ).
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/AtomicSpiral.svg/120px-AtomicSpiral.svg.png)
 
 ---
 
 ### 29. Galactic Spiral 🌠
 *   **First Described**: 2019 [^13]
 *   **Equation**: Differential equations:
-    $$
-    \begin{cases} dx = R \cdot \frac{y}{\sqrt{x^2+y^2}} d\theta \\ dy = R \cdot \left[\rho(\theta) - \frac{x}{\sqrt{x^2+y^2}}\right] d\theta \end{cases}
-    $$
+    
+    $$\begin{cases} dx = R \cdot \frac{y}{\sqrt{x^2+y^2}} d\theta \\ dy = R \cdot \left[\rho(\theta) - \frac{x}{\sqrt{x^2+y^2}}\right] d\theta \end{cases}$$
+
     Integrated to get coordinates (with backward rotation):
-    $$
-    \begin{cases} x_{\text{final}} = \sum dx \\ y_{\text{final}} = \sum dy + R \end{cases}
-    $$
-    Then $(x_{\text{final}}, y_{\text{final}})$ are rotated by $-\theta$.
+    
+    $$\begin{cases} x_{\text{final}} = \sum dx \\ y_{\text{final}} = \sum dy + R \end{cases}$$
+
+    Then $(x_{\text{final}}, y_{\text{final}})$ are rotated by $-\theta$ .
 *   **Comment**: Developed to simulate spiral arms of disc galaxies. The parameter $\rho(\theta)$ determines the spiral pattern: $\rho < 1$ (spiral-ring), $\rho = 1$ (regular spiral), $\rho > 1$ (loose spiral). $R$ is the starting distance from the center.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Galaxy_NGC1079.jpg/120px-Galaxy_NGC1079.jpg)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Galaxy_NGC1079.jpg/120px-Galaxy_NGC1079.jpg)
 
 ---
 
@@ -506,7 +512,6 @@ Some spirals are special cases or approximations of others. Here's a graph showi
  * version: 1.0
  * license(s): MIT, CC BY-SA 4.0
  * copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
- * 
  */
 digraph SpiralRelationships {
     rankdir="LR";
