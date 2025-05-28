@@ -105,7 +105,10 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 
 ### 1. Circle ⭕
 *   **First Described**: Ancient times
-*   **Equation**: $$r = k$$
+*   **Equation**:
+
+    $$r = k$$
+
     Where $k$ is a constant (the radius).
 *   **Comment**: The trivial spiral. It can be seen as a spiral where the distance from the center remains constant as the angle changes.
 *   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/120px-Circle_-_black_simple.svg.png)
