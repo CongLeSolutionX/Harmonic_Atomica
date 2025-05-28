@@ -111,7 +111,9 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 
     Where $k$ is a constant (the radius).
 *   **Comment**: The trivial spiral. It can be seen as a spiral where the distance from the center remains constant as the angle changes.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/120px-Circle_-_black_simple.svg.png)
+*   **Image**: 
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/120px-Circle_-_black_simple.svg.png)
 
 ---
 
@@ -123,19 +125,26 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 
     Where $a$ is a constant that turns the spiral, and $b$ controls the distance between successive arms.
 *   **Comment**: The distance between successive turnings is constant.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Archimedean_spiral.svg/120px-Archimedean_spiral.svg.png)
+*   **Image**: 
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Archimedean_spiral.svg/120px-Archimedean_spiral.svg.png)
 
 ---
 
 ### 3. Fermat's Spiral 🌿 (also *parabolic spiral*)
 *   **First Described**: 1636 [^1]
 *   **Equation**:
-    $$
-    r^2 = a^2 \cdot \theta
-    $$
-    Or $r = \pm a \sqrt{\theta}$.
+    
+    $$r^2 = a^2 \cdot \theta$$
+    
+    Or 
+    
+    $$r = \pm a \sqrt{\theta}$$
+
 *   **Comment**: A type of Archimedean spiral.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Fermat%27s_spiral.svg/120px-Fermat%27s_spiral.svg.png)
+*   **Image**: 
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Fermat%27s_spiral.svg/120px-Fermat%27s_spiral.svg.png)
 
 ---
 
