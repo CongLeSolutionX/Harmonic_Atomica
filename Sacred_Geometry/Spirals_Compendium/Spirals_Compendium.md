@@ -226,7 +226,7 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
     
     ,where $\varphi = \frac{1+\sqrt{5}}{2}$ is the golden ratio.
 
-    (Note: Other forms exist, e.g.,$r = a \varphi^{k\theta}$)
+    (Note: Other forms exist, e.g., $r = a \varphi^{k\theta}$ )
 
 *   **Comment**: A special case of the logarithmic spiral where the growth factor is related to the golden ratio.
 *   **Image**:
