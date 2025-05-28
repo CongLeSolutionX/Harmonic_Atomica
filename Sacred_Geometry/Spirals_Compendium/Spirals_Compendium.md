@@ -107,9 +107,7 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 *   **First Described**: Ancient times
 *   **Equation**:
 
-    $$
-    r = k
-    $$
+    $$r = k$$
 
     Where $k$ is a constant (the radius).
 *   **Comment**: The trivial spiral. It can be seen as a spiral where the distance from the center remains constant as the angle changes.
