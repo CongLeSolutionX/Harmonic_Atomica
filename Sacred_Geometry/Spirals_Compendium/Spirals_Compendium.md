@@ -321,14 +321,15 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 ### 16. Nielsen's Spiral 〰️
 *   **First Described**: 1993 by Niels Nielsen [^5] (though the integrals are older)
 *   **Equation**: Parametric, using sine integral (Si) and cosine integral (Ci):
-    $$
-    x(t) = \operatorname{Ci}(t) = -\int_t^\infty \frac{\cos u}{u} du
-    $$
-    $$
-    y(t) = \operatorname{Si}(t) = \int_0^t \frac{\sin u}{u} du
-    $$
+    
+    $$x(t) = \operatorname{Ci}(t) = -\int_t^\infty \frac{\cos u}{u} du$$
+
+    $$y(t) = \operatorname{Si}(t) = \int_0^t \frac{\sin u}{u} du$$
+
 *   **Comment**: A variation of the Euler spiral.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Nielsen%27s_spiral.png/120px-Nielsen%27s_spiral.png)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Nielsen%27s_spiral.png/120px-Nielsen%27s_spiral.png)
 
 ---
 
@@ -336,7 +337,9 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 *   **First Described**: (General concept)
 *   **Equation**: Constructed by a sequence of line segments whose lengths typically follow an arithmetic or geometric progression, and whose angles turn by a fixed amount.
 *   **Comment**: Special case approximation of arithmetic or logarithmic spiral. Often used in computer graphics.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Polygon_spiral.png/120px-Polygon_spiral.png)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Polygon_spiral.png/120px-Polygon_spiral.png)
 
 ---
 
@@ -344,24 +347,26 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 *   **First Described**: 1908 by James Fraser
 *   **Equation**: N/A (It's an optical illusion, not defined by a single curve equation in this context). It's composed of concentric arcs that appear to form a spiral.
 *   **Comment**: An optical illusion based on spirals, also known as the "twisted cord illusion" or "false spiral".
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Fraser_spiral.svg/120px-Fraser_spiral.svg.png)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Fraser_spiral.svg/120px-Fraser_spiral.svg.png)
 
 ---
 
 ### 19. Conchospiral 🍦
 *   **First Described**: (Concept related to conch shells)
-*   **Equation**: In cylindrical coordinates $(r, \theta, z)$:
-    $$
-    r = \mu^t \cdot a
-    $$
-    $$
-    \theta = t
-    $$
-    $$
-    z = \mu^t \cdot c
-    $$
+*   **Equation**: In cylindrical coordinates $(r, \theta, z)$ :
+    
+    $$r = \mu^t \cdot a$$
+
+    $$\theta = t$$
+
+    $$z = \mu^t \cdot c$$
+
 *   **Comment**: A three-dimensional spiral on the surface of a cone. As $t$ increases, the spiral moves away from the apex and its radius increases/decreases exponentially.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Conchospiral.svg/120px-Conchospiral.svg.png)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Conchospiral.svg/120px-Conchospiral.svg.png)
 
 ---
 
@@ -369,7 +374,9 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 *   **First Described**: (Related to the Calkin-Wilf tree)
 *   **Equation**: Formed by connecting points derived from the sequence of rational numbers in the Calkin-Wilf tree.
 *   **Comment**: Visualizes the enumeration of positive rational numbers.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Calkin-Wilf_spiral.svg/120px-Calkin-Wilf_spiral.svg.png)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Calkin-Wilf_spiral.svg/120px-Calkin-Wilf_spiral.svg.png)
 
 ---
 
@@ -377,31 +384,34 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 *   **First Described**: 1963 by Stanisław Ulam
 *   **Equation**: Constructed by writing the positive integers in a square spiral and then marking the prime numbers.
 *   **Comment**: Reveals patterns in the distribution of prime numbers, some of which are not fully understood.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Ulam_spiral_howto_all_numbers.svg/120px-Ulam_spiral_howto_all_numbers.svg.png)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Ulam_spiral_howto_all_numbers.svg/120px-Ulam_spiral_howto_all_numbers.svg.png)
 
 ---
 
 ### 22. Sacks Spiral 🎯
 *   **First Described**: 1994 by Robert Sacks
 *   **Equation**: An Archimedean spiral $r = a\sqrt{\theta}$ (a variant of Fermat's spiral) but integers are plotted such that perfect squares lie on the horizontal axis. Primes are then highlighted.
-*   **Comment**: Variant of Ulam spiral and Archimedean spiral, designed to better display patterns in prime numbers by mapping integers to points $( \sqrt{n}\cos(2\pi\sqrt{n}), \sqrt{n}\sin(2\pi\sqrt{n}) )$.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Sacks_spiral.svg/120px-Sacks_spiral.svg.png)
+*   **Comment**: Variant of Ulam spiral and Archimedean spiral, designed to better display patterns in prime numbers by mapping integers to points $( \sqrt{n}\cos(2\pi\sqrt{n}), \sqrt{n}\sin(2\pi\sqrt{n}) )$ .
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Sacks_spiral.svg/120px-Sacks_spiral.svg.png)
 
 ---
 
 ### 23. Seiffert's Spiral 🌐
 *   **First Described**: 2000 by Alfred Seiffert [^6]
-*   **Equation**: Using [Jacobi elliptic functions](https://en.wikipedia.org/wiki/Jacobi_elliptic_functions "Jacobi elliptic functions") $\operatorname{sn}(u,k), \operatorname{cn}(u,k)$:
-    $$
-    r = \operatorname{sn}(s, k)
-    $$
-    $$
-    \theta = k \cdot s
-    $$
-    $$
-    z = \operatorname{cn}(s, k)
-    $$
-    (These are likely spherical coordinates or related parameters $s, k$.) The original reference describes it with parametric equations for $x, y, z$ leading to a curve on a sphere.
+*   **Equation**: Using [Jacobi elliptic functions](https://en.wikipedia.org/wiki/Jacobi_elliptic_functions "Jacobi elliptic functions") $\operatorname{sn}(u,k), \operatorname{cn}(u,k)$ :
+    
+    $$r = \operatorname{sn}(s, k)$$
+
+    $$\theta = k \cdot s$$
+
+    $$z = \operatorname{cn}(s, k)$$
+
+    (These are likely spherical coordinates or related parameters $s, k$ ).
+    The original reference describes it with parametric equations for $x, y, z$ leading to a curve on a sphere.
 *   **Comment**: A spiral curve on the surface of a sphere. [^7]
 *   **Image**: N/A in the provided list.
 
