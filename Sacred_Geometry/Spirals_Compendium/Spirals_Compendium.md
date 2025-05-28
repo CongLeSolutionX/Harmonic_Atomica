@@ -237,43 +237,46 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 
 ### 10. Spiral of Theodorus 📐 (also known as *Pythagorean spiral*)
 *   **First Described**: c. 500 BC by Theodorus of Cyrene
-*   **Equation**: Constructed by contiguous right triangles. The first triangle is a right isosceles triangle with side length 1. Each subsequent triangle has one leg with unit length and the other leg being the hypotenuse of the prior triangle. The hypotenuses form the radii of the spiral: $\sqrt{1}, \sqrt{2}, \sqrt{3}, \dots, \sqrt{n}$.
+*   **Equation**: Constructed by contiguous right triangles. The first triangle is a right isosceles triangle with side length 1. Each subsequent triangle has one leg with unit length and the other leg being the hypotenuse of the prior triangle. The hypotenuses form the radii of the spiral: $\sqrt{1}, \sqrt{2}, \sqrt{3}, \dots, \sqrt{n}$ .
 *   **Comment**: Approximates the Archimedean spiral.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Spiral_of_Theodorus.svg/120px-Spiral_of_Theodorus.svg.png)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Spiral_of_Theodorus.svg/120px-Spiral_of_Theodorus.svg.png)
 
 ---
 
 ### 11. Involute ⚙️
 *   **First Described**: 1673 by Christiaan Huygens
-*   **Equation**: For an involute of a circle of radius $r$, with parameter $t$ (angle):
-    $$
-    x(t) = r(\cos(t+a) + t\sin(t+a))
-    $$
-    $$
-    y(t) = r(\sin(t+a) - t\cos(t+a))
-    $$
+*   **Equation**: For an involute of a circle of radius $r$ , with parameter $t$ (angle):
+    
+    $$x(t) = r(\cos(t+a) + t\sin(t+a))$$
+
+    $$y(t) = r(\sin(t+a) - t\cos(t+a))$$
+
     (Parameter $a$ shifts the starting point of the involute.)
 *   **Comment**: The path traced by the end of a taut string unwinding from a curve (here, a circle). Involutes of a circle appear like Archimedean spirals. Used in gear teeth design.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Involute_of_circle.png/120px-Involute_of_circle.png)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Involute_of_circle.png/120px-Involute_of_circle.png)
 
 ---
 
 ### 12. Helix 🧬
 *   **First Described**: Ancient (e.g., Archimedes' screw)
-*   **Equation**: In cylindrical coordinates $(r, \theta, z)$:
-    $$
-    r(t) = \text{constant (e.g., 1)}
-    $$
-    $$
-    \theta(t) = t
-    $$
-    $$
-    z(t) = c \cdot t
-    $$
+*   **Equation**: In cylindrical coordinates $(r, \theta, z)$ :
+    
+    $$r(t) = \text{constant (e.g., 1)}$$
+
+    $$\theta(t) = t$$
+
+    $$z(t) = c \cdot t$$
+
     (Where $c$ is a constant related to the pitch.)
-    The example in the table used $r(t)=1, \theta(t)=t, z(t)=t$.
+    The example in the table used $r(t)=1, \theta(t)=t, z(t)=t$ .
 *   **Comment**: A three-dimensional spiral. It twists around an axis at a constant rate.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Helix.svg/120px-Helix.svg.png)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Helix.svg/120px-Helix.svg.png)
 
 ---
 
@@ -281,32 +284,37 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 *   **First Described**: 1537 by Pedro Nunes
 *   **Equation**: On a sphere, a path of constant bearing (constant angle with all meridians). In Mercator projection, it's a straight line. Its equation on a sphere is more complex, often given parametrically.
 *   **Comment**: A type of spiral drawn on a sphere. Navigators used loxodromes for sailing courses.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Loxodrome.png/120px-Loxodrome.png)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Loxodrome.png/120px-Loxodrome.png)
 
 ---
 
 ### 14. Cotes's Spiral 🪐
 *   **First Described**: 1722 by Roger Cotes
-*   **Equation**: The reciprocal of the radius $1/r$ is given by one of these forms, depending on constants $A, k, \varepsilon$:
-    $$
-    \frac{1}{r} = \begin{cases} A\cosh(k\theta + \varepsilon) \\ A\exp(k\theta + \varepsilon) \\ A\sinh(k\theta + \varepsilon) \\ A(k\theta + \varepsilon) \\ A\cos(k\theta + \varepsilon) \end{cases}
-    $$
+*   **Equation**: The reciprocal of the radius $1/r$ is given by one of these forms, depending on constants $A, k, \varepsilon$ :
+    
+    $$\frac{1}{r} = \begin{cases} A\cosh(k\theta + \varepsilon) \\ A\exp(k\theta + \varepsilon) \\ A\sinh(k\theta + \varepsilon) \\ A(k\theta + \varepsilon) \\ A\cos(k\theta + \varepsilon) \end{cases}$$
+
 *   **Comment**: Represents the solution to the two-body problem for an inverse-cube central force. The different cases correspond to different energy levels.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Epi_half_spirals.svg/120px-Epi_half_spirals.svg.png)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Epi_half_spirals.svg/120px-Epi_half_spirals.svg.png)
 
 ---
 
 ### 15. Poinsot's Spirals 🌌
 *   **First Described**: By Louis Poinsot
 *   **Equation**: Two forms are given:
-    $$
-    r = a \cdot \operatorname{csch}(n \cdot \theta) = \frac{a}{\sinh(n\theta)}
-    $$
-    $$
-    r = a \cdot \operatorname{sech}(n \cdot \theta) = \frac{a}{\cosh(n\theta)}
-    $$
+    
+    $$r = a \cdot \operatorname{csch}(n \cdot \theta) = \frac{a}{\sinh(n\theta)}$$
+
+    $$r = a \cdot \operatorname{sech}(n \cdot \theta) = \frac{a}{\cosh(n\theta)}$$
+
 *   **Comment**: Arise in the study of the motion of a rigid body.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/PoinsotSpiral.svg/120px-PoinsotSpiral.svg.png)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/PoinsotSpiral.svg/120px-PoinsotSpiral.svg.png)
 
 ---
 
