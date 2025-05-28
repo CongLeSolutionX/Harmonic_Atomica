@@ -505,6 +505,68 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 
 Some spirals are special cases or approximations of others. Here's a graph showing some of these connections:
 
+![Relationships Between Spirals Diagram](https://g.gravizo.com/source/svg/rendered_code_for_relationships_between_spirals_diagram?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2Fmain%2FSacred_Geometry%2FSpirals_Compendium%2FSpirals_Compendium.md)
+
+<details>
+<summary>Rendered code for Relationships Between Spirals Diagram, by Github Camo crawler bot</summary>
+
+rendered_code_for_relationships_between_spirals_diagram
+
+digraph SpiralRelationships {
+    rankdir="LR"
+    node [shape=box, style="rounded,filled", fillcolor="#E6E6FA"]
+    Logarithmic_Spiral [label="Logarithmic Spiral\nr=a*e^(b*θ)"]
+    Archimedean_Spiral [label="Archimedean Spiral\nr=a+b*θ"]
+    Euler_Spiral [label="Euler Spiral\n(Fresnel Integrals)"]
+    Ulam_Spiral [label="Ulam Spiral\n(Prime Spiral)"]
+    Pappus_Spiral [label="Pappus Spiral\n(3D Conical)"]
+    Circle [label="Circle\nr=k"]
+    Fermat_Spiral [label="Fermat's Spiral\nr²=a²*θ"]
+    Golden_Spiral [label="Golden Spiral\nr=φ^(2θ/π)", fillcolor="#FFDAB9"]
+    Fibonacci_Spiral [label="Fibonacci Spiral\n(Circular Arcs)", fillcolor="#FFDAB9"]
+    Spiral_of_Theodorus [label="Spiral of Theodorus\n(Right Triangles)", fillcolor="#FFDAB9"]
+    Involute_of_Circle [label="Involute of Circle", fillcolor="#FFDAB9"]
+    Nielsen_Spiral [label="Nielsen's Spiral\n(Si, Ci Integrals)", fillcolor="#FFDAB9"]
+    Sacks_Spiral [label="Sacks Spiral", fillcolor="#FFDAB9"]
+    Doppler_Spiral [label="Doppler Spiral\n(2D Projection)", fillcolor="#FFDAB9"]
+    Atzema_Spiral [label="Atzema Spiral", fillcolor="#FFDAB9"]
+    Polygonal_Spiral [label="Polygonal Spiral", fillcolor="#FFDAB9"]
+    Logarithmic_Spiral -> Golden_Spiral [label="is special case of"]
+    Golden_Spiral -> Fibonacci_Spiral [label="approximated by"]
+    Archimedean_Spiral -> Spiral_of_Theodorus [label="approximated by"]
+    Archimedean_Spiral -> Involute_of_Circle [label="appears like"]
+    Euler_Spiral -> Nielsen_Spiral [label="is variation of"]
+    Ulam_Spiral -> Sacks_Spiral [label="is variant of"]
+    Archimedean_Spiral -> Sacks_Spiral [label="is also based on"]
+    Pappus_Spiral -> Doppler_Spiral [label="is projected to"]
+    Archimedean_Spiral -> Atzema_Spiral [label="approximated by"]
+    Archimedean_Spiral -> Polygonal_Spiral [label="can be approximated by"]
+    Logarithmic_Spiral -> Polygonal_Spiral [label="can be approximated by"]
+    Archimedean_Spiral -> Fermat_Spiral [label="is related to (type of)"]
+    Circle [ peripheries=2, style="filled", fillcolor="#D3D3D3", label="Circle (Trivial Spiral)\nr=k"]
+    {
+        rank=same
+        Logarithmic_Spiral
+        Archimedean_Spiral
+        Euler_Spiral
+        Ulam_Spiral
+        Pappus_Spiral
+        Circle
+        Fermat_Spiral
+    }
+    label = "Relationships Between Mathematical Spirals\nArrows indicate 'derived from', 'special case of', 'approximates', etc."
+    fontsize=16
+}
+
+rendered_code_for_relationships_between_spirals_diagram
+
+</details>
+
+
+<details open>
+<summary>Click to show/hide the full native DOT implementation with comment documentation.</summary>
+
+
 ```dot
 /*
  * title: Relationships Between Spirals
@@ -566,6 +628,9 @@ digraph SpiralRelationships {
     fontsize=16;
 }
 ```
+
+</details>
+
 
 To view the DOT graph: You can use an online Graphviz viewer (like Edotor, VisuAlgo, or others) by pasting the code above.
 
