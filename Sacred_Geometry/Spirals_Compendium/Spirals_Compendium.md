@@ -106,9 +106,9 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 ### 1. Circle ⭕
 *   **First Described**: Ancient times
 *   **Equation**:
-    $$
-    r = k
-    $$
+
+    $$r = k$$
+
     Where $k$ is a constant (the radius).
 *   **Comment**: The trivial spiral. It can be seen as a spiral where the distance from the center remains constant as the angle changes.
 *   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/120px-Circle_-_black_simple.svg.png)
@@ -118,9 +118,9 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 ### 2. Archimedean Spiral 🌀 (also *arithmetic spiral*)
 *   **First Described**: c. 320 BC by Archimedes
 *   **Equation**:
-    $$
-    r = a + b \cdot \theta
-    $$
+
+    $$r = a + b \cdot \theta$$
+
     Where $a$ is a constant that turns the spiral, and $b$ controls the distance between successive arms.
 *   **Comment**: The distance between successive turnings is constant.
 *   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Archimedean_spiral.svg/120px-Archimedean_spiral.svg.png)
