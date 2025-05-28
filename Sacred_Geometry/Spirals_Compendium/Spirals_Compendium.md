@@ -151,49 +151,60 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 ### 4. Euler Spiral 🎢 (also *Cornu spiral* or *polynomial spiral*)
 *   **First Described**: 1696 [^2]
 *   **Equation**: Given parametrically by Fresnel integrals:
+
+    $$x(t) = C(t) = \int_0^t \cos\left(\frac{\pi u^2}{2}\right) du$$
+
+    $$y(t) = S(t) = \int_0^t \sin\left(\frac{\pi u^2}{2}\right) du
     $$
-    x(t) = C(t) = \int_0^t \cos\left(\frac{\pi u^2}{2}\right) du
-    $$
-    $$
-    y(t) = S(t) = \int_0^t \sin\left(\frac{\pi u^2}{2}\right) du
-    $$
+
 *   **Comment**: Its curvature changes linearly with its curve length. Used in road and railway engineering. Uses [Fresnel integrals](https://en.wikipedia.org/wiki/Fresnel_integral "Fresnel integral") [^3].
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Cornu_Spiral.svg/120px-Cornu_Spiral.svg.png)
+*   **Image**: 
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Cornu_Spiral.svg/120px-Cornu_Spiral.svg.png)
 
 ---
 
 ### 5. Hyperbolic Spiral 🐚 (also *reciprocal spiral*)
 *   **First Described**: 1704
 *   **Equation**:
-    $$
-    r = \frac{a}{\theta}
-    $$
+    
+    $$r = \frac{a}{\theta}$$
+
 *   **Comment**: The spiral approaches an asymptotic line.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Hyperspiral.svg/120px-Hyperspiral.svg.png)
+*   **Image**: 
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Hyperspiral.svg/120px-Hyperspiral.svg.png)
 
 ---
 
 ### 6. Lituus 🎺
 *   **First Described**: 1722 by Roger Cotes
 *   **Equation**:
-    $$
-    r^2 \cdot \theta = k
-    $$
-    Or $r = \sqrt{\frac{k}{\theta}}$.
+    
+    $$r^2 \cdot \theta = k$$
+    
+    Or 
+    
+    $$r = \sqrt{\frac{k}{\theta}}$$
+
 *   **Comment**: The angle $\theta$ is inversely proportional to the square of the radius $r$. It has an asymptotic circle $r=0$.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Lituus.svg/120px-Lituus.svg.png)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Lituus.svg/120px-Lituus.svg.png)
 
 ---
 
 ### 7. Logarithmic Spiral 🐌 (also known as *equiangular spiral*)
 *   **First Described**: 1638 by René Descartes [^4]
 *   **Equation**:
-    $$
-    r = a \cdot e^{b \cdot \theta}
-    $$
+    
+    $$r = a \cdot e^{b \cdot \theta}$$
+    
     Where $a$ and $b$ are constants.
 *   **Comment**: Approximations of this are found in nature (e.g., nautilus shells, spiral galaxies). The angle between the tangent and the radial line at any point is constant.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Logarithmic_Spiral_Pylab.svg/120px-Logarithmic_Spiral_Pylab.svg.png)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Logarithmic_Spiral_Pylab.svg/120px-Logarithmic_Spiral_Pylab.svg.png)
 
 ---
 
@@ -201,19 +212,26 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 *   **First Described**: (Concept related to Fibonacci sequence, historical ties complex)
 *   **Equation**: Constructed using [circular arcs](https://en.wikipedia.org/wiki/Circular_arc "Circular arc") connecting the opposite corners of squares in the Fibonacci tiling. Each arc has a radius equal to a Fibonacci number.
 *   **Comment**: An approximation of the golden spiral. Often seen in representations of plant growth patterns.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Fibonacci_spiral.svg/120px-Fibonacci_spiral.svg.png)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Fibonacci_spiral.svg/120px-Fibonacci_spiral.svg.png)
 
 ---
 
 ### 9. Golden Spiral 🌟
 *   **First Described**: (Concept related to the golden ratio, historical ties complex)
 *   **Equation**:
-    $$
-    r = \varphi^{\frac{2 \cdot \theta}{\pi}}
-    $$
-    Where $\varphi = \frac{1+\sqrt{5}}{2}$ is the golden ratio. (Note: Other forms exist, e.g., $r = a \varphi^{k\theta}$)
+    
+    $$r = \varphi^{\frac{2 \cdot \theta}{\pi}}$$
+    
+    ,where $\varphi = \frac{1+\sqrt{5}}{2}$ is the golden ratio.
+
+    (Note: Other forms exist, e.g.,$r = a \varphi^{k\theta}$)
+
 *   **Comment**: A special case of the logarithmic spiral where the growth factor is related to the golden ratio.
-*   **Image**: ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Golden_spiral_in_rectanglesflip.png/120px-Golden_spiral_in_rectanglesflip.png)
+*   **Image**:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Golden_spiral_in_rectanglesflip.png/120px-Golden_spiral_in_rectanglesflip.png)
 
 ---
 
