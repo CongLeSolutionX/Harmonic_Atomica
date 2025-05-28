@@ -505,7 +505,8 @@ Let's take a closer look at each spiral, its defining equation, and interesting 
 
 Some spirals are special cases or approximations of others. Here's a graph showing some of these connections:
 
-![Relationships Between Spirals Diagram](https://g.gravizo.com/source/svg/rendered_code_for_relationships_between_spirals_diagram?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2Fmain%2FSacred_Geometry%2FSpirals_Compendium%2FSpirals_Compendium.md)
+
+![Relationships_Between_Spirals_Diagram](https://g.gravizo.com/source/svg/rendered_code_for_relationships_between_spirals_diagram?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2Fmain%2FSacred_Geometry%2FSpirals_Compendium%2FSpirals_Compendium.md)
 
 <details>
 <summary>Rendered code for Relationships Between Spirals Diagram, by Github Camo crawler bot</summary>
@@ -565,7 +566,6 @@ rendered_code_for_relationships_between_spirals_diagram
 
 <details open>
 <summary>Click to show/hide the full native DOT implementation with comment documentation.</summary>
-
 
 ```dot
 /*
