@@ -96,7 +96,7 @@ The construction of the Seed of Life is a simple yet elegant geometric process, 
 **The Steps:**
 
 1.  **Day 1:** Draw a central circle.  
-    $$ C_0: (x-x_0)^2 + (y-y_0)^2 = r^2 $$
+    $$C_0: (x-x_0)^2 + (y-y_0)^2 = r^2$$
 2.  **Day 2:** Place the compass point anywhere on the circumference of the first circle and draw a second circle of the same radius.  
     Its center is on $C_0$.
 3.  **Days 3-7:** Continue this process, placing the compass point at the intersections created on the circumference of the central circle, until six more circles are drawn around the central one. Each new circle's center is placed at an intersection point created by the previous circles on the circumference of the first circle ($C_0$). The sixth outer circle completes the primary structure.
@@ -232,7 +232,7 @@ flowchart LR
 The Seed of Life is not an isolated symbol but a foundational component of a larger, more complex geometric pattern known as the **Flower of Life**.
 
 *   **Vesica Piscis:** The fundamental building block starts with two overlapping circles, forming an almond-shaped region in the center called the Vesica Piscis. This symbolizes the union of duality, the womb of creation, or a portal between worlds. The Seed of Life is essentially an extension of this principle, creating multiple Vesica Piscis forms. (Lawlor, 1982)  
-    $$ \text{Vesica Piscis} = C_1 \cap C_2 $$  
+    $$\text{Vesica Piscis} = C_1 \cap C_2$$  
     *(Where $C_1$ and $C_2$ are two circles of equal radius whose centers lie on each other's circumference.)*
 
 *   **Flower of Life:** If the process of adding circles (as described in the Seed of Life construction) continues outwards, the pattern expands to form the Flower of Life, typically depicted with 19 complete circles. The Seed of Life is the central core or initial stage of the Flower of Life. (Schneider, 1994)
