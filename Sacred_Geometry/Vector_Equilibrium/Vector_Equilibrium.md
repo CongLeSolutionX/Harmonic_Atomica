@@ -531,23 +531,6 @@ mindmap
       IVM_in_architecture["IVM in architecture, materials science conceptualization"]
 ```
 
----
-
-## References
-
-*   Conway, J. H., & Sloane, N. J. A. (1999). *Sphere Packings, Lattices and Groups* (3rd ed.). Springer. (For context on sphere packing)
-*   Coxeter, H. S. M. (1973). *Regular Polytopes* (3rd ed.). Dover Publications. (Classical geometry reference)
-*   Cromwell, P. R. (1997). *Polyhedra*. Cambridge University Press.
-*   Edmondson, A. C. (1987). *A Fuller Explanation: The Synergetic Geometry of R. Buckminster Fuller*. Birkhäuser.
-*   Fuller, R. B. (1954). *U.S. Patent No. 2,682,235: Building construction*. Washington, DC: U.S. Patent and Trademark Office. (Available via USPTO public patent databases or Google Patents)
-*   Fuller, R. B. (1975). *Synergetics: Explorations in the Geometry of Thinking*. Macmillan Publishing Co.
-*   Fuller, R. B. (1979). *Synergetics 2: Further Explorations in the Geometry of Thinking*. Macmillan Publishing Co.
-*   Hepburn, J. S. A. (2001). The Isotropic Vector Matrix as a Framework for Presenting Molecular Structures. *Journal of Chemical Education*, *78*(5), 670. [DOI: 10.1021/ed078p670](https://doi.org/10.1021/ed078p670) (Illustrates IVM application)
-*   Pauling, L. (1960). *The Nature of the Chemical Bond* (3rd ed.). Cornell University Press. (Classic text mentioning sphere packing in chemical structures)
-*   Sutton, D. (2002). *Platonic & Archimedean Solids*. Walker & Company.
-*   Weisstein, E. W. (n.d.). *Cuboctahedron*. From MathWorld--A Wolfram Web Resource. Retrieved from [https://mathworld.wolfram.com/Cuboctahedron.html](https://mathworld.wolfram.com/Cuboctahedron.html)
-
-
 
 ---
 
@@ -607,3 +590,21 @@ animatingEdge@{ animate: true }
 >- **Creative Commons Attribution 4.0 International:** [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](LICENSE-CC-BY) - Legal details in [LICENSE-CC-BY](LICENSE-CC-BY) and at [Creative Commons official site](http://creativecommons.org/licenses/by/4.0/).
 
 ---
+
+## References
+
+*   Conway, J. H., & Sloane, N. J. A. (1999). *Sphere Packings, Lattices and Groups* (3rd ed.). Springer. (For context on sphere packing)
+*   Coxeter, H. S. M. (1973). *Regular Polytopes* (3rd ed.). Dover Publications. (Classical geometry reference)
+*   Cromwell, P. R. (1997). *Polyhedra*. Cambridge University Press.
+*   Edmondson, A. C. (1987). *A Fuller Explanation: The Synergetic Geometry of R. Buckminster Fuller*. Birkhäuser.
+*   Fuller, R. B. (1954). *U.S. Patent No. 2,682,235: Building construction*. Washington, DC: U.S. Patent and Trademark Office. (Available via USPTO public patent databases or Google Patents)
+*   Fuller, R. B. (1975). *Synergetics: Explorations in the Geometry of Thinking*. Macmillan Publishing Co.
+*   Fuller, R. B. (1979). *Synergetics 2: Further Explorations in the Geometry of Thinking*. Macmillan Publishing Co.
+*   Hepburn, J. S. A. (2001). The Isotropic Vector Matrix as a Framework for Presenting Molecular Structures. *Journal of Chemical Education*, *78*(5), 670. [DOI: 10.1021/ed078p670](https://doi.org/10.1021/ed078p670) (Illustrates IVM application)
+*   Pauling, L. (1960). *The Nature of the Chemical Bond* (3rd ed.). Cornell University Press. (Classic text mentioning sphere packing in chemical structures)
+*   Sutton, D. (2002). *Platonic & Archimedean Solids*. Walker & Company.
+*   Weisstein, E. W. (n.d.). *Cuboctahedron*. From MathWorld--A Wolfram Web Resource. Retrieved from [https://mathworld.wolfram.com/Cuboctahedron.html](https://mathworld.wolfram.com/Cuboctahedron.html)
+
+
+---
+
