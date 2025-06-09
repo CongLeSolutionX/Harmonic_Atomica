@@ -33,7 +33,7 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 
 ## 1. Introduction: Unveiling the Vesica Piscis
 
-The Vesica Piscis, Latin for "fish's bladder," is a fundamental and profoundly symbolic geometric figure formed by the intersection of two circles of equal radii, where the center of each circle lies on the circumference of the other. This simple construction gives rise to a shape rich in mathematical properties and imbued with deep symbolic meaning across various cultures and historical periods [1, 2]. It represents a primal form in sacred geometry, often seen as a symbol of creation, duality, union, and a gateway between worlds [3].
+The Vesica Piscis, Latin for "fish's bladder," is a fundamental and profoundly symbolic geometric figure formed by the intersection of two circles of equal radii, where the center of each circle lies on the circumference of the other. This simple construction gives rise to a shape rich in mathematical properties and imbued with deep symbolic meaning across various cultures and historical periods[^1][^2]. It represents a primal form in sacred geometry, often seen as a symbol of creation, duality, union, and a gateway between worlds[^3].
 
 ```mermaid
 ---
@@ -522,9 +522,9 @@ animatingEdge@{ animate: true }
 
 ## References
 
-1.  Ghyka, M. (1977). *The Geometry of Art and Life*. Dover Publications. (Originally published 1946).
-2.  Lawlor, R. (1982). *Sacred Geometry: Philosophy and Practice*. Thames & Hudson.
-3.  Pennick, N. (1994). *The Sacred Art of Geometry: Temples of the Phoenix*. Wooden Books. (Reprinted, often under title "Sacred Geometry").
+[^1]: Ghyka, M. (1977). *The Geometry of Art and Life*. Dover Publications. (Originally published 1946).
+[^2]: Lawlor, R. (1982). *Sacred Geometry: Philosophy and Practice*. Thames & Hudson.
+[^3]: Pennick, N. (1994). *The Sacred Art of Geometry: Temples of the Phoenix*. Wooden Books. (Reprinted, often under title "Sacred Geometry").
 4.  Euclid. *Elements*. (Numerous translations and editions available, e.g., Heath, T. L. (1956). *The Thirteen Books of Euclid's Elements*. Dover Publications). Book I, Proposition 1 is key for construction.
 5.  Weisstein, E. W. "Vesica Piscis." From *MathWorld*--A Wolfram Web Resource. [https://mathworld.wolfram.com/VesicaPiscis.html](https://mathworld.wolfram.com/VesicaPiscis.html) (Accessed on current date).
 6.  Coxeter, H. S. M. (1969). *Introduction to Geometry*. John Wiley & Sons.
