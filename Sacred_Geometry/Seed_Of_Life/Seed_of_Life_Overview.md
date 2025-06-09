@@ -34,7 +34,7 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 
 ## 1. Introduction: Unveiling the Seed of Life
 
-The Seed of Life is a profound and ancient symbol found within the broader system of sacred geometry. It represents the seven days of creation, the fundamental building blocks of existence, and the divine blueprint for life itself. Composed of seven overlapping circles of equal size, it forms a pattern of exquisite symmetry and harmony, believed by many cultures and spiritual traditions to hold deep metaphysical significance. This geometric figure is not just an artistic design but is considered a visual representation of the interconnectedness of all life and the underlying order of the universe. (Critchlow, 1979; Lawlor, 1982).
+The Seed of Life is a profound and ancient symbol found within the broader system of sacred geometry. It represents the seven days of creation, the fundamental building blocks of existence, and the divine blueprint for life itself. Composed of seven overlapping circles of equal size, it forms a pattern of exquisite symmetry and harmony, believed by many cultures and spiritual traditions to hold deep metaphysical significance. This geometric figure is not just an artistic design but is considered a visual representation of the interconnectedness of all life and the underlying order of the universe[^Critchlow]. (Critchlow, 1979; Lawlor, 1982).
 
 ```mermaid
 ---
@@ -454,7 +454,6 @@ animatingEdge@{ animate: true }
 ### References and Further Reading
 
 *   Budge, E. A. Wallis. (1961). *Amulets and Talismans*. University Books. (General reference for apotropaic symbols).
-*   Critchlow, Keith. (1979). *Time Stands Still: New Light on Megalithic Science*. Gordon Fraser. (General work on sacred geometry by a key figure).
 *   Critchlow, Keith. (1976). *Islamic Patterns: An Analytical and Cosmological Approach*. Thames & Hudson. (Though focused on Islamic patterns, discusses underlying geometric principles relevant to such symbols).
 *   Fejes Tóth, László. (1940). Über einen geometrischen Satz. *Mathematische Zeitschrift*, 46, 83–85. (Early work related to the hexagonal packing problem).
 *   Fu, Xinian, et al. (2002). *Chinese Architecture*. Yale University Press. (For general traditional Chinese architectural patterns).
@@ -470,6 +469,8 @@ animatingEdge@{ animate: true }
 *   Schneider, Michael S. (1994). *A Beginner's Guide to Constructing the Universe: The Mathematical Archetypes of Nature, Art, and Science*. HarperPerennial. (Discusses geometric forms and their significance).
 *   Thue, Axel. (1910). Über die dichteste Zusammenstellung von kongruenten Kreisen in einer Ebene. *Nyt Magazin for Naturvidenskaberne*, 48, 3-9. (Seminal work on circle packing).
 *   Weyl, Hermann. (1952). *Symmetry*. Princeton University Press. (Classic mathematical text on symmetry).
+
+[^Critchlow]: Critchlow, Keith. (1979). *Time Stands Still: New Light on Megalithic Science*. Gordon Fraser. (General work on sacred geometry by a key figure).
 
 ----
 
