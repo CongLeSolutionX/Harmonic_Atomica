@@ -157,17 +157,23 @@ Let $R$ be the radius of the two generating circles.
 
 *   **Width (Minor Axis):** The distance between the two centers ($C_1$ and $C_2$) and the shortest dimension across the Vesica Piscis is equal to the radius $R$.
 
-    $$\text{Width} = R$$
-    
+$$
+\text{Width} = R
+$$
+
 *   **Height (Major Axis):** The longest dimension of the Vesica Piscis, passing through its two "cusps" (the points where the circles intersect), is $R\sqrt{3}$. This can be derived by recognizing that the centers of the circles and the cusps form two equilateral triangles [5].
-   
-    $$\text{Height} = R\sqrt{3}$$
-    
+
+$$
+\text{Height} = R\sqrt{3}
+$$
+
 *   **Ratio of Height to Width:** This is a fundamental characteristic ratio of the Vesica Piscis.
 
-    $$\frac{\text{Height}}{\text{Width}} = \frac{R\sqrt{3}}{R} = \sqrt{3} \approx 1.732$$
-    
-    This $\sqrt{3}$ proportion, also known as Theodorus's constant (though Theodorus's work focused on constructing lengths of square roots), is central to its geometric and symbolic interpretations [2].
+$$
+\frac{\text{Height}}{\text{Width}} = \frac{R\sqrt{3}}{R} = \sqrt{3} \approx 1.732
+$$
+
+This $\sqrt{3}$ proportion, also known as Theodorus's constant (though Theodorus's work focused on constructing lengths of square roots), is central to its geometric and symbolic interpretations [2].
 
 **Angular Properties:**
 *   The two arcs forming the boundary of the Vesica Piscis each span an angle of $120^\circ$ ($2\pi/3$ radians) from the center of their respective circles.
@@ -177,13 +183,18 @@ Let $R$ be the radius of the two generating circles.
 The formulas for the area and perimeter are standard geometric derivations [cf. 5, 6].
 
 *   **Area ($A$):**
-    
-    $$A = 2 \times R^2 \left(\frac{\pi}{3} - \frac{\sqrt{3}}{4}\right) = R^2 \left(\frac{2\pi}{3} - \frac{\sqrt{3}}{2}\right) \approx 1.22837 R^2$$
+
+$$
+A = 2 \times R^2 \left(\frac{\pi}{3} - \frac{\sqrt{3}}{4}\right) = R^2 \left(\frac{2\pi}{3} - \frac{\sqrt{3}}{2}\right) \approx 1.22837 R^2
+$$
     
 *   **Perimeter ($P$):**
 
-    $$P = 2 \times \left(R \cdot \frac{2\pi}{3}\right) = \frac{4\pi R}{3} \approx 4.18879 R$$
-    
+$$
+P = 2 \times \left(R \cdot \frac{2\pi}{3}\right) = \frac{4\pi R}{3} \approx 4.18879 R
+$$
+
+
 ```mermaid
 ---
 title: "Mathematical Properties: The Numbers Behind the Shape"
