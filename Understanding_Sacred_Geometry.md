@@ -123,10 +123,13 @@ config:
 }%%
 flowchart TD
     subgraph Ancient_Roots["Ancient Roots"]
+    style Ancient_Roots fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
         A["Ancient Egypt <br/> (Pyramids, Proportions)"] --> B("Pythagoras <br/> 'All is Number'")
         B --> C("Plato <br/> (Timaeus, Platonic Solids)")
     end
+
     subgraph Cultural_Manifestations["Cultural Manifestations"]
+    style Cultural_Manifestations fill:#F222,stroke:#333,stroke-width:1px, color: #FFFF
         C --> D{"Spread &<br/> Integration"}
         D --> E["Islamic Art/Architecture <br/> (Geometric Patterns)"]
         D --> F["Gothic Cathedrals <br/> (Proportion, Light)"]
@@ -135,6 +138,7 @@ flowchart TD
         D --> I["Indigenous Symbols <br/> (Medicine Wheels, Labyrinths)"]
     end
     subgraph Modern_Era["Modern Era"]
+    style Modern_Era fill:#BB22,stroke:#333,stroke-width:1px, color: #FFFF
         I & E & F & G & H --> J["Modern Interpretations <br/> (New Age, Design, Art)"]
     end
 
@@ -204,36 +208,37 @@ config:
 }%%
 flowchart LR
     subgraph Platonic_Solids["Platonic Solids<br/>(Regular Convex Polyhedra)"]
-        PS(("Shapes")) --> T("Tetrahedron <br/>Fire<br/>🔥")
-        T --> T_Expansion
-        T_Expansion@{ shape: tri, label: "4<br/>Triangles" }
+    style Platonic_Solids fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
+      PS(("Shapes")) --> T("Tetrahedron <br/>Fire<br/>🔥")
+      T --> T_Expansion
+      T_Expansion@{ shape: tri, label: "4<br/>Triangles" }
 
-
-        PS --> H("Hexahedron <br/>Earth<br/>🌎")
-        H --> H_Expansion
-        H_Expansion["6<br/>Squares"]
+      PS --> H("Hexahedron <br/>Earth<br/>🌎")
+      H --> H_Expansion
+      H_Expansion["6<br/>Squares"]
         
-        PS --> O("Octahedron<br/> Air<br/>🌬️")
-        O --> O_Expansion
-        O_Expansion@{ shape: tri, label: "8<br/>Triangles" }
+      PS --> O("Octahedron<br/> Air<br/>🌬️")
+      O --> O_Expansion
+      O_Expansion@{ shape: tri, label: "8<br/>Triangles" }
         
-        PS --> D("Dodecahedron <br/> Aether<br/>✡")
-		D --> D_Expansion
-		D_Expansion@{ shape: notch-pent, label: "12<br/>Pentagons" }
-        
-        PS --> I("Icosahedron<br/> Water<br/>🌊")
-		I --> I_Expansion
-        I_Expansion@{ shape: tri, label: "20<br/>Triangles" }
+      PS --> D("Dodecahedron <br/> Aether<br/>✡")
+		  D --> D_Expansion
+		  D_Expansion@{ shape: notch-pent, label: "12<br/>Pentagons" }
 
-
-
+      PS --> I("Icosahedron<br/> Water<br/>🌊")
+		  I --> I_Expansion
+      I_Expansion@{ shape: tri, label: "20<br/>Triangles" }
     end
+
     subgraph Properties["Properties"]
+    style Properties fill:#F222,stroke:#333,stroke-width:1px, color: #FFFF
         Prop["Key Properties"] --> Prop1("All faces congruent regular polygons")
         Prop --> Prop2("Same number of faces meet at each vertex")
         Prop --> Prop3("Finite:<br/> Only 5 exist")
     end
+
     subgraph Symbolism["Symbolism"]
+    style Symbolism fill:#BB22,stroke:#333,stroke-width:1px, color: #FFFF
         Sym["Symbolic Meaning"] --> Sym1("Fundamental building blocks")
         Sym --> Sym2("Structure of matter/universe")
         Sym --> Sym3("Correspondence with elements")
@@ -375,12 +380,12 @@ config:
 }%%
 flowchart TD
 	A_0@{ shape: f-circ, label: "The Initial Beginning" }
-    Vesica_Piscis("Vesica Piscis<br/>⚭")
-    Seed_of_Life(("Seed of Life<br/>⚛"))
-    Flower_of_Life(("Flower of Life<br/>𑁍"))
-    Fruit_of_Life(("Fruit of Life<br/>𓇢"))
-    Metatron_Cube(("Metatron's Cube<br/>💠<br/>Lines connecting Fruit of Life centers"))
-    Platonic_Solids["Platonic Solids"]
+  Vesica_Piscis("Vesica Piscis<br/>⚭")
+  Seed_of_Life(("Seed of Life<br/>⚛"))
+  Flower_of_Life(("Flower of Life<br/>𑁍"))
+  Fruit_of_Life(("Fruit of Life<br/>𓇢"))
+  Metatron_Cube(("Metatron's Cube<br/>💠<br/>Lines connecting Fruit of Life centers"))
+  Platonic_Solids["Platonic Solids"]
 
 	A_0 --> Vesica_Piscis
 	Vesica_Piscis --> Seed_of_Life
@@ -390,36 +395,37 @@ flowchart TD
 	Seed_of_Life --> Seed_of_Life_Expansion
 	Seed_of_Life_Expansion@{ shape: dbl-circ, label: "7 overlapping circles" }
 	
-    Seed_of_Life --> Flower_of_Life
+  Seed_of_Life --> Flower_of_Life
 
 	Flower_of_Life --> Flower_of_Life_Expansion
 	Flower_of_Life_Expansion@{ shape: dbl-circ, label: "Expanded overlapping pattern" }
-    
-    Flower_of_Life --> Fruit_of_Life
+
+  Flower_of_Life --> Fruit_of_Life
 	Fruit_of_Life --> Fruit_of_Life_Expansion
 	Fruit_of_Life_Expansion@{ shape: dbl-circ, label: "13 circles from Flower" }
 	
-    Fruit_of_Life -- contains --> Metatron_Cube
+  Fruit_of_Life -- contains --> Metatron_Cube
 
 	Metatron_Cube --> Metatron_Cube_Expansion
 	Metatron_Cube_Expansion@{ shape: fork, label: "Lines connecting Fruit of Life centers" }
 
-    Metatron_Cube -- Contains --> Platonic_Solids
+  Metatron_Cube -- Contains --> Platonic_Solids
 
 	Platonic_Solids --> Platonic_Solids_Expansion
 	Platonic_Solids_Expansion@{ shape: processes, label: "Collection of Platonic Solids" }
 
-    style Vesica_Piscis fill:#343,stroke:#333,stroke-width:2px
-    style Seed_of_Life fill:#434,stroke:#333,stroke-width:2px
-    style Flower_of_Life fill:#545,stroke:#333,stroke-width:2px
-    style Fruit_of_Life fill:#454,stroke:#333,stroke-width:2px
-    style Metatron_Cube fill:#353,stroke:#333,stroke-width:2px
-    style Platonic_Solids fill:#666,stroke:#333,stroke-width:2px
+  style Vesica_Piscis fill:#343,stroke:#333,stroke-width:2px
+  style Seed_of_Life fill:#434,stroke:#333,stroke-width:2px
+  style Flower_of_Life fill:#545,stroke:#333,stroke-width:2px
+  style Fruit_of_Life fill:#454,stroke:#333,stroke-width:2px
+  style Metatron_Cube fill:#353,stroke:#333,stroke-width:2px
+  style Platonic_Solids fill:#666,stroke:#333,stroke-width:2px
 
 	%%%%%%%%%% Platonic Solids Section %%%%%%%%%%
 	%% Platonic_Solids_Expansion --> Platonic_Solids 
 
     subgraph Platonic_Solids["Platonic Solids<br/>(Regular Convex Polyhedra)"]
+    style Platonic_Solids fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
         PS(("Shapes")) --> Tetrahedron("Tetrahedron <br/>Fire<br/>🔥")
         Tetrahedron --> Tetrahedron_Expansion
         Tetrahedron_Expansion@{ shape: tri, label: "4<br/>Triangles" }
