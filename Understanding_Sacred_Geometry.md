@@ -26,35 +26,34 @@ Sacred Geometry refers to the belief system that attributes symbolic and sacred 
 
 ```mermaid
 ---
-title: "The Blueprint of Existence?"
+title: "CHANGE_ME_DADDY"
 author: "Cong Le"
 version: "1.0"
-license(s): "MIT, CC BY 4.0"
+license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
+  theme: base
 ---
+%%%%%%%% Mermaid version v11.4.1-b.14
 %%{
   init: {
-    'theme': 'base',
-    'fontFamily': 'Luminari',
+    'fontFamily': 'Luminari, monospace',
+    'logLevel': 'fatal',
     'mindmap': {
-      'padding': 20,
-      'levelColors': ['#87CEEB', '#98FB98', '#FFDAB9', '#FFB6C1']
+	    'nodeAlign': 'center',
+	    'padding': 20
     },
     'themeVariables': {
-      'primaryColor': '#FDB9',
+      'primaryColor': '#FC82',
       'primaryTextColor': '#F8B229',
-      'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
-      'secondaryColor': '#EBDEF0',
+      'secondaryColor': '#EBF3',
       'secondaryTextColor': '#6C3483',
       'secondaryBorderColor': '#A569BD',
-      'fontSize': '20px',
-      'clusterBkg': '#f2a3'
+      'fontSize': '20px'
     }
   }
 }%%
-%%%%%%%% Mermaid version v11.4.1-b.14
 mindmap
     root((Sacred Geometry))
         Core_Idea(("Core Idea"))
