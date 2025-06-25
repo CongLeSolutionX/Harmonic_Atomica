@@ -55,24 +55,24 @@ config:
   }
 }%%
 mindmap
-    root((Sacred Geometry))
-        Core_Idea(("Core Idea"))
+    root)"Sacred Geometry"(
+        Core_Idea))"Core Idea"((
             Geometry encodes fundamental truths
             Underlying order of the Universe
             Connection between physical & spiritual
-        Key_Elements(("Key Elements"))
-            Geometric_Shapes["Geometric Shapes<br/>(Platonic Solids, Flower of Life...)"]
-            Mathematical_Proportions["Mathematical Proportions<br/>(Golden Ratio...)"]
-            Symbols_and_Meanings["Symbols & Meanings"]
-        Manifestations(("Manifestations"))
-            Nature["Nature<br/>(crystals, plants, shells)"]
-            Art_and_Architecture["Art & Architecture<br/>(temples, mandalas)"]
-            Music_and_Harmony["Music & Harmony"]
-            Cosmology_and_Spirituality["Cosmology &<br/> Spirituality"]
-        Scope(("Scope"))
-            Cross-cultural
-            Historical_roots["Historical roots<br/>(Ancient Egypt, Greece...)"]
-            Modern_interpretations["Modern interpretations<br/>(New Age, Design)"]
+        Key_Elements))"Key Elements"((
+            Geometric_Shapes{{"Geometric Shapes<br/>(Platonic Solids, Flower of Life...)"}}
+            Mathematical_Proportions{{"Mathematical Proportions<br/>(Golden Ratio...)"}}
+            Symbols_and_Meanings{{"Symbols & Meanings"}}
+        Manifestations))"Manifestations"((
+            Nature{{"Nature<br/>(crystals, plants, shells)"}}
+            Art_and_Architecture{{"Art & Architecture<br/>(temples, mandalas)"}}
+            Music_and_Harmony{{"Music & Harmony"}}
+            Cosmology_and_Spirituality{{"Cosmology &<br/> Spirituality"}}
+        Scope))"Scope"((
+            Cross_cultural{{"Cross-cultural"}}
+            Historical_roots{{"Historical roots<br/>(Ancient Egypt, Greece...)"}}
+            Modern_interpretations{{"Modern interpretations<br/>(New Age, Design)"}}
 
 ```
 
