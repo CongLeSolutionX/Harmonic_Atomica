@@ -26,7 +26,7 @@ Sacred Geometry refers to the belief system that attributes symbolic and sacred 
 
 ```mermaid
 ---
-title: "CHANGE_ME_DADDY"
+title: "The Blueprint of Existence?"
 author: "Cong Le"
 version: "1.0"
 license(s): "MIT, CC BY-SA 4.0"
@@ -506,72 +506,71 @@ Sacred Geometry offers a lens through which to view the world as an ordered, int
 title: "Sacred Geometry Synthesis"
 author: "Cong Le"
 version: "1.0"
-license(s): "MIT, CC BY 4.0"
+license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
+  theme: base
 ---
+%%%%%%%% Mermaid version v11.4.1-b.14
 %%{
   init: {
-    'theme': 'base',
-    'fontFamily': 'Luminari',
+    'fontFamily': 'American Typewriter, monospace',
+    'logLevel': 'fatal',
     'mindmap': {
-      'padding': 20,
-      'levelColors': ['#87CEEB', '#98FB98', '#FFDAB9', '#FFB6C1']
+	    'nodeAlign': 'center',
+	    'padding': 20
     },
     'themeVariables': {
-      'primaryColor': '#FDB9',
+      'primaryColor': '#FC82',
       'primaryTextColor': '#F8B229',
-      'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
-      'secondaryColor': '#EBDEF0',
+      'secondaryColor': '#EBF3',
       'secondaryTextColor': '#6C3483',
       'secondaryBorderColor': '#A569BD',
-      'fontSize': '20px',
-      'clusterBkg': '#f2a3'
+      'fontSize': '20px'
     }
   }
 }%%
-%%%%%%%% Mermaid version v11.4.1-b.14
 mindmap
-    root(("Sacred Geometry Synthesis"))
-        Definition(("Definition"))
+    root)"Sacred Geometry Synthesis"(
+        Definition))"Definition"((
             Attributing sacred meaning to geometric forms & proportions
             Belief in geometry as universal blueprint
-        Historical_Context(("Historical Context"))
+        Historical_Context))"Historical Context"((
             Ancient_Egypt_Greece["Ancient Egypt, Greece<br/>(Pythagoras, Plato)"]
             Islamic Art, Gothic Cathedrals, Renaissance
             Indigenous_traditions["Indigenous traditions<br/>(Mandalas, etc.)"]
-        Key_Forms_and_Symbols(("Key Forms & Symbols"))
-            Platonic_Solids["Platonic Solids<br/>(5 Elements)"]
+        Key_Forms_and_Symbols))"Key Forms & Symbols"((
+            Platonic_Solids{{"Platonic Solids<br/>(5 Elements)"}}
                 Tetrahedron["Tetrahedron<br/>🔥"]
                 Hexahedron["Hexahedron<br/>(Cube)<br/>🌎"]
                 Octahedron["Octahedron<br/>🌬️"]
                 Dodecahedron["Dodecahedron<br/>✡"]
                 Icosahedron["Icosahedron <br/>🌊"]
-            Flower_of_Life_complex["Flower of Life complex"]
-	            Vesica Piscis
-	            Seed
-	            Flower
-	            Fruit
-	            Metatron_Cube["Metatron's Cube"]
-                Related_Patterns["Related Patterns"]
-                    Spiral
-                    Torus
-                    Basic Shapes
-                    Labyrinths
-                    Mandalas
-        Core_Principles(("Core Principles"))
+            Flower_of_Life_complex{{"Flower of Life complex"}}
+	            Vesica_Piscis("Vesica Piscis")
+	            Seed("Seed")
+	            Flower("Flower")
+	            Fruit("Fruit")
+	            Metatron_Cube("Metatron's Cube")
+                Related_Patterns("Related Patterns")
+                    Spiral("Spiral")
+                    Torus("Torus")
+                    Basic_Shapes("Basic Shapes")
+                    Labyrinths("Labyrinths")
+                    Mandalas("Mandalas")
+        Core_Principles))"Core Principles"((
             Golden_Ratio["Golden Ratio<br/>(<0xF0><0x9D><0x91><0x99> ≈ 1.618)"]
             Fibonacci_Sequence["Fibonacci Sequence"]
             Fractals["Fractals<br/>(Self-similarity, Infinity)"]
             Harmony_and_Resonance["Harmony & Resonance<br/>(Music of Spheres)"]
-        Applications_and_Beliefs(("Applications &<br/> Beliefs"))
+        Applications_and_Beliefs))"Applications &<br/> Beliefs"((
             Architecture["Architecture<br/>(Sacred Spaces)"]
             Art["Art<br/>(Symbolism, Meditation)"]
             Spirituality["Spirituality<br/>(Cosmology, Energy Fields)"]
             Design["Design<br/>(Aesthetics, Harmony)"]
             Alternative_Healing["Alternative Healing<br/>(Controversial)"]
-        Modern_View_and_Critique(("Modern View & Critique"))
+        Modern_View_and_Critique))"Modern View & Critique"((
             Cultural_Historical_Significance["Cultural/Historical Significance"]
             Mathematical_elegance_vs_Metaphysical_claims(("Mathematical elegance vs. Metaphysical claims"))
             Lack_of_Scientific_Validation["Lack of Scientific Validation for esoteric aspects"]
