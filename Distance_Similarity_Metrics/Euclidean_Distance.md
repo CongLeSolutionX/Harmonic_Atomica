@@ -185,7 +185,7 @@ $$
 d(\mathbf{p}, \mathbf{q}) = \sqrt{\sum_{i=1}^{n} (q_i - p_i)^2}
 $$
 
-This formula is also equivalent to the **Euclidean norm** or **L2 norm** of the difference vector (**q** - **p**), a foundational concept in linear algebra and machine learning [1].
+This formula is also equivalent to the **Euclidean norm** or **L2 norm** of the difference vector (**q** - **p**), a foundational concept in linear algebra and machine learning[^1].
 
 $$
 d(\mathbf{p}, \mathbf{q}) = \| \mathbf{q} - \mathbf{p} \|_2
@@ -246,7 +246,7 @@ Swift demo code: <https://github.com/CongLeSolutionX/MyApp/tree/SWIFTUI-Euclidea
 
 ## 3. Properties of a Metric
 
-For a function to be considered a true distance, it must operate within a "metric space" by satisfying four fundamental axioms [2]. Euclidean distance fulfills all of them.
+For a function to be considered a true distance, it must operate within a "metric space" by satisfying four fundamental axioms[^2]. Euclidean distance fulfills all of them.
 
 1.  **Non-negativity:** $d(\mathbf{p}, \mathbf{q}) \ge 0$
 2.  **Identity of Indiscernibles:** $d(\mathbf{p}, \mathbf{q}) = 0 \iff \mathbf{p} = \mathbf{q}$
@@ -307,13 +307,13 @@ flowchart LR
 
 The concept of measuring "closeness" is central to many machine learning algorithms.
 
-*   **k-Nearest Neighbors (k-NN):** The k-NN algorithm, originally proposed by Cover and Hart in 1967, is a non-parametric method used for classification and regression [3]. To classify a new data point, k-NN finds the 'k' closest points in the training data using Euclidean distance. The new point is then assigned the majority class label of its neighbors.
+*   **k-Nearest Neighbors (k-NN):** The k-NN algorithm, originally proposed by Cover and Hart in 1967, is a non-parametric method used for classification and regression[^3]. To classify a new data point, k-NN finds the 'k' closest points in the training data using Euclidean distance. The new point is then assigned the majority class label of its neighbors.
 
 *   **k-Means Clustering:** One of the most popular unsupervised learning algorithms, k-Means, was detailed by J. B. MacQueen in 1967 [4]. It partitions a dataset into 'k' distinct, non-overlapping clusters by minimizing the Euclidean distances between data points and their assigned cluster's centroid.
 
 ### Real-World Example: The Iris Flower Dataset
 
-A classic demonstration of these algorithms uses the Iris flower dataset, a public resource first introduced by the botanist Edgar Anderson and used in R. A. Fisher's seminal 1936 paper [5]. This dataset contains 150 samples from three species of Iris flowers, with four features measured for each sample: sepal length, sepal width, petal length, and petal width (all in cm).
+A classic demonstration of these algorithms uses the Iris flower dataset, a public resource first introduced by the botanist Edgar Anderson and used in R. A. Fisher's seminal 1936 paper[^5]. This dataset comprises 150 samples from three species of Iris flowers, each with four measured features: sepal length, sepal width, petal length, and petal width (all in centimeters).
 
 To find the distance between two flowers, Flower A and Flower B, we treat their features as coordinates in a 4-dimensional space:
 *   `Flower A = (sepal_len_A, sepal_wid_A, petal_len_A, petal_wid_A)`
@@ -336,10 +336,10 @@ This distance calculation allows a k-NN model to find the most similar flowers t
 
 ## 5. The Challenge: The Curse of Dimensionality
 
-While powerful, Euclidean distance's effectiveness diminishes in high-dimensional spaces—a phenomenon Richard Bellman termed the **"Curse of Dimensionality"** in his work on dynamic programming [6].
+While powerful, Euclidean distance's effectiveness diminishes in high-dimensional spaces—a phenomenon Richard Bellman termed the **"Curse of Dimensionality"** in his work on dynamic programming[^6].
 
 As the number of dimensions (features) increases:
-1.  **Distance Concentration:** The relative contrast between the nearest and farthest data points shrinks, making them all appear approximately equidistant. This makes distance-based selection less meaningful [7].
+1.  **Distance Concentration:** The relative contrast between the nearest and farthest data points shrinks, making them all appear approximately equidistant. This makes distance-based selection less meaningful[^7].
 2.  **Sparsity:** The data required to maintain a uniform density across the space grows exponentially, making any finite dataset sparse.
 
 This degradation significantly impacts distance-based algorithms like k-NN and k-Means. Dimensionality reduction techniques (like PCA) or alternative distance metrics are often required as a mitigation strategy.
