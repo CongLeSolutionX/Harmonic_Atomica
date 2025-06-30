@@ -19,6 +19,7 @@ copyright: Copyright © 2025 Cong Le. All Rights Reserved.
 
 </div>
 
+---
 
 # Euclidean Distance
 <details open>
@@ -163,6 +164,11 @@ flowchart TD
 
 By substituting our coordinate differences for sides `a` and `b`, we get the familiar 2D distance formula. This core idea of summing squared differences and taking the square root extends seamlessly into higher dimensions.
 
+
+> [!TIP]
+> Swift demo code: <https://github.com/CongLeSolutionX/MyApp/tree/SWIFTUI-Euclidean_Distance-A_Direct_Path_from_Pythagoras>
+
+
 ----
 
 ## 2. The General Formula: Mathematical Definition
@@ -232,6 +238,10 @@ flowchart TD
     style G fill:#4F52,stroke:#FFF
 ```
 
+> [!TIP]
+Swift demo code: <https://github.com/CongLeSolutionX/MyApp/tree/SWIFTUI-Euclidean_Distance-Euclidean_Distance_View>
+
+
 -----
 
 ## 3. Properties of a Metric
@@ -287,6 +297,10 @@ flowchart LR
     style R fill:#F44336, stroke-width:2px
 ```
 
+> [!TIP]
+> Swift demo: <https://github.com/CongLeSolutionX/MyApp/tree/SWIFTUI-Euclidean_Distance-Metric_Properties_View>
+
+
 ----
 
 ## 4. Key Applications in Machine Learning
@@ -312,6 +326,11 @@ d(A, B) = \sqrt{(L_{A}-L_{B})^2 + (W_{A}-W_{B})^2 + (PL_{A}-PL_{B})^2 + (PW_{A}-
 $$
 
 This distance calculation allows a k-NN model to find the most similar flowers to an unknown sample and classify it, or a k-Means model to group the flowers into their natural species clusters.
+
+
+> [!TIP]
+> Swift demo: <https://github.com/CongLeSolutionX/MyApp/tree/SWIFTUI-Euclidean_Distance-Machine_Learning_Demo_View>
+
 
 ----
 
@@ -371,11 +390,21 @@ mindmap
       Use_of_other_distance_metrics{{"Use of other distance metrics<br/>(e.g., Cosine Similarity)"}}
 ```
 
+> [!TIP]
+> Swift demo: <https://github.com/CongLeSolutionX/MyApp/tree/SWIFTUI-Euclidean_Distance-Curse_Of_Dimensionality_View>
+
+
 ---
 
 ## 6. Summary
 
 Euclidean distance is a foundational concept that provides a simple and effective way to measure similarity. Its deep connection to geometry makes it intuitive, while its mathematical formulation allows it to power complex algorithms. However, a responsible practitioner must understand its limitations, especially the Curse of Dimensionality, and know when alternative metrics are more appropriate.
+
+
+> [!TIP]
+> Swift demo: <https://github.com/CongLeSolutionX/MyApp/tree/SWIFTUI-Euclidean_Distance-Distance_Metrics_View>
+
+
 
 ```mermaid
 ---
