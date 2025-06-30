@@ -121,6 +121,7 @@ copyright: "Copyright © 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
   theme: base
+  look: handDrawn
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -135,7 +136,7 @@ config:
       'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
-      'secondaryColor': '#EBDEF0',
+      'secondaryColor': '#EBF0',
       'secondaryTextColor': '#6C3483',
       'secondaryBorderColor': '#A569BD',
       'fontSize': '15px'
@@ -144,6 +145,7 @@ config:
 }%%
 flowchart TD
     subgraph Pythagorean_Connection_in_2D["Pythagorean Connection in 2D"]
+    style Pythagorean_Connection_in_2D fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
     direction LR
         A["<b>Point P1</b><br>(x1, y1)"]
         B["<b>Point P2</b><br>(x2, y2)"]
@@ -151,11 +153,11 @@ flowchart TD
 
         A -- "<b>Side a</b><br> |y1 - y2|" --> C
         C -- "<b>Side b</b><br> |x1 - x2|" --> B
-        A -- "<b>Distance (c)</b><br> √(a² + b²)" --> B
+        A -- "<b>Distance<br/>(c)</b><br> √(a² + b²)" --> B
 
-        style A fill:#4CAF50,stroke:#FFF
-        style B fill:#4CAF50,stroke:#FFF
-        style C fill:#212121,stroke:#9E9E9E,stroke-dasharray: 5 5
+        style A fill:#4F52,stroke:#FFF
+        style B fill:#4F52,stroke:#FFF
+        style C fill:#22BB,stroke:#9E9E9E,stroke-dasharray: 5 5
     end
 ```
 
@@ -195,6 +197,7 @@ copyright: "Copyright © 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
   theme: base
+  look: handDrawn
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -225,8 +228,8 @@ flowchart TD
     E --> F["Calculate the square root<br>Distance = √S"]
     F --> G("End<br>Return Distance")
 
-    style A fill:#03A9F4,stroke:#FFF
-    style G fill:#4CAF50,stroke:#FFF
+    style A fill:#09F4,stroke:#FFF
+    style G fill:#4F52,stroke:#FFF
 ```
 
 -----
@@ -252,6 +255,7 @@ copyright: "Copyright © 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
   theme: base
+  look: handDrawn
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -266,7 +270,7 @@ config:
       'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
-      'secondaryColor': '#EBDEF0',
+      'secondaryColor': '#3BB4',
       'secondaryTextColor': '#6C3483',
       'secondaryBorderColor': '#A569BD',
       'fontSize': '15px'
@@ -279,7 +283,7 @@ flowchart LR
     P -- "<b>d(p, r)</b> ≤ d(p, q) + d(q, r)" --> R
 
     style P fill:#F44336, stroke-width:2px
-    style Q fill:#9C27B0, stroke-width:2px
+    style Q fill:#932B0, stroke-width:2px
     style R fill:#F44336, stroke-width:2px
 ```
 
