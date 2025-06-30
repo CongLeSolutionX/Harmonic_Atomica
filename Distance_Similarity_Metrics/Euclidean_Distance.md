@@ -19,6 +19,7 @@ copyright: Copyright © 2025 Cong Le. All Rights Reserved.
 
 </div>
 
+---
 
 # Euclidean Distance
 <details open>
@@ -40,7 +41,7 @@ copyright: Copyright © 2025 Cong Le. All Rights Reserved.
 
 ## Unraveling Euclidean Distance: From Pythagoras to Machine Learning
 
-Euclidean distance is arguably the most intuitive and widely used method for measuring the "straight-line" distance between two points. It's the distance you'd measure with a ruler, representing the shortest possible path. This concept, rooted in ancient geometry as laid out in Euclid's *Elements*, has become a cornerstone of modern data science, powering algorithms in fields like machine learning, computer vision, and statistics [1].
+Euclidean distance is arguably the most intuitive and widely used method for measuring the "straight-line" distance between two points. It's the distance you'd measure with a ruler, representing the shortest possible path. This concept, rooted in ancient geometry as laid out in Euclid's *Elements*, has become a cornerstone of modern data science, powering algorithms in fields like machine learning, computer vision, and statistics[^1].
 
 This explanation will explore its mathematical foundations, its formal properties, its pivotal role in foundational ML algorithms, and its limitations in high-dimensional contexts.
 
@@ -163,6 +164,11 @@ flowchart TD
 
 By substituting our coordinate differences for sides `a` and `b`, we get the familiar 2D distance formula. This core idea of summing squared differences and taking the square root extends seamlessly into higher dimensions.
 
+
+> [!TIP]
+> Swift demo code: <https://github.com/CongLeSolutionX/MyApp/tree/SWIFTUI-Euclidean_Distance-A_Direct_Path_from_Pythagoras>
+
+
 ----
 
 ## 2. The General Formula: Mathematical Definition
@@ -179,7 +185,7 @@ $$
 d(\mathbf{p}, \mathbf{q}) = \sqrt{\sum_{i=1}^{n} (q_i - p_i)^2}
 $$
 
-This formula is also equivalent to the **Euclidean norm** or **L2 norm** of the difference vector (**q** - **p**), a foundational concept in linear algebra and machine learning [1].
+This formula is also equivalent to the **Euclidean norm** or **L2 norm** of the difference vector (**q** - **p**), a foundational concept in linear algebra and machine learning[^1].
 
 $$
 d(\mathbf{p}, \mathbf{q}) = \| \mathbf{q} - \mathbf{p} \|_2
@@ -232,11 +238,15 @@ flowchart TD
     style G fill:#4F52,stroke:#FFF
 ```
 
+> [!TIP]
+Swift demo code: <https://github.com/CongLeSolutionX/MyApp/tree/SWIFTUI-Euclidean_Distance-Euclidean_Distance_View>
+
+
 -----
 
 ## 3. Properties of a Metric
 
-For a function to be considered a true distance, it must operate within a "metric space" by satisfying four fundamental axioms [2]. Euclidean distance fulfills all of them.
+For a function to be considered a true distance, it must operate within a "metric space" by satisfying four fundamental axioms[^2]. Euclidean distance fulfills all of them.
 
 1.  **Non-negativity:** $d(\mathbf{p}, \mathbf{q}) \ge 0$
 2.  **Identity of Indiscernibles:** $d(\mathbf{p}, \mathbf{q}) = 0 \iff \mathbf{p} = \mathbf{q}$
@@ -287,19 +297,23 @@ flowchart LR
     style R fill:#F44336, stroke-width:2px
 ```
 
+> [!TIP]
+> Swift demo: <https://github.com/CongLeSolutionX/MyApp/tree/SWIFTUI-Euclidean_Distance-Metric_Properties_View>
+
+
 ----
 
 ## 4. Key Applications in Machine Learning
 
 The concept of measuring "closeness" is central to many machine learning algorithms.
 
-*   **k-Nearest Neighbors (k-NN):** The k-NN algorithm, originally proposed by Cover and Hart in 1967, is a non-parametric method used for classification and regression [3]. To classify a new data point, k-NN finds the 'k' closest points in the training data using Euclidean distance. The new point is then assigned the majority class label of its neighbors.
+*   **k-Nearest Neighbors (k-NN):** The k-NN algorithm, originally proposed by Cover and Hart in 1967, is a non-parametric method used for classification and regression[^3]. To classify a new data point, k-NN finds the 'k' closest points in the training data using Euclidean distance. The new point is then assigned the majority class label of its neighbors.
 
 *   **k-Means Clustering:** One of the most popular unsupervised learning algorithms, k-Means, was detailed by J. B. MacQueen in 1967 [4]. It partitions a dataset into 'k' distinct, non-overlapping clusters by minimizing the Euclidean distances between data points and their assigned cluster's centroid.
 
 ### Real-World Example: The Iris Flower Dataset
 
-A classic demonstration of these algorithms uses the Iris flower dataset, a public resource first introduced by the botanist Edgar Anderson and used in R. A. Fisher's seminal 1936 paper [5]. This dataset contains 150 samples from three species of Iris flowers, with four features measured for each sample: sepal length, sepal width, petal length, and petal width (all in cm).
+A classic demonstration of these algorithms uses the Iris flower dataset, a public resource first introduced by the botanist Edgar Anderson and used in R. A. Fisher's seminal 1936 paper[^5]. This dataset comprises 150 samples from three species of Iris flowers, each with four measured features: sepal length, sepal width, petal length, and petal width (all in centimeters).
 
 To find the distance between two flowers, Flower A and Flower B, we treat their features as coordinates in a 4-dimensional space:
 *   `Flower A = (sepal_len_A, sepal_wid_A, petal_len_A, petal_wid_A)`
@@ -313,14 +327,19 @@ $$
 
 This distance calculation allows a k-NN model to find the most similar flowers to an unknown sample and classify it, or a k-Means model to group the flowers into their natural species clusters.
 
+
+> [!TIP]
+> Swift demo: <https://github.com/CongLeSolutionX/MyApp/tree/SWIFTUI-Euclidean_Distance-Machine_Learning_Demo_View>
+
+
 ----
 
 ## 5. The Challenge: The Curse of Dimensionality
 
-While powerful, Euclidean distance's effectiveness diminishes in high-dimensional spaces—a phenomenon Richard Bellman termed the **"Curse of Dimensionality"** in his work on dynamic programming [6].
+While powerful, Euclidean distance's effectiveness diminishes in high-dimensional spaces—a phenomenon Richard Bellman termed the **"Curse of Dimensionality"** in his work on dynamic programming[^6].
 
 As the number of dimensions (features) increases:
-1.  **Distance Concentration:** The relative contrast between the nearest and farthest data points shrinks, making them all appear approximately equidistant. This makes distance-based selection less meaningful [7].
+1.  **Distance Concentration:** The relative contrast between the nearest and farthest data points shrinks, making them all appear approximately equidistant. This makes distance-based selection less meaningful[^7].
 2.  **Sparsity:** The data required to maintain a uniform density across the space grows exponentially, making any finite dataset sparse.
 
 This degradation significantly impacts distance-based algorithms like k-NN and k-Means. Dimensionality reduction techniques (like PCA) or alternative distance metrics are often required as a mitigation strategy.
@@ -371,11 +390,21 @@ mindmap
       Use_of_other_distance_metrics{{"Use of other distance metrics<br/>(e.g., Cosine Similarity)"}}
 ```
 
+> [!TIP]
+> Swift demo: <https://github.com/CongLeSolutionX/MyApp/tree/SWIFTUI-Euclidean_Distance-Curse_Of_Dimensionality_View>
+
+
 ---
 
 ## 6. Summary
 
 Euclidean distance is a foundational concept that provides a simple and effective way to measure similarity. Its deep connection to geometry makes it intuitive, while its mathematical formulation allows it to power complex algorithms. However, a responsible practitioner must understand its limitations, especially the Curse of Dimensionality, and know when alternative metrics are more appropriate.
+
+
+> [!TIP]
+> Swift demo: <https://github.com/CongLeSolutionX/MyApp/tree/SWIFTUI-Euclidean_Distance-Distance_Metrics_View>
+
+
 
 ```mermaid
 ---
@@ -491,18 +520,18 @@ flowchart LR
 
 ### References
 
-[1] Bishop, Christopher M. *Pattern Recognition and Machine Learning*. New York: Springer, 2006.
+[^1]: Bishop, Christopher M. *Pattern Recognition and Machine Learning*. New York: Springer, 2006.
 
-[2] Rudin, Walter. *Principles of Mathematical Analysis*. 3rd ed. International Series in Pure and Applied Mathematics. New York: McGraw-Hill, 1976.
+[^2]: Rudin, Walter. *Principles of Mathematical Analysis*. 3rd ed. International Series in Pure and Applied Mathematics. New York: McGraw-Hill, 1976.
 
-[3] Cover, Thomas M., and Peter E. Hart. "Nearest Neighbor Pattern Classification." *IEEE Transactions on Information Theory* 13, no. 1 (January 1967): 21–27.
+[^3]: Cover, Thomas M., and Peter E. Hart. "Nearest Neighbor Pattern Classification." *IEEE Transactions on Information Theory* 13, no. 1 (January 1967): 21–27.
 
-[4] MacQueen, James B. "Some Methods for Classification and Analysis of Multivariate Observations." In *Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability, Volume 1: Statistics*, 281–97. Berkeley, CA: University of California Press, 1967.
+[^4]: MacQueen, James B. "Some Methods for Classification and Analysis of Multivariate Observations." In *Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability, Volume 1: Statistics*, 281–97. Berkeley, CA: University of California Press, 1967.
 
-[5] Fisher, Ronald A. "The Use of Multiple Measurements in Taxonomic Problems." *Annals of Eugenics* 7, no. 2 (September 1936): 179–88. The dataset is publicly available from the UCI Machine Learning Repository: Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+[^5]: Fisher, Ronald A. "The Use of Multiple Measurements in Taxonomic Problems." *Annals of Eugenics* 7, no. 2 (September 1936): 179–88. The dataset is publicly available from the UCI Machine Learning Repository: Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
 
-[6] Bellman, Richard E. *Dynamic Programming*. Princeton, NJ: Princeton University Press, 1957.
+[^6]: Bellman, Richard E. *Dynamic Programming*. Princeton, NJ: Princeton University Press, 1957.
 
-[7] Aggarwal, Charu C., Alexander Hinneburg, and Daniel A. Keim. "On the Surprising Behavior of Distance Metrics in High Dimensional Space." In *Database Theory — ICDT 2001: 8th International Conference London, UK, January 4–6, 2001 Proceedings*, 420-434. Berlin, Heidelberg: Springer Berlin Heidelberg, 2001.
+[7]: Aggarwal, Charu C., Alexander Hinneburg, and Daniel A. Keim. "On the Surprising Behavior of Distance Metrics in High Dimensional Space." In *Database Theory — ICDT 2001: 8th International Conference London, UK, January 4–6, 2001 Proceedings*, 420-434. Berlin, Heidelberg: Springer Berlin Heidelberg, 2001.
 
 -----
