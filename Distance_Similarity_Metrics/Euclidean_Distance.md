@@ -41,7 +41,7 @@ copyright: Copyright © 2025 Cong Le. All Rights Reserved.
 
 ## Unraveling Euclidean Distance: From Pythagoras to Machine Learning
 
-Euclidean distance is arguably the most intuitive and widely used method for measuring the "straight-line" distance between two points. It's the distance you'd measure with a ruler, representing the shortest possible path. This concept, rooted in ancient geometry as laid out in Euclid's *Elements*, has become a cornerstone of modern data science, powering algorithms in fields like machine learning, computer vision, and statistics [1].
+Euclidean distance is arguably the most intuitive and widely used method for measuring the "straight-line" distance between two points. It's the distance you'd measure with a ruler, representing the shortest possible path. This concept, rooted in ancient geometry as laid out in Euclid's *Elements*, has become a cornerstone of modern data science, powering algorithms in fields like machine learning, computer vision, and statistics[^1].
 
 This explanation will explore its mathematical foundations, its formal properties, its pivotal role in foundational ML algorithms, and its limitations in high-dimensional contexts.
 
@@ -520,18 +520,18 @@ flowchart LR
 
 ### References
 
-[1] Bishop, Christopher M. *Pattern Recognition and Machine Learning*. New York: Springer, 2006.
+[^1]: Bishop, Christopher M. *Pattern Recognition and Machine Learning*. New York: Springer, 2006.
 
-[2] Rudin, Walter. *Principles of Mathematical Analysis*. 3rd ed. International Series in Pure and Applied Mathematics. New York: McGraw-Hill, 1976.
+[^2]: Rudin, Walter. *Principles of Mathematical Analysis*. 3rd ed. International Series in Pure and Applied Mathematics. New York: McGraw-Hill, 1976.
 
-[3] Cover, Thomas M., and Peter E. Hart. "Nearest Neighbor Pattern Classification." *IEEE Transactions on Information Theory* 13, no. 1 (January 1967): 21–27.
+[^3]: Cover, Thomas M., and Peter E. Hart. "Nearest Neighbor Pattern Classification." *IEEE Transactions on Information Theory* 13, no. 1 (January 1967): 21–27.
 
-[4] MacQueen, James B. "Some Methods for Classification and Analysis of Multivariate Observations." In *Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability, Volume 1: Statistics*, 281–97. Berkeley, CA: University of California Press, 1967.
+[^4]: MacQueen, James B. "Some Methods for Classification and Analysis of Multivariate Observations." In *Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability, Volume 1: Statistics*, 281–97. Berkeley, CA: University of California Press, 1967.
 
-[5] Fisher, Ronald A. "The Use of Multiple Measurements in Taxonomic Problems." *Annals of Eugenics* 7, no. 2 (September 1936): 179–88. The dataset is publicly available from the UCI Machine Learning Repository: Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+[^5]: Fisher, Ronald A. "The Use of Multiple Measurements in Taxonomic Problems." *Annals of Eugenics* 7, no. 2 (September 1936): 179–88. The dataset is publicly available from the UCI Machine Learning Repository: Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
 
-[6] Bellman, Richard E. *Dynamic Programming*. Princeton, NJ: Princeton University Press, 1957.
+[^6]: Bellman, Richard E. *Dynamic Programming*. Princeton, NJ: Princeton University Press, 1957.
 
-[7] Aggarwal, Charu C., Alexander Hinneburg, and Daniel A. Keim. "On the Surprising Behavior of Distance Metrics in High Dimensional Space." In *Database Theory — ICDT 2001: 8th International Conference London, UK, January 4–6, 2001 Proceedings*, 420-434. Berlin, Heidelberg: Springer Berlin Heidelberg, 2001.
+[^7]: Aggarwal, Charu C., Alexander Hinneburg, and Daniel A. Keim. "On the Surprising Behavior of Distance Metrics in High Dimensional Space." In *Database Theory — ICDT 2001: 8th International Conference London, UK, January 4–6, 2001 Proceedings*, 420-434. Berlin, Heidelberg: Springer Berlin Heidelberg, 2001.
 
 -----
