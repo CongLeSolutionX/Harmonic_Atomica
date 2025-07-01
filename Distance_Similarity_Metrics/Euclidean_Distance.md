@@ -309,7 +309,7 @@ The concept of measuring "closeness" is central to many machine learning algorit
 
 *   **k-Nearest Neighbors (k-NN):** The k-NN algorithm, originally proposed by Cover and Hart in 1967, is a non-parametric method used for classification and regression[^3]. To classify a new data point, k-NN finds the 'k' closest points in the training data using Euclidean distance. The new point is then assigned the majority class label of its neighbors.
 
-*   **k-Means Clustering:** One of the most popular unsupervised learning algorithms, k-Means, was detailed by J. B. MacQueen in 1967 [4]. It partitions a dataset into 'k' distinct, non-overlapping clusters by minimizing the Euclidean distances between data points and their assigned cluster's centroid.
+*   **k-Means Clustering:** One of the most popular unsupervised learning algorithms, k-Means, was detailed by J. B. MacQueen in 1967[^4]. It partitions a dataset into 'k' distinct, non-overlapping clusters by minimizing the Euclidean distances between data points and their assigned cluster's centroid.
 
 ### Real-World Example: The Iris Flower Dataset
 
@@ -532,6 +532,6 @@ flowchart LR
 
 [^6]: Bellman, Richard E. *Dynamic Programming*. Princeton, NJ: Princeton University Press, 1957.
 
-[7]: Aggarwal, Charu C., Alexander Hinneburg, and Daniel A. Keim. "On the Surprising Behavior of Distance Metrics in High Dimensional Space." In *Database Theory — ICDT 2001: 8th International Conference London, UK, January 4–6, 2001 Proceedings*, 420-434. Berlin, Heidelberg: Springer Berlin Heidelberg, 2001.
+[^7]: Aggarwal, Charu C., Alexander Hinneburg, and Daniel A. Keim. "On the Surprising Behavior of Distance Metrics in High Dimensional Space." In *Database Theory — ICDT 2001: 8th International Conference London, UK, January 4–6, 2001 Proceedings*, 420-434. Berlin, Heidelberg: Springer Berlin Heidelberg, 2001.
 
 -----
