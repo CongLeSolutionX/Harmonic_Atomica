@@ -375,8 +375,8 @@ config:
   }
 }%%
 mindmap
-  root)"Curse of Dimensionality"(
-    Original_Concept))"Original Concept (Bellman, 1957)"((
+  root)"**Curse of Dimensionality**"(
+    Original_Concept))"Original Concept<br/>(Bellman, 1957)"((
     Volume_Increases_Exponentially))"Volume Increases Exponentially"((
       Data becomes sparse
     Distance_Concentration))"Distance Concentration"((
@@ -386,7 +386,7 @@ mindmap
       k-NN performance degrades
       Clustering becomes difficult
     Mitigation))"Mitigation"((
-      Feature_Selection_or_Dimensionality_Reduction{{"Feature Selection / Dimensionality Reduction<br/>(e.g., PCA)"}}
+      Feature_Selection_or_Dimensionality_Reduction{{"Feature Selection /<br/> Dimensionality Reduction<br/>(e.g., PCA)"}}
       Use_of_other_distance_metrics{{"Use of other distance metrics<br/>(e.g., Cosine Similarity)"}}
 ```
 
@@ -437,7 +437,7 @@ config:
   }
 }%%
 mindmap
-  root)"Euclidean Distance<br><SUB>A Complete Overview</SUB>"(
+  root)"**Euclidean Distance**<br/>*A Complete Overview*"(
     Core_Idea))"Core Idea"((
       ::icon(fa fa-lightbulb)
       "Straight-line" or ruler distance
@@ -516,9 +516,7 @@ flowchart LR
 >- **MIT License:**  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) - Full text in [LICENSE](LICENSE) file.
 >- **Creative Commons Attribution-ShareAlike 4.0 International**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) [![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/) - Legal details in [LICENSE-CC-BY-SA-4.0](THE_PAST/LICENSE-CC-BY-SA-4.0) and at [Creative Commons official site](https://creativecommons.org/licenses/by-sa/4.0/).
 >
----
 
-### References
 
 [^1]: Bishop, Christopher M. *Pattern Recognition and Machine Learning*. New York: Springer, 2006.
 
