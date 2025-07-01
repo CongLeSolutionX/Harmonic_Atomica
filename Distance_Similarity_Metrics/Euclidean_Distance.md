@@ -532,6 +532,6 @@ flowchart LR
 
 [^6]: Bellman, Richard E. *Dynamic Programming*. Princeton, NJ: Princeton University Press, 1957.
 
-[7]: Aggarwal, Charu C., Alexander Hinneburg, and Daniel A. Keim. "On the Surprising Behavior of Distance Metrics in High Dimensional Space." In *Database Theory — ICDT 2001: 8th International Conference London, UK, January 4–6, 2001 Proceedings*, 420-434. Berlin, Heidelberg: Springer Berlin Heidelberg, 2001.
+[^7]: Aggarwal, Charu C., Alexander Hinneburg, and Daniel A. Keim. "On the Surprising Behavior of Distance Metrics in High Dimensional Space." In *Database Theory — ICDT 2001: 8th International Conference London, UK, January 4–6, 2001 Proceedings*, 420-434. Berlin, Heidelberg: Springer Berlin Heidelberg, 2001.
 
 -----
