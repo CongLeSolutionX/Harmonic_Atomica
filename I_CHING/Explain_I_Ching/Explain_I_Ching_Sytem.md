@@ -261,6 +261,45 @@ graph KingWenPairs {
 }
 ```
 
+
+![The_King_Wen_Sequence_A_Narrative_Arrangement](https://g.gravizo.com/source/svg/my_embedded_dot_diagram?https%3A%2F%2Fgithub.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Fblob%2Fmain%2FI_CHING%2FExplain_I_Ching%2FExplain_I_Ching_Sytem.md)
+
+<details>
+<summary>The King Wen Sequence (Embedded DOT diagram)</summary>
+
+my_embedded_dot_diagram
+/*
+ * title: The King Wen Sequence: A Narrative Arrangement
+ * author: Cong Le
+ * version: 1.0
+ * license(s): MIT, CC BY-SA 4.0
+ * copyright: Copyright © 2025 Cong Le. All Rights Reserved.
+ */
+graph KingWenPairs {
+  layout=neato;
+  node [shape=plaintext];
+  edge [style=dashed, color=gray];
+    
+  1 [label="1. ䷀\nQián"];
+  2 [label="2. ䷁\nKūn"];
+  3 [label="3. ䷂\nZhūn"];
+  4 [label="4. ䷃\nMéng"];
+  5 [label="5. ䷄\nXū"];
+  6 [label="6. ䷅\nSòng"];
+  7 [label="7. ䷆\nShī"];
+  8 [label="8. ䷇\nBǐ"];
+
+  // Pairs
+  1 -- 2 [label="Opposites"];
+  3 -- 4 [label="Inverses"];
+  5 -- 6 [label="Inverses"];
+  7 -- 8 [label="Inverses"];
+}
+my_embedded_dot_diagram
+</details>
+
+
+
 *   Hexagram 3 (䷂) flipped upside down becomes Hexagram 4 (䷃).
 *   Hexagram 1 (䷀) cannot be inverted, so its pair, Hexagram 2 (䷁), is formed by swapping all Yang lines for Yin lines.
 
