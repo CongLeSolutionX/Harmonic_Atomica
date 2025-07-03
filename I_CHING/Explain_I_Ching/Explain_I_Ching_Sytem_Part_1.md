@@ -23,7 +23,7 @@ image source: https://www.amazon.com/Ching-Hexagrams-Sequence-Educational-Poster
 -----
 
 
-# Explain I Ching System
+# Explain I Ching System - PART 1
 <details open>
 	
 <summary>Click to show/hide the full disclaimer.</summary>
