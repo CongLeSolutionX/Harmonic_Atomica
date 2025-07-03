@@ -23,14 +23,20 @@ source:
 -----
 
 
+
 > [!TIP]
-> Number 3: A Trigram, a building block from 3 lines
-> Number 6: A Hexagram form, is built from 2 trigrams stacked on each other  
-> Number 9: The Narrative Arc A Journey in 9 Scenes 
+> Number 3: A Trigram, a building block from 3 lines.
+> 
+> Number 6: A Hexagram form, is built from 2 trigrams stacked on each other.
+> 
+> Number 9: The Narrative Arc A Journey in 9 Scenes.
 >
-> The meaning of 3-6-9 is unlocked! 
-> Peace out, Tesla!
+> The meaning of 3-6-9 is unlocked! 🔓
+> 
+> ✌🏻 Peace out, Tesla!
 >
+> TBD
+> 
 
 
 ----
