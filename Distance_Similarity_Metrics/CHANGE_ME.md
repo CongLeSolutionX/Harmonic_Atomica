@@ -22,7 +22,7 @@ source:
 
 
 # CHANGE_ME
- <details open>
+<details open>
 	
 <summary>Click to show/hide the full disclaimer.</summary>
  
