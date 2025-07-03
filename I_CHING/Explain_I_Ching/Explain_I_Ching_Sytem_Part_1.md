@@ -242,24 +242,24 @@ Let's visualize this pairing for the first 8 hexagrams:
  * copyright: Copyright © 2025 Cong Le. All Rights Reserved.
  */
 graph KingWenPairs {
-    layout=dot;
-    node [shape=plaintext];
-    edge [style=dashed, color=gray];
+  layout=dot
+  node [shape=plaintext]
+  edge [style=dashed, color=gray]
     
-    1 [label="1. ䷀\nQián"];
-    2 [label="2. ䷁\nKūn"];
-    3 [label="3. ䷂\nZhūn"];
-    4 [label="4. ䷃\nMéng"];
-    5 [label="5. ䷄\nXū"];
-    6 [label="6. ䷅\nSòng"];
-    7 [label="7. ䷆\nShī"];
-    8 [label="8. ䷇\nBǐ"];
+  1 [label="1. ䷀\nQián"]
+  2 [label="2. ䷁\nKūn"]
+  3 [label="3. ䷂\nZhūn"]
+  4 [label="4. ䷃\nMéng"]
+  5 [label="5. ䷄\nXū"]
+  6 [label="6. ䷅\nSòng"]
+  7 [label="7. ䷆\nShī"]
+  8 [label="8. ䷇\nBǐ"]
 
-    // Pairs
-    1 -- 2 [label="Opposites"];
-    3 -- 4 [label="Inverses"];
-    5 -- 6 [label="Inverses"];
-    7 -- 8 [label="Inverses"];
+  // Pairs
+  1 -- 2 [label="Opposites"]
+  3 -- 4 [label="Inverses"]
+  5 -- 6 [label="Inverses"]
+  7 -- 8 [label="Inverses"]
 }
 ```
 
