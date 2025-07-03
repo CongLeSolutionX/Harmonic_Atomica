@@ -269,7 +269,7 @@ graph KingWenPairs {
 my_embedded_dot_diagram
 graph KingWenPairs {
   layout=dot
-  node [shape=plaintext];
+  node [shape=plaintext]
   edge [style=dashed, color=gray]
   1 [label="1. ䷀\nQián"]
   2 [label="2. ䷁\nKūn"]
