@@ -25,7 +25,7 @@ source:
 <details open>
 	
 <summary>Click to show/hide the full disclaimer.</summary>
-   
+ 
 > <ins>📢 **WARNING** 🚨</ins>
 > 
 > **About This Project**
@@ -39,8 +39,10 @@ source:
 > **Disclaimer**
 > - This is a personal project.
 > - Any user who shares, adapts, or builds upon this work is responsible for their own interpretations and applications.
-
-> ...and I'm actively looking for a job...
+>
+> This document contains my personal notes on the topic,
+> compiled from publicly available documentation and various cited sources.
+> The materials are intended for 👨‍🎓 <ins>educational purposes</ins> 👨‍🎓 (<ins>sometimes, entertainment purposes</ins>), 📖 <ins> personal study </ins> 📖, and 🔖 <ins> technical reference </ins> 🔖.
 
 > The content is dual-licensed:
 > 1. **MIT License:** Applies to all code implementations (Swift, Mermaid, and other programming languages).
