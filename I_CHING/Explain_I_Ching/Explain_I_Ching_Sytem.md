@@ -21,7 +21,7 @@ image source: https://www.amazon.com/Ching-Hexagrams-Sequence-Educational-Poster
 </div>
 
 
-# CHANGE_ME
+# Explain I Ching
 <details open>
 <summary>Click to show/hide the full disclaimer.</summary>
    
