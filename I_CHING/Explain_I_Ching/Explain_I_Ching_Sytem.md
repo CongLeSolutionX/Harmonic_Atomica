@@ -268,32 +268,22 @@ graph KingWenPairs {
 <summary>The King Wen Sequence (Embedded DOT diagram)</summary>
 
 my_embedded_dot_diagram
-/*
- * title: The King Wen Sequence: A Narrative Arrangement
- * author: Cong Le
- * version: 1.0
- * license(s): MIT, CC BY-SA 4.0
- * copyright: Copyright © 2025 Cong Le. All Rights Reserved.
- */
 graph KingWenPairs {
-  layout=dot;
+  layout=dot
   node [shape=plaintext];
-  edge [style=dashed, color=gray];
-    
-  1 [label="1. ䷀\nQián"];
-  2 [label="2. ䷁\nKūn"];
-  3 [label="3. ䷂\nZhūn"];
-  4 [label="4. ䷃\nMéng"];
-  5 [label="5. ䷄\nXū"];
-  6 [label="6. ䷅\nSòng"];
-  7 [label="7. ䷆\nShī"];
-  8 [label="8. ䷇\nBǐ"];
-
-  // Pairs
-  1 -- 2 [label="Opposites"];
-  3 -- 4 [label="Inverses"];
-  5 -- 6 [label="Inverses"];
-  7 -- 8 [label="Inverses"];
+  edge [style=dashed, color=gray]
+  1 [label="1. ䷀\nQián"]
+  2 [label="2. ䷁\nKūn"]
+  3 [label="3. ䷂\nZhūn"]
+  4 [label="4. ䷃\nMéng"]
+  5 [label="5. ䷄\nXū"]
+  6 [label="6. ䷅\nSòng"]
+  7 [label="7. ䷆\nShī"]
+  8 [label="8. ䷇\nBǐ"]
+  1 -- 2 [label="Opposites"]
+  3 -- 4 [label="Inverses"]
+  5 -- 6 [label="Inverses"]
+  7 -- 8 [label="Inverses"]
 }
 my_embedded_dot_diagram
 </details>
