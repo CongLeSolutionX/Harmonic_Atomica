@@ -1,17 +1,28 @@
 ---
-created: 2025-05-20 05:31:26
+created: 2025-06-30 05:31:26
 author: Cong Le
 version: "1.0"
 license(s): MIT, CC BY-SA 4.0
-copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
+copyright: Copyright © 2025 Cong Le. All Rights Reserved.
+source:
 ---
 
+<div align="center">
+  <p>⚠️🏗️🚧🦺🧱🪵🪨🪚🛠️👷</p>
+  <i>This is a working draft in progress.</i>
+  <br/>
+  <img alt="Loading…" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHJ4YXdtYjJpMDl0MzEwYmU4ZzBobG0waGNiN3MzNzR0d2R2NnMwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26gssNOlBJKjEM3yo/giphy.gif"/>
+  <br/>
+  <blockquote>
+	  <i>gif image is provided by <a href="https://giphy.com">Giphy</a></i>
+  </blockquote>
+  <p>⚠️🏗️🚧🦺🧱🪵🪨🪚🛠️👷</p>
 
-> This is a working draft in progress
+</div>
 
 
 # CHANGE_ME
-<details open>
+ <details open>
 	
 <summary>Click to show/hide the full disclaimer.</summary>
    
@@ -22,7 +33,7 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 > share my findings with anyone interested,</br>
 > and maintain a personal vault of my creative and technical journey.</br>
 > I'm not sure the link for this repo being shared in the back by others,</br>
-> since I havent planned for any analytics for this project yet.</br>
+> since I havent plan for any analytics for this project yet.</br>
 > ...and I'm actively looking for a job...</br>
 >
 > This document contains my personal notes on the topic,
@@ -37,22 +48,14 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 
 ----
 
-
 ## MAIN CONTENT - A Diagrammatic Guide 
 
 
----
-
-<!-- 
-```mermaid
-%% Current Mermaid version
-info
-```  -->
-
+----
 
 ```mermaid
 ---
-title: "CongLeSolutionX"
+title: "❓...CongLeSolutionX....❓"
 author: "Cong Le"
 version: "1.0"
 license(s): "MIT, CC BY-SA 4.0"
@@ -77,12 +80,18 @@ config:
   }
 }%%
 flowchart LR
-    My_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/MY_GRAPHIC_ASSETS/refs/heads/Designing_graphic_syntax/MY_MEME/My-meme-icon-design.png", label: "Ăn uống gì chưa ngừi đẹp?", pos: "b", w: 200, h: 150, constraint: "on" }
+  My_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/CongLeSolutionX/refs/heads/main/assets/images/My-meme-light-bulb-question-marks.png", label: "Ăn uống gì chưa ngừi đẹp?", pos: "b", w: 200, h: 150, constraint: "off" }
 
-    Closing_quote@{ shape: braces, label: "I'll leave this Earth empty-handed anyway!<br/>YOLO" }
+  Closing_quote@{ shape: braces, label: "...searching insights in the process of formulating better questions..." }
 
-My_Meme ~~~ Closing_quote
+  Closing_quote ~~~ My_Meme
+    
+  Link_to_my_profile{{"<a href='https://github.com/CongLeSolutionX' target='_blank'>Click here if you care about my profile</a>"}}
 
+  Closing_quote ~~~ My_Meme
+  My_Meme animatingEdge@--> Link_to_my_profile
+  
+  animatingEdge@{ animate: true }
 
 ```
 
@@ -90,6 +99,6 @@ My_Meme ~~~ Closing_quote
 >**Licenses:**
 >
 >- **MIT License:**  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) - Full text in [LICENSE](LICENSE) file.
->- **Creative Commons Attribution-ShareAlike 4.0 International**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) [![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/) - Legal details in [LICENSE-CC-BY-SA-4.0](LICENSE-CC-BY-SA-4.0) and at [Creative Commons official site](https://creativecommons.org/licenses/by-sa/4.0/).
+>- **Creative Commons Attribution-ShareAlike 4.0 International**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) [![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/) - Legal details in [LICENSE-CC-BY-SA-4.0](THE_PAST/LICENSE-CC-BY-SA-4.0) and at [Creative Commons official site](https://creativecommons.org/licenses/by-sa/4.0/).
 >
 ---

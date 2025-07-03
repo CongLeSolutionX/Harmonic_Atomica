@@ -9,16 +9,38 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 
 
 # Quantum Harmonic Atomic Model - Draft 4
-> **Disclaimer:**
->
+<details open>
+	
+<summary>Click to show/hide the full disclaimer.</summary>
+ 
+> <ins>📢 **WARNING** 🚨</ins>
+ 
+> **About This Project**
+> - This repository documents my ongoing exploration at the intersection of digital art and artificial intelligence.
+
+> **Purpose**
+> - To publicly document academic research.
+> - To share findings with the community.
+> - To maintain a personal portfolio of creative and technical work.
+
+> **Disclaimer**
+> - This is a personal project.
+> - Any user who shares, adapts, or builds upon this work is responsible for their own interpretations and applications.
+
 > This document contains my personal notes on the topic,
 > compiled from publicly available documentation and various cited sources.
-> The materials are intended for educational purposes, personal study, and reference.
+> The materials are intended for 👨‍🎓 <ins>educational purposes</ins> 👨‍🎓 (<ins>sometimes, entertainment purposes</ins>), 📖 <ins> personal study </ins> 📖, and 🔖 <ins> technical reference </ins> 🔖.
+
 > The content is dual-licensed:
 > 1. **MIT License:** Applies to all code implementations (Swift, Mermaid, and other programming languages).
-> 2. **Creative Commons Attribution 4.0 International License (CC BY 4.0):** Applies to all non-code content, including text, explanations, diagrams, and illustrations.
----
+> 2. **Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0):** Applies to all non-code content, including text, explanations, diagrams, and illustrations.
 
+> ... and I'm still searching for a real job now.
+
+</details>
+
+
+----
 
 
 ## 1. Core Conceptual Map: The Harmonic Atom Model
@@ -163,6 +185,7 @@ digraph HexagramAtom {
 
 
 **Explanation:** This Graphviz diagram attempts to visualize the core geometric idea. The downward triangle represents the s-orbital, and the three upward triangles conceptually represent the 3 p-orbitals structured together. The dashed lines indicate the conceptual formation of the hexagram/tetrahedral unit. Labels and notes emphasize that this is a proposed geometric mapping and a potential "basic cell" in a larger structure. Position (`pos`) attributes are used to attempt a hexagram-like layout, though precise geometric fidelity in DOT is limited.
+
 
 ---
 
@@ -356,6 +379,7 @@ digraph ChromaticDualRing {
 ---
 
 
+
 ### The Chromatic Dual Ring and Phi-Damping Concept
 
 ![Graphviz Diagram: Embedded DOT 4](https://g.gravizo.com/source/svg/my_embedded_dot_4?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
@@ -524,11 +548,11 @@ flowchart LR
 The atom is reframed as a **musical mandala**: harmonic lattices, animated by quantum numbers, sifting frequencies through sacred ratios, manifesting as the beauty of both a DNA helix and a cathedral dome. Physics, music, and geometry are revealed as facets of the same universal resonance.
 
 
-<!-- ![Quantum_Harmonic_Atomic_Model_Draft_4](./ASSETS/Quantum_Harmonic_Atomic_Model_Draft_4.png) -->
+![Quantum_Harmonic_Atomic_Model_Draft_4](./ASSETS/Quantum_Harmonic_Atomic_Model_Draft_4.png)
 
-
+<!-- 
 ![Atom as musical universal resonance](https://upload.wikimedia.org/wikipedia/commons/7/75/Atom_as_musical_universal_resonance_-_illustration_4.png "Atom as musical universal resonance")
-
+-->
 
 
 
