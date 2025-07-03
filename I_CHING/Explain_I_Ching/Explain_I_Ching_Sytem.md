@@ -266,7 +266,6 @@ graph KingWenPairs {
 
 <details>
 <summary>The King Wen Sequence (Embedded DOT diagram)</summary>
-
 my_embedded_dot_diagram
 graph KingWenPairs {
   layout=dot
