@@ -80,7 +80,10 @@ First, thoroughly review all previous responses to build comprehensive context a
 ![Dragon_2](./GENERATED_IMAGES/Dragon_2.png)
 > Traditional Chinese ink painting (shui-mo), 1792x1024. A majestic dragon is faintly visible, entwined in murky waters, its form emerging subtly from swirling strokes of black and grey. Only hints of white on its scales and faded bubbles indicate its presence. Above, minimal light filters down, emphasizing the dragon's concealment and the tranquility of the scene. The composition expresses patience, wisdom, and enormous power held in reserve.
 
- 
+
+![Dragon_3](./GENERATED_IMAGES/Dragon_3.png)
+> Fantasy digital illustration, 1792x1024. Deep in a bioluminescent cavern beneath the ocean, a massive dragon sleeps, wrapped around glowing crystals and ancient ruins. Its powerful shape is partially obscured by shadowy water, with only the edge of its face and claws illuminated by soft, blue-green lights. The environment is richly textured with mysterious plants and drifting light, capturing the hidden, vast potential of the slumbering dragon.
+
 ----
 
 
