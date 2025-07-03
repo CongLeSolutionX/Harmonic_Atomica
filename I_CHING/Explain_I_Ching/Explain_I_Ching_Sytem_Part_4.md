@@ -74,7 +74,7 @@ First, thoroughly review all previous responses to build comprehensive context a
 
 ![Dragon_1](./GENERATED_IMAGES/Dragon_1.png)
 
-> Photo-realistic underwater scene, 1792x1024. In the silent, dark blue depths of a vast abyss, a colossal dragon lies coiled and at rest. Its immense body is mostly shadowed, with only a few brilliant, iridescent scales catching faint beams of ligh…
+> Photo-realistic underwater scene, 1792x1024. In the silent, dark blue depths of a vast abyss, a colossal dragon lies coiled and at rest. Its immense body is mostly shadowed, with only a few brilliant, iridescent scales catching faint beams of light filtering down from far above. The water around the dragon is perfectly still, filled with a sense of latent power and mystical silence. Lush underwater flora and floating silt suggest ancient seclusion.
 
 ----
 
