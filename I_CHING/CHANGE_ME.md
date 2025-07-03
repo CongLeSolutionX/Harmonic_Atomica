@@ -27,7 +27,7 @@ source:
 <summary>Click to show/hide the full disclaimer.</summary>
  
 > <ins>📢 **WARNING** 🚨</ins>
-> 
+ 
 > **About This Project**
 > - This repository documents my ongoing exploration at the intersection of digital art and artificial intelligence.
 
