@@ -240,7 +240,7 @@ Let's visualize this pairing for the first 8 hexagrams:
  * copyright: Copyright © 2025 Cong Le. All Rights Reserved.
  */
 graph KingWenPairs {
-    layout=neato;
+    layout=dot;
     node [shape=plaintext];
     edge [style=dashed, color=gray];
     
@@ -276,7 +276,7 @@ my_embedded_dot_diagram
  * copyright: Copyright © 2025 Cong Le. All Rights Reserved.
  */
 graph KingWenPairs {
-  layout=neato;
+  layout=dot;
   node [shape=plaintext];
   edge [style=dashed, color=gray];
     
