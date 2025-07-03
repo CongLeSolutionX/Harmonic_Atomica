@@ -110,6 +110,7 @@ license(s): "MIT, CC BY 4.0"
 copyright: "Copyright © 2025 Cong Le. All Rights Reserved."
 config:
   theme: base
+  look: handDrawn
 ---
 %%{
   init: {
@@ -127,15 +128,16 @@ config:
   }
 }%%
 flowchart TD
-    subgraph "Trigram Composition"
-        L1(Line 1 - Bottom) --> T((Trigram));
-        L2(Line 2 - Middle) --> T;
-        L3(Line 3 - Top) --> T;
+    subgraph Trigram_Composition["Trigram Composition"]
+    style Trigram_Composition fill:#22F2,stroke:#333,stroke-width:1px, color: #FFFF
+        L1("Line 1 - Bottom") --> T(("Trigram"))
+        L2("Line 2 - Middle") --> T
+        L3("Line 3 - Top") --> T
     end
     
-    style L1 fill:#f9f2, stroke:#333, stroke-width:2px;
-    style L2 fill:#f9f2, stroke:#333, stroke-width:2px;
-    style L3 fill:#f9f2, stroke:#333, stroke-width:2px;
+    style L1 fill:#f9f2, stroke:#333, stroke-width:2px
+    style L2 fill:#f9f2, stroke:#333, stroke-width:2px
+    style L3 fill:#f9f2, stroke:#333, stroke-width:2px
 ```
 
 Here are the eight trigrams, which form the vocabulary for the 64 hexagrams.
