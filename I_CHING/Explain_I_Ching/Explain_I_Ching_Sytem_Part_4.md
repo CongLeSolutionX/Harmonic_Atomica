@@ -22,7 +22,7 @@ source:
 
 -----
 
-# Explain I Ching System - PART 3
+# Explain I Ching System - PART 4
 
 <details open>
 	
@@ -76,6 +76,11 @@ First, thoroughly review all previous responses to build comprehensive context a
 
 > Photo-realistic underwater scene, 1792x1024. In the silent, dark blue depths of a vast abyss, a colossal dragon lies coiled and at rest. Its immense body is mostly shadowed, with only a few brilliant, iridescent scales catching faint beams of light filtering down from far above. The water around the dragon is perfectly still, filled with a sense of latent power and mystical silence. Lush underwater flora and floating silt suggest ancient seclusion.
 
+
+![Dragon_2](./GENERATED_IMAGES/Dragon_2.png)
+> Traditional Chinese ink painting (shui-mo), 1792x1024. A majestic dragon is faintly visible, entwined in murky waters, its form emerging subtly from swirling strokes of black and grey. Only hints of white on its scales and faded bubbles indicate its presence. Above, minimal light filters down, emphasizing the dragon's concealment and the tranquility of the scene. The composition expresses patience, wisdom, and enormous power held in reserve.
+
+ 
 ----
 
 
