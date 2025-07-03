@@ -29,51 +29,50 @@ Sacred Geometry refers to the belief system that attributes symbolic and sacred 
 title: "The Blueprint of Existence?"
 author: "Cong Le"
 version: "1.0"
-license(s): "MIT, CC BY 4.0"
+license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
+  theme: base
 ---
+%%%%%%%% Mermaid version v11.4.1-b.14
 %%{
   init: {
-    'theme': 'base',
-    'fontFamily': 'Luminari',
+    'fontFamily': 'Luminari, monospace',
+    'logLevel': 'fatal',
     'mindmap': {
-      'padding': 20,
-      'levelColors': ['#87CEEB', '#98FB98', '#FFDAB9', '#FFB6C1']
+	    'nodeAlign': 'center',
+	    'padding': 20
     },
     'themeVariables': {
-      'primaryColor': '#FDB9',
+      'primaryColor': '#FC82',
       'primaryTextColor': '#F8B229',
-      'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
-      'secondaryColor': '#EBDEF0',
+      'secondaryColor': '#EBF3',
       'secondaryTextColor': '#6C3483',
       'secondaryBorderColor': '#A569BD',
-      'fontSize': '20px',
-      'clusterBkg': '#f2a3'
+      'fontSize': '20px'
     }
   }
 }%%
-%%%%%%%% Mermaid version v11.4.1-b.14
 mindmap
-    root((Sacred Geometry))
-        Core_Idea(("Core Idea"))
+    root)"Sacred Geometry"(
+        Core_Idea))"Core Idea"((
             Geometry encodes fundamental truths
             Underlying order of the Universe
             Connection between physical & spiritual
-        Key_Elements(("Key Elements"))
-            Geometric_Shapes["Geometric Shapes<br/>(Platonic Solids, Flower of Life...)"]
-            Mathematical_Proportions["Mathematical Proportions<br/>(Golden Ratio...)"]
-            Symbols_and_Meanings["Symbols & Meanings"]
-        Manifestations(("Manifestations"))
-            Nature["Nature<br/>(crystals, plants, shells)"]
-            Art_and_Architecture["Art & Architecture<br/>(temples, mandalas)"]
-            Music_and_Harmony["Music & Harmony"]
-            Cosmology_and_Spirituality["Cosmology &<br/> Spirituality"]
-        Scope(("Scope"))
-            Cross-cultural
-            Historical_roots["Historical roots<br/>(Ancient Egypt, Greece...)"]
-            Modern_interpretations["Modern interpretations<br/>(New Age, Design)"]
+        Key_Elements))"Key Elements"((
+            Geometric_Shapes{{"Geometric Shapes<br/>(Platonic Solids, Flower of Life...)"}}
+            Mathematical_Proportions{{"Mathematical Proportions<br/>(Golden Ratio...)"}}
+            Symbols_and_Meanings{{"Symbols & Meanings"}}
+        Manifestations))"Manifestations"((
+            Nature{{"Nature<br/>(crystals, plants, shells)"}}
+            Art_and_Architecture{{"Art & Architecture<br/>(temples, mandalas)"}}
+            Music_and_Harmony{{"Music & Harmony"}}
+            Cosmology_and_Spirituality{{"Cosmology &<br/> Spirituality"}}
+        Scope))"Scope"((
+            Cross_cultural{{"Cross-cultural"}}
+            Historical_roots{{"Historical roots<br/>(Ancient Egypt, Greece...)"}}
+            Modern_interpretations{{"Modern interpretations<br/>(New Age, Design)"}}
 
 ```
 
@@ -95,37 +94,42 @@ The principles associated with Sacred Geometry are ancient, appearing independen
 title: "Historical and Cultural Roots"
 author: "Cong Le"
 version: "1.0"
-license(s): "MIT, CC BY 4.0"
+license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
   theme: base
+  look: handDrawn
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
 %% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
 %%{
   init: {
-    'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
-    'fontFamily': 'Luminari',
+    'flowchart': { 'htmlLabels': true, 'curve': 'basis' },
+    'fontFamily': 'American Typewriter, monospace',
+    'logLevel': 'fatal',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
+      'primaryColor': '#22BB',
       'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
-      'secondaryColor': '#EBDEF0',
+      'secondaryColor': '#E2F1',
       'secondaryTextColor': '#6C3483',
       'secondaryBorderColor': '#A569BD',
-      'fontSize': '18px'
+      'fontSize': '20px'
     }
   }
 }%%
 flowchart TD
     subgraph Ancient_Roots["Ancient Roots"]
+    style Ancient_Roots fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
         A["Ancient Egypt <br/> (Pyramids, Proportions)"] --> B("Pythagoras <br/> 'All is Number'")
         B --> C("Plato <br/> (Timaeus, Platonic Solids)")
     end
+
     subgraph Cultural_Manifestations["Cultural Manifestations"]
+    style Cultural_Manifestations fill:#F222,stroke:#333,stroke-width:1px, color: #FFFF
         C --> D{"Spread &<br/> Integration"}
         D --> E["Islamic Art/Architecture <br/> (Geometric Patterns)"]
         D --> F["Gothic Cathedrals <br/> (Proportion, Light)"]
@@ -134,6 +138,7 @@ flowchart TD
         D --> I["Indigenous Symbols <br/> (Medicine Wheels, Labyrinths)"]
     end
     subgraph Modern_Era["Modern Era"]
+    style Modern_Era fill:#BB22,stroke:#333,stroke-width:1px, color: #FFFF
         I & E & F & G & H --> J["Modern Interpretations <br/> (New Age, Design, Art)"]
     end
 
@@ -174,63 +179,66 @@ They are considered fundamental building blocks, symbolizing the underlying stru
 title: "Key Geometric Forms and Symbols - The Platonic Solids"
 author: "Cong Le"
 version: "1.0"
-license(s): "MIT, CC BY 4.0"
+license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
   theme: base
+  look: handDrawn
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
 %% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
 %%{
   init: {
-    'flowchart': { 'htmlLabels': false, 'curve': 'basis' },
-    'fontFamily': 'Luminari',
+    'flowchart': { 'htmlLabels': true, 'curve': 'basis' },
+    'fontFamily': 'American Typewriter, monospace',
+    'logLevel': 'fatal',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
+      'primaryColor': '#22BB',
       'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
-      'secondaryColor': '#EBDEF0',
+      'secondaryColor': '#E2F1',
       'secondaryTextColor': '#6C3483',
       'secondaryBorderColor': '#A569BD',
-      'fontSize': '18px'
+      'fontSize': '20px'
     }
   }
 }%%
 flowchart LR
     subgraph Platonic_Solids["Platonic Solids<br/>(Regular Convex Polyhedra)"]
-        PS(("Shapes")) --> T("Tetrahedron <br/> 4 Triangles <br/>Fire<br/>🔥")
-        T --> T_Expansion
-        T_Expansion@{ shape: tri, label: "4<br/>Triangle" }
+    style Platonic_Solids fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
+      PS(("Shapes")) --> T("Tetrahedron <br/>Fire<br/>🔥")
+      T --> T_Expansion
+      T_Expansion@{ shape: tri, label: "4<br/>Triangles" }
 
-
-        PS --> H("Hexahedron <br/> 6 Squares <br/>Earth<br/>🌎")
-        H --> H_Expansion
-        H_Expansion["6<br/>Squares"]
+      PS --> H("Hexahedron <br/>Earth<br/>🌎")
+      H --> H_Expansion
+      H_Expansion["6<br/>Squares"]
         
-        PS --> O("Octahedron <br/> 8 Triangles <br/> Air<br/>🌬️")
-        O --> O_Expansion
-        O_Expansion@{ shape: tri, label: "8<br/>Triangle" }
+      PS --> O("Octahedron<br/> Air<br/>🌬️")
+      O --> O_Expansion
+      O_Expansion@{ shape: tri, label: "8<br/>Triangles" }
         
-        PS --> D("Dodecahedron <br/> 12 Pentagons <br/> Aether<br/>✡")
-		D --> D_Expansion
-		D_Expansion@{ shape: notch-pent, label: "12<br/>Pentagons" }
-        
-        PS --> I("Icosahedron <br/> 20 Triangles <br/> Water<br/>🌊")
-		I --> I_Expansion
-        I_Expansion@{ shape: tri, label: "20<br/>Triangle" }
+      PS --> D("Dodecahedron <br/> Aether<br/>✡")
+		  D --> D_Expansion
+		  D_Expansion@{ shape: notch-pent, label: "12<br/>Pentagons" }
 
-
-
+      PS --> I("Icosahedron<br/> Water<br/>🌊")
+		  I --> I_Expansion
+      I_Expansion@{ shape: tri, label: "20<br/>Triangles" }
     end
+
     subgraph Properties["Properties"]
+    style Properties fill:#F222,stroke:#333,stroke-width:1px, color: #FFFF
         Prop["Key Properties"] --> Prop1("All faces congruent regular polygons")
         Prop --> Prop2("Same number of faces meet at each vertex")
         Prop --> Prop3("Finite:<br/> Only 5 exist")
     end
+
     subgraph Symbolism["Symbolism"]
+    style Symbolism fill:#BB22,stroke:#333,stroke-width:1px, color: #FFFF
         Sym["Symbolic Meaning"] --> Sym1("Fundamental building blocks")
         Sym --> Sym2("Structure of matter/universe")
         Sym --> Sym3("Correspondence with elements")
@@ -258,28 +266,30 @@ This is a geometric figure composed of multiple evenly-spaced, overlapping circl
 title: "Key Geometric Forms and Symbols - The Flower of Life"
 author: "Cong Le"
 version: "1.0"
-license(s): "MIT, CC BY 4.0"
+license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
   theme: base
+  look: handDrawn
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
 %% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
 %%{
   init: {
-    'flowchart': { 'htmlLabels': false, 'curve': 'basis' },
-    'fontFamily': 'Luminari',
+    'flowchart': { 'htmlLabels': true, 'curve': 'basis' },
+    'fontFamily': 'American Typewriter, monospace',
+    'logLevel': 'fatal',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
+      'primaryColor': '#22BB',
       'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
-      'secondaryColor': '#EBDEF0',
+      'secondaryColor': '#E2F1',
       'secondaryTextColor': '#6C3483',
       'secondaryBorderColor': '#A569BD',
-      'fontSize': '18px'
+      'fontSize': '20px'
     }
   }
 }%%
@@ -341,39 +351,41 @@ flowchart TD
 title: "Combined all the geometries - WIP"
 author: "Cong Le"
 version: "1.0"
-license(s): "MIT, CC BY 4.0"
+license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
   theme: base
+  look: handDrawn
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
 %% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
 %%{
   init: {
-    'flowchart': { 'htmlLabels': false, 'curve': 'basis' },
-    'fontFamily': 'Luminari',
+    'flowchart': { 'htmlLabels': true, 'curve': 'basis' },
+    'fontFamily': 'American Typewriter, monospace',
+    'logLevel': 'fatal',
     'themeVariables': {
-      'primaryColor': '#D5F5E3',
+      'primaryColor': '#22BB',
       'primaryTextColor': '#F8B229',
       'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
-      'secondaryColor': '#EBDEF0',
+      'secondaryColor': '#E2F1',
       'secondaryTextColor': '#6C3483',
       'secondaryBorderColor': '#A569BD',
-      'fontSize': '18px'
+      'fontSize': '20px'
     }
   }
 }%%
 flowchart TD
 	A_0@{ shape: f-circ, label: "The Initial Beginning" }
-    Vesica_Piscis("Vesica Piscis<br/>⚭")
-    Seed_of_Life(("Seed of Life<br/>⚛"))
-    Flower_of_Life(("Flower of Life<br/>𑁍"))
-    Fruit_of_Life(("Fruit of Life<br/>𓇢"))
-    Metatron_Cube(("Metatron's Cube<br/>💠<br/>Lines connecting Fruit of Life centers"))
-    Platonic_Solids["Platonic Solids"]
+  Vesica_Piscis("Vesica Piscis<br/>⚭")
+  Seed_of_Life(("Seed of Life<br/>⚛"))
+  Flower_of_Life(("Flower of Life<br/>𑁍"))
+  Fruit_of_Life(("Fruit of Life<br/>𓇢"))
+  Metatron_Cube(("Metatron's Cube<br/>💠<br/>Lines connecting Fruit of Life centers"))
+  Platonic_Solids["Platonic Solids"]
 
 	A_0 --> Vesica_Piscis
 	Vesica_Piscis --> Seed_of_Life
@@ -383,56 +395,57 @@ flowchart TD
 	Seed_of_Life --> Seed_of_Life_Expansion
 	Seed_of_Life_Expansion@{ shape: dbl-circ, label: "7 overlapping circles" }
 	
-    Seed_of_Life --> Flower_of_Life
+  Seed_of_Life --> Flower_of_Life
 
 	Flower_of_Life --> Flower_of_Life_Expansion
 	Flower_of_Life_Expansion@{ shape: dbl-circ, label: "Expanded overlapping pattern" }
-    
-    Flower_of_Life --> Fruit_of_Life
+
+  Flower_of_Life --> Fruit_of_Life
 	Fruit_of_Life --> Fruit_of_Life_Expansion
 	Fruit_of_Life_Expansion@{ shape: dbl-circ, label: "13 circles from Flower" }
 	
-    Fruit_of_Life -- contains --> Metatron_Cube
+  Fruit_of_Life -- contains --> Metatron_Cube
 
 	Metatron_Cube --> Metatron_Cube_Expansion
 	Metatron_Cube_Expansion@{ shape: fork, label: "Lines connecting Fruit of Life centers" }
 
-    Metatron_Cube -- Contains --> Platonic_Solids
+  Metatron_Cube -- Contains --> Platonic_Solids
 
 	Platonic_Solids --> Platonic_Solids_Expansion
 	Platonic_Solids_Expansion@{ shape: processes, label: "Collection of Platonic Solids" }
 
-    style Vesica_Piscis fill:#343,stroke:#333,stroke-width:2px
-    style Seed_of_Life fill:#434,stroke:#333,stroke-width:2px
-    style Flower_of_Life fill:#545,stroke:#333,stroke-width:2px
-    style Fruit_of_Life fill:#454,stroke:#333,stroke-width:2px
-    style Metatron_Cube fill:#353,stroke:#333,stroke-width:2px
-    style Platonic_Solids fill:#666,stroke:#333,stroke-width:2px
+  style Vesica_Piscis fill:#343,stroke:#333,stroke-width:2px
+  style Seed_of_Life fill:#434,stroke:#333,stroke-width:2px
+  style Flower_of_Life fill:#545,stroke:#333,stroke-width:2px
+  style Fruit_of_Life fill:#454,stroke:#333,stroke-width:2px
+  style Metatron_Cube fill:#353,stroke:#333,stroke-width:2px
+  style Platonic_Solids fill:#666,stroke:#333,stroke-width:2px
 
 	%%%%%%%%%% Platonic Solids Section %%%%%%%%%%
 	%% Platonic_Solids_Expansion --> Platonic_Solids 
 
     subgraph Platonic_Solids["Platonic Solids<br/>(Regular Convex Polyhedra)"]
-        PS(("Shapes")) --> Tetrahedron("Tetrahedron <br/> 4 Triangles <br/>Fire<br/>🔥")
+    style Platonic_Solids fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
+        PS(("Shapes")) --> Tetrahedron("Tetrahedron <br/>Fire<br/>🔥")
         Tetrahedron --> Tetrahedron_Expansion
-        Tetrahedron_Expansion@{ shape: tri, label: "4<br/>Triangle" }
+        Tetrahedron_Expansion@{ shape: tri, label: "4<br/>Triangles" }
 
 
-        PS --> Hexahedron("Hexahedron <br/> 6 Squares <br/>Earth<br/>🌎")
+        PS --> Hexahedron("Hexahedron<br/>Earth<br/>🌎")
         Hexahedron --> Hexahedron_Expansion
         Hexahedron_Expansion["6<br/>Squares"]
         
-        PS --> Octahedron("Octahedron <br/> 8 Triangles <br/> Air<br/>🌬️")
+        PS --> Octahedron("Octahedron <br/> Air<br/>🌬️")
         Octahedron --> Octahedron_Expansion
-        Octahedron_Expansion@{ shape: tri, label: "8<br/>Triangle" }
+        Octahedron_Expansion@{ shape: tri, label: "8<br/>Triangles" }
         
-        PS --> Dodecahedron("Dodecahedron <br/> 12 Pentagons <br/> Aether<br/>✡")
+        PS --> Dodecahedron("Dodecahedron<br/> Aether<br/>✡")
 		Dodecahedron --> Dodecahedron_Expansion
 		Dodecahedron_Expansion@{ shape: notch-pent, label: "12<br/>Pentagons" }
         
-        PS --> Icosahedron("Icosahedron <br/> 20 Triangles <br/> Water<br/>🌊")
+        PS --> Icosahedron("Icosahedron<br/> Water<br/>🌊")
 		Icosahedron --> Icosahedron_Expansion
-        Icosahedron_Expansion@{ shape: tri, label: "20<br/>Triangle" }
+        Icosahedron_Expansion@{ shape: tri, label: "20<br/>Triangles" }
         
     end
 
@@ -507,72 +520,71 @@ Sacred Geometry offers a lens through which to view the world as an ordered, int
 title: "Sacred Geometry Synthesis"
 author: "Cong Le"
 version: "1.0"
-license(s): "MIT, CC BY 4.0"
+license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
+  theme: base
 ---
+%%%%%%%% Mermaid version v11.4.1-b.14
 %%{
   init: {
-    'theme': 'base',
-    'fontFamily': 'Luminari',
+    'fontFamily': 'American Typewriter, monospace',
+    'logLevel': 'fatal',
     'mindmap': {
-      'padding': 20,
-      'levelColors': ['#87CEEB', '#98FB98', '#FFDAB9', '#FFB6C1']
+	    'nodeAlign': 'center',
+	    'padding': 20
     },
     'themeVariables': {
-      'primaryColor': '#FDB9',
+      'primaryColor': '#FC82',
       'primaryTextColor': '#F8B229',
-      'lineColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
-      'secondaryColor': '#EBDEF0',
+      'secondaryColor': '#EBF3',
       'secondaryTextColor': '#6C3483',
       'secondaryBorderColor': '#A569BD',
-      'fontSize': '20px',
-      'clusterBkg': '#f2a3'
+      'fontSize': '20px'
     }
   }
 }%%
-%%%%%%%% Mermaid version v11.4.1-b.14
 mindmap
-    root(("Sacred Geometry Synthesis"))
-        Definition(("Definition"))
+    root)"Sacred Geometry Synthesis"(
+        Definition))"Definition"((
             Attributing sacred meaning to geometric forms & proportions
             Belief in geometry as universal blueprint
-        Historical_Context(("Historical Context"))
+        Historical_Context))"Historical Context"((
             Ancient_Egypt_Greece["Ancient Egypt, Greece<br/>(Pythagoras, Plato)"]
             Islamic Art, Gothic Cathedrals, Renaissance
             Indigenous_traditions["Indigenous traditions<br/>(Mandalas, etc.)"]
-        Key_Forms_and_Symbols(("Key Forms & Symbols"))
-            Platonic_Solids["Platonic Solids<br/>(5 Elements)"]
+        Key_Forms_and_Symbols))"Key Forms & Symbols"((
+            Platonic_Solids{{"Platonic Solids<br/>(5 Elements)"}}
                 Tetrahedron["Tetrahedron<br/>🔥"]
                 Hexahedron["Hexahedron<br/>(Cube)<br/>🌎"]
                 Octahedron["Octahedron<br/>🌬️"]
                 Dodecahedron["Dodecahedron<br/>✡"]
                 Icosahedron["Icosahedron <br/>🌊"]
-            Flower_of_Life_complex["Flower of Life complex"]
-	            Vesica Piscis
-	            Seed
-	            Flower
-	            Fruit
-	            Metatron_Cube["Metatron's Cube"]
-                Related_Patterns["Related Patterns"]
-                    Spiral
-                    Torus
-                    Basic Shapes
-                    Labyrinths
-                    Mandalas
-        Core_Principles(("Core Principles"))
+            Flower_of_Life_complex{{"Flower of Life complex"}}
+	            Vesica_Piscis("Vesica Piscis")
+	            Seed("Seed")
+	            Flower("Flower")
+	            Fruit("Fruit")
+	            Metatron_Cube("Metatron's Cube")
+                Related_Patterns("Related Patterns")
+                    Spiral("Spiral")
+                    Torus("Torus")
+                    Basic_Shapes("Basic Shapes")
+                    Labyrinths("Labyrinths")
+                    Mandalas("Mandalas")
+        Core_Principles))"Core Principles"((
             Golden_Ratio["Golden Ratio<br/>(<0xF0><0x9D><0x91><0x99> ≈ 1.618)"]
             Fibonacci_Sequence["Fibonacci Sequence"]
             Fractals["Fractals<br/>(Self-similarity, Infinity)"]
             Harmony_and_Resonance["Harmony & Resonance<br/>(Music of Spheres)"]
-        Applications_and_Beliefs(("Applications &<br/> Beliefs"))
+        Applications_and_Beliefs))"Applications &<br/> Beliefs"((
             Architecture["Architecture<br/>(Sacred Spaces)"]
             Art["Art<br/>(Symbolism, Meditation)"]
             Spirituality["Spirituality<br/>(Cosmology, Energy Fields)"]
             Design["Design<br/>(Aesthetics, Harmony)"]
             Alternative_Healing["Alternative Healing<br/>(Controversial)"]
-        Modern_View_and_Critique(("Modern View & Critique"))
+        Modern_View_and_Critique))"Modern View & Critique"((
             Cultural_Historical_Significance["Cultural/Historical Significance"]
             Mathematical_elegance_vs_Metaphysical_claims(("Mathematical elegance vs. Metaphysical claims"))
             Lack_of_Scientific_Validation["Lack of Scientific Validation for esoteric aspects"]
@@ -581,11 +593,62 @@ mindmap
 
 ```
 
+---
+
+<!-- 
+```mermaid
+%% Current Mermaid version
+info
+```  -->
+
+
+
+```mermaid
+---
+title: "CongLeSolutionX"
+author: "Cong Le"
+version: "1.0"
+license(s): "MIT, CC BY 4.0"
+copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
+config:
+  theme: base
+---
+%%%%%%%% Mermaid version v11.4.1-b.14
+%%{
+  init: {
+    'flowchart': { 'htmlLabels': false },
+    'fontFamily': 'Bradley Hand',
+    'themeVariables': {
+      'primaryColor': '#fc82',
+      'primaryTextColor': '#F8B229',
+      'primaryBorderColor': '#27AE60',
+      'secondaryColor': '#81c784',
+      'secondaryTextColor': '#6C3483',
+      'lineColor': '#F8B229',
+      'fontSize': '20px'
+    }
+  }
+}%%
+flowchart LR
+    My_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/MY_GRAPHIC_ASSETS/refs/heads/main/MY_MEME/My-meme-ideas.png", label: "Ăn uống gì chưa ngừi đẹp?", pos: "b", w: 200, h: 150, constraint: "off" }
+
+    Closing_quote@{ shape: braces, label: "With the right context,<br/>theory become reality" }
+
+    Link_to_my_profile{{"<a href='https://github.com/CongLeSolutionX/CongLeSolutionX' target='_blank'>Click here if you care about my profile</a>"}}
+
+Closing_quote ~~~ My_Meme
+My_Meme animatingEdge@--> Link_to_my_profile
+animatingEdge@{ animate: true }
+
+
+```
+
 
 ---
-**Licenses:**
-
-- **MIT License:**  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) - Full text in [LICENSE](LICENSE) file.
-- **Creative Commons Attribution 4.0 International:** [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](LICENSE-CC-BY) - Legal details in [LICENSE-CC-BY](LICENSE-CC-BY) and at [Creative Commons official site](http://creativecommons.org/licenses/by/4.0/).
+>
+>**Licenses:**
+>
+>- **MIT License:**  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) - Full text in [LICENSE](LICENSE) file.
+>- **Creative Commons Attribution 4.0 International:** [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](LICENSE-CC-BY) - Legal details in [LICENSE-CC-BY](LICENSE-CC-BY) and at [Creative Commons official site](http://creativecommons.org/licenses/by/4.0/).
 
 ---

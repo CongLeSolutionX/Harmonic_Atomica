@@ -164,6 +164,60 @@ digraph HexagramAtom {
 
 **Explanation:** This Graphviz diagram attempts to visualize the core geometric idea. The downward triangle represents the s-orbital, and the three upward triangles conceptually represent the 3 p-orbitals structured together. The dashed lines indicate the conceptual formation of the hexagram/tetrahedral unit. Labels and notes emphasize that this is a proposed geometric mapping and a potential "basic cell" in a larger structure. Position (`pos`) attributes are used to attempt a hexagram-like layout, though precise geometric fidelity in DOT is limited.
 
+
+---
+
+### Atomic Geometric Structure: The S-P Hexagram Unit
+
+![Atomic Geometric Structure: The S-P Hexagram Unit: Embedded DOT 2](https://g.gravizo.com/source/svg/my_embedded_dot_2?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
+
+<details>
+<summary>View Graphviz DOT Source (Embedded DOT 2)</summary>
+my_embedded_dot_2
+digraph HexagramAtom {
+  rankdir=TB
+  graph [fontsize=12]
+  node [shape=triangle, style=filled, fillcolor=lightblue, width=1]
+  edge [color=gray]
+
+  subgraph cluster_Structure {
+    style=filled
+    color=lightgrey
+    label="Proposed Atomic Unit Geometry"
+
+    s_orbital [label="s-Orbital\n(Central, Stillness)", shape=invtriangle, fillcolor=gold, pos="0,0!"]
+
+    p_px [label="p-Orbital (px)\n(Spatial, Orthogonal)", pos="-1,-1.5!"]
+    p_py [label="p-Orbital (py)\n(Spatial, Orthogonal)", pos="1,-1.5!"]
+    p_pz [label="p-Orbital (pz)\n(Spatial, Orthogonal)", pos="0,1.5!"] // Using z conceptually here for 3D hint
+
+    s_orbital -> p_px [label="Extension?"]
+    s_orbital -> p_py [label="Extension?"]
+    s_orbital -> p_pz [label="Extension?"]
+
+    p_px -> p_py [style=dashed, label="Relation?"]
+    p_py -> p_pz [style=dashed, label="Relation?"]
+    p_pz -> p_px [style=dashed, label="Relation?"]
+  }
+
+   note_hex [shape=note, label="Represents S + P Interaction\nDynamic Symmetry, Equilibrium", pos="2,0!"]
+   note_lattice [shape=note, label="Conceptual Cell\nIn Larger Crystalline Field", pos="-2,0!"]
+
+   s_orbital -> note_lattice [style=invis]; // Invisible edge for layout
+   note_hex -> s_orbital [style=invis]; // Invisible edge for layout
+
+  label = "\nProposed Atomic S-P Geometric Unit (Hexagram/Tetrahedral Analogy)"
+  labelloc = "t"
+  labeljust = "c"
+}
+my_embedded_dot_2
+</details>
+
+<!-- 
+![The S-P_Hexagram_Unit_Draft](https://upload.wikimedia.org/wikipedia/commons/b/b8/S-P_Hexagram_Unit_Draft.png "The S-P_Hexagram_Unit_Draft")
+ -->
+
+
 ----
 
 ## 3. Mapping Orbitals to Harmonic Concepts
@@ -303,6 +357,60 @@ digraph ChromaticDualRing {
 ---
 
 
+
+### The Chromatic Dual Ring and Phi-Damping Concept
+
+![Graphviz Diagram: Embedded DOT 4](https://g.gravizo.com/source/svg/my_embedded_dot_4?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
+
+<details>
+<summary>View Graphviz DOT Source (Embedded DOT 4)</summary>
+my_embedded_dot_4
+digraph ChromaticDualRing {
+  graph [fontsize=12]
+  rankdir=LR
+
+  node [shape=circle, style=filled]
+
+  // Outer Cosine Ring
+  subgraph cluster_CosineRing {
+    style=rounded
+    color=blue
+    label="Outer Cosine Ring"
+    oc [label="Primary/Secondary Harmonics\nOuter Electrons", fillcolor=lightblue]
+  }
+
+  // Inner Sine Ring
+  subgraph cluster_SineRing {
+    style=rounded
+    color=red
+    label="Inner Sine Ring"
+    is [label="Subtler/Tonic Frequencies\nS-Orbitals", fillcolor=pink]
+  }
+
+  // Damping/Filtration mechanism
+  phi [shape=diamond, label="Phi (Φ)\nDamping\nEnergetic Filtration"]
+
+  // Connections illustrating the relationship and filtration
+  oc -> phi [label="Modulated by?"]
+  is -> phi [label="Filtered through?"]
+  phi -> oc [label="Shapes Outer?"]
+  phi -> is [label="Shapes Inner?"] // Conceptual flow
+
+  // Add a general title
+  label = "\nChromatic Dual Ring & Phi-Damping Concept"
+  labelloc = "t"
+  labeljust = "c"
+}
+my_embedded_dot_4
+</details>
+
+<!-- 
+![The Chromatic_Dual_Ring_and_Phi-Damping_Concept_Draft](https://upload.wikimedia.org/wikipedia/commons/b/b4/Chromatic_Dual_Ring_and_Phi-Damping_Concept_Draft.png "The Chromatic_Dual_Ring_and_Phi-Damping_Concept_Draft")
+ -->
+
+
+---
+
 ## 5. Solfeggio Frequencies as a Quantum Tuning Grid
 
 
@@ -420,6 +528,12 @@ The atom is reframed as a **musical mandala**: harmonic lattices, animated by qu
 
 ![Quantum_Harmonic_Atomic_Model_Draft_4](./ASSETS/Quantum_Harmonic_Atomic_Model_Draft_4.png)
 
+<!-- 
+![Atom as musical universal resonance](https://upload.wikimedia.org/wikipedia/commons/7/75/Atom_as_musical_universal_resonance_-_illustration_4.png "Atom as musical universal resonance")
+-->
+
+
+
 
 ---
 
@@ -436,10 +550,10 @@ The atom is reframed as a **musical mandala**: harmonic lattices, animated by qu
 
 
 
----
-**Licenses:**
-
-- **MIT License:**  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) - Full text in [LICENSE](LICENSE) file.
-- **Creative Commons Attribution 4.0 International:** [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](LICENSE-CC-BY) - Legal details in [LICENSE-CC-BY](LICENSE-CC-BY) and at [Creative Commons official site](http://creativecommons.org/licenses/by/4.0/).
+>
+>**Licenses:**
+>
+>- **MIT License:**  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) - Full text in [LICENSE](LICENSE) file.
+>- **Creative Commons Attribution 4.0 International:** [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](LICENSE-CC-BY) - Legal details in [LICENSE-CC-BY](LICENSE-CC-BY) and at [Creative Commons official site](http://creativecommons.org/licenses/by/4.0/).
 
 ---
