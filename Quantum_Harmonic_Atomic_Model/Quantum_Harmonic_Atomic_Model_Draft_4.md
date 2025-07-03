@@ -186,11 +186,12 @@ digraph HexagramAtom {
 
 **Explanation:** This Graphviz diagram attempts to visualize the core geometric idea. The downward triangle represents the s-orbital, and the three upward triangles conceptually represent the 3 p-orbitals structured together. The dashed lines indicate the conceptual formation of the hexagram/tetrahedral unit. Labels and notes emphasize that this is a proposed geometric mapping and a potential "basic cell" in a larger structure. Position (`pos`) attributes are used to attempt a hexagram-like layout, though precise geometric fidelity in DOT is limited.
 
+
 ---
 
 ### Atomic Geometric Structure: The S-P Hexagram Unit
 
-![Atomic Geometric Structure: The S-P Hexagram Unit: Embedded DOT 2](https://g.gravizo.com/source/my_embedded_dot_2?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
+![Atomic Geometric Structure: The S-P Hexagram Unit: Embedded DOT 2](https://g.gravizo.com/source/svg/my_embedded_dot_2?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
 
 <details>
 <summary>View Graphviz DOT Source (Embedded DOT 2)</summary>
@@ -378,9 +379,10 @@ digraph ChromaticDualRing {
 ---
 
 
+
 ### The Chromatic Dual Ring and Phi-Damping Concept
 
-![Graphviz Diagram: Embedded DOT 4](https://g.gravizo.com/source/my_embedded_dot_4?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
+![Graphviz Diagram: Embedded DOT 4](https://g.gravizo.com/source/svg/my_embedded_dot_4?https%3A%2F%2Fraw.githubusercontent.com%2FCongLeSolutionX%2FHarmonic_Atomica%2Frefs%2Fheads%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model%2FQuantum_Harmonic_Atomic_Model_Draft_4.md)
 
 <details>
 <summary>View Graphviz DOT Source (Embedded DOT 4)</summary>
@@ -546,11 +548,11 @@ flowchart LR
 The atom is reframed as a **musical mandala**: harmonic lattices, animated by quantum numbers, sifting frequencies through sacred ratios, manifesting as the beauty of both a DNA helix and a cathedral dome. Physics, music, and geometry are revealed as facets of the same universal resonance.
 
 
-<!-- ![Quantum_Harmonic_Atomic_Model_Draft_4](./ASSETS/Quantum_Harmonic_Atomic_Model_Draft_4.png) -->
+![Quantum_Harmonic_Atomic_Model_Draft_4](./ASSETS/Quantum_Harmonic_Atomic_Model_Draft_4.png)
 
-
+<!-- 
 ![Atom as musical universal resonance](https://upload.wikimedia.org/wikipedia/commons/7/75/Atom_as_musical_universal_resonance_-_illustration_4.png "Atom as musical universal resonance")
-
+-->
 
 
 
