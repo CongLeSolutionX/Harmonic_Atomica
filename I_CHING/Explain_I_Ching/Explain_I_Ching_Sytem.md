@@ -266,6 +266,7 @@ graph KingWenPairs {
 
 <details>
 <summary>The King Wen Sequence (Embedded DOT diagram)</summary>
+
 my_embedded_dot_diagram
 graph KingWenPairs {
   layout=dot
@@ -408,7 +409,7 @@ give me the full complete table of `The Fu Xi Sequence`. Also, you should only p
 ----
 
 
-## By gemini-2.5-pro-preview-05-06
+## Answer by gemini-2.5-pro-preview-05-06
 
 Of course. Here is the full, complete table of the 64 hexagrams arranged in the **Fu Xi sequence**, also known as the "Earlier Heaven" or "Pre-Heaven" sequence.
 
