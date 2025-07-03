@@ -214,8 +214,34 @@ digraph Pairing {
 The final two hexagrams are philosophically profound. **After Completion (䷾)** depicts perfect order, but its symmetry makes it static and prone to decay. **Before Completion (䷿)** shows disorder, but its dynamic nature holds the seeds of all future possibilities. This creates a cycle.
 
 ```mermaid
-graph TD
-    subgraph "The Final Cycle"
+---
+title: "CongLeSolutionX"
+author: "Cong Le"
+version: "1.0"
+license(s): "MIT, CC BY 4.0"
+copyright: "Copyright © 2025 Cong Le. All Rights Reserved."
+config:
+  theme: base
+  look: handDrawn
+---
+%%{
+  init: {
+    'flowchart': { 'htmlLabels': false },
+    'fontFamily': 'American Typewriter',
+    'themeVariables': {
+      'primaryColor': '#fc82',
+      'primaryTextColor': '#F8B229',
+      'primaryBorderColor': '#27AE60',
+      'secondaryColor': '#81c784',
+      'secondaryTextColor': '#6C3483',
+      'lineColor': '#F8B229',
+      'fontSize': '15px'
+    }
+  }
+}%%
+flowchart TD
+    subgraph The_Final_Cycle["The Final Cycle"]
+    style The_Final_Cycle fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
         A["Hexagram 63. Jì Jì ䷾<br><b>After Completion</b><br>All lines in correct places.<br>Fire over Water."]
         B["Hexagram 64. Wèi Jì ䷿<br><b>Before Completion</b><br>No line in its correct place.<br>Water over Fire."]
         
@@ -224,9 +250,9 @@ graph TD
         C --> A
     end
     
-    style A fill:#d4e157, stroke:#333, stroke-width:2px;
-    style B fill:#ff8a65, stroke:#333, stroke-width:2px;
-    style C fill:#4db6ac, stroke:#333, stroke-width:2px;
+    style A fill:#d157, stroke:#333, stroke-width:2px;
+    style B fill:#fa65, stroke:#333, stroke-width:2px;
+    style C fill:#46ac, stroke:#333, stroke-width:2px;
 ```
 
 Hexagram 63 (Jì Jì ䷾) is made of Fire ☲ over Water ☵. Fire naturally rises and water descends, so everything is in its proper place—a stable, but rigid, state. Hexagram 64 (Wèi Jì ䷿) is Water ☵ over Fire ☲. This is an unstable, dynamic state of conflict that drives change, thus leading back toward a new state of completion.
