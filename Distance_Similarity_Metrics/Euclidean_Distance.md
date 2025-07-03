@@ -52,7 +52,6 @@ copyright: Copyright © 2025 Cong Le. All Rights Reserved.
 
 </details>
 
-
 ----
 
 ## Unraveling Euclidean Distance: From Pythagoras to Machine Learning
