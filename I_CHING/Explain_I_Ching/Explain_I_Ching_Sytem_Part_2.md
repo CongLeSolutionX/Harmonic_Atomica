@@ -232,7 +232,7 @@ config:
       'primaryColor': '#fc82',
       'primaryTextColor': '#F8B229',
       'primaryBorderColor': '#27AE60',
-      'secondaryColor': '#81c784',
+      'secondaryColor': '#8784',
       'secondaryTextColor': '#6C3483',
       'lineColor': '#F8B229',
       'fontSize': '15px'
