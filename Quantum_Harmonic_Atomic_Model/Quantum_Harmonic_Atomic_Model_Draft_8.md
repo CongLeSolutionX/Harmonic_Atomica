@@ -42,6 +42,7 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 
 ----
 
+# Quantum_Harmonic_Atomic_Model
 
 # Overall Concept and Structure
 

@@ -42,7 +42,6 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 
 ----
 
-
 ## 1. The Quantum Hexagram: s and p Orbitals
 
 ```mermaid
