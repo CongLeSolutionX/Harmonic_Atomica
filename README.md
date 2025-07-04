@@ -24,7 +24,14 @@ Copyright © 2025 Cong Le. All Rights Reserved.
 	
 ⚠️🏗️🚧🦺🧱🪵🪨🪚🛠️👷
 
-This project is in progress.
+
+<div align="center">
+	<p>This project is <strike>in progress</strike> currently on pause,<br/>since I need to spend more time on hunting a real job 💼👨🏼‍💻💼<br/>
+	Please help me out if anyone know any legitimate companies currently hiring via my personal email:
+	<a href="mailto:conglejobs@gmail.com">conglejobs@gmail.com</a>
+	</p>
+</div>
+
 
 ![Loading...](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTU2ZnAxZHhxNnRxZTl1cGNkb3Q1MTVjYzNhcDZoejBvemY3cmo5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eKsRmUpB5GllPbBi0T/giphy.gif)
 
@@ -38,16 +45,23 @@ gif image is provided by [Giphy](https://giphy.com)
 
 # The power of 3-6-9
 
-9 is the number of agents/roles on my codex 🔢
+<div>
+
+<q>
+9 is the number of agents/roles on my codex 🔢.
 
 3 is the 3 force in physics, used in Tesla magnets 🧲.
 
-6 ….what are you? Hexagram❓Megatron’s cube❓
+6 ….what are you❓ Hexagram❓ Metatron’s cube❓
+
+</q>
+</div>
+
 
 I'll leave these questions hanging on the public domain for now.
 
 > [!NOTE]
-> I dont know how to combine all the things together yet<br/>
+> I dont know how to combine all the things together yet,<br/>
 > and I'm not sure they are even valuable at this moment.
 
 
