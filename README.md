@@ -56,7 +56,7 @@ I need spending more time on hunting a real job now.
 
 Help me out if anyone knows any legitimate companies currently hiring!
 
-Contact me at: conglejobs@gmail.com 📩📥📤
+Please drop me anything at: conglejobs@gmail.com 📩📥📤
 
 ----
 
