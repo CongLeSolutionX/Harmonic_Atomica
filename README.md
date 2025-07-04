@@ -36,13 +36,21 @@ gif image is provided by [Giphy](https://giphy.com)
 
 ----
 
-## The power of 3-6-9
+# The power of 3-6-9
 
 9 is the number of agents/roles on my codex 🔢
 
 3 is the 3 force in physics, used in Tesla magnets 🧲.
 
-6 ….what are you? Hexagram? Megatron’s cube?❓
+6 ….what are you? Hexagram❓Megatron’s cube❓
+
+I'll leave these questions hanging for now on the public.
+
+I need spending more time on hunting a real job now.
+
+Help me out if anyone knows any legitimate companies currently hiring!
+
+Contact me at: conglejobs@gmail.com 📩📥📤
 
 ----
 
