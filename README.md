@@ -46,6 +46,12 @@ gif image is provided by [Giphy](https://giphy.com)
 
 I'll leave these questions hanging on the public domain for now.
 
+> [!NOTE]
+> I dont know how to combine all the things together yet
+> and I'm not sure they are even valuable at this moment.
+
+
+
 I need spending more time on hunting a real job now.
 
 Help me out if anyone knows any legitimate companies currently hiring!
