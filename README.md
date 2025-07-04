@@ -47,7 +47,7 @@ gif image is provided by [Giphy](https://giphy.com)
 I'll leave these questions hanging on the public domain for now.
 
 > [!NOTE]
-> I dont know how to combine all the things together yet
+> I dont know how to combine all the things together yet<br/>
 > and I'm not sure they are even valuable at this moment.
 
 
