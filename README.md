@@ -45,26 +45,26 @@ gif image is provided by [Giphy](https://giphy.com)
 
 # The power of 3-6-9
 
-<div>
+<div align="center">
 
-<q>
-9 is the number of agents/roles on my codex 🔢.
+<quoteblock>
+<char>&#8220;</char> 9 is the number of agents/roles on my codex 🔢.
 
-3 is the 3 force in physics, used in Tesla magnets 🧲.
+3 is the 3 forces in physics, used in Tesla magnets 🧲.
 
-6 ….what are you❓ Hexagram❓ Metatron’s cube❓
+6 ….what are you❓ Hexagram❓ Metatron’s cube❓ <char>&#8221;</char>
 
-</q>
+</quoteblock>
 </div>
 
-
+<div align="center">
 I'll leave these questions hanging on the public domain for now.
+</div>
+
 
 > [!NOTE]
 > I dont know how to combine all the things together yet,<br/>
 > and I'm not sure they are even valuable at this moment.
-
-
 
 I need spending more time on hunting a real job now.
 
