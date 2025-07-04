@@ -44,7 +44,7 @@ gif image is provided by [Giphy](https://giphy.com)
 
 6 ….what are you? Hexagram❓Megatron’s cube❓
 
-I'll leave these questions hanging for now on the public.
+I'll leave these questions hanging for now on the public domain for now.
 
 I need spending more time on hunting a real job now.
 
