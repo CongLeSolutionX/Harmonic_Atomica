@@ -27,7 +27,7 @@ Copyright © 2025 Cong Le. All Rights Reserved.
 
 <div align="center">
 	<p>This project is <strike>in progress</strike> currently on pause,<br/>since I need to spend more time on hunting a real job 💼👨🏼‍💻💼<br/>
-	Please help me out if anyone know any legitimate companies currently hiring via my personal email:
+	Please help me out if anyone knows any legitimate companies currently hiring via my personal email:
 	<a href="mailto:conglejobs@gmail.com">conglejobs@gmail.com</a>
 	</p>
 </div>
