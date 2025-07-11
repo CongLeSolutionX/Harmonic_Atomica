@@ -146,7 +146,8 @@ license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
-  theme: base
+  look: handDrawn
+  theme: dark
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -171,7 +172,7 @@ config:
 flowchart LR
 
 subgraph Atom["Bound State:<br/>Atom ⚛️"]
-
+style Atom fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
 direction LR
 
 Nucleus --> Proton(" Proton (+) ")
@@ -186,7 +187,7 @@ style Atom fill:#f9f2,stroke:#333,stroke-width:2px
 
 Photon["Photon:<br/>A Quantum of Light ⚡ <br/> Energy: $E=hf$"]
 
-style Photon fill:#FFD700,stroke:#FFA500,stroke-width:2px
+style Photon fill:#F2D2,stroke:#FFA500,stroke-width:2px
 
 ```
 
