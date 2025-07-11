@@ -81,7 +81,8 @@ license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
-  theme: base
+  look: handDrawn
+  theme: dark
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -117,17 +118,17 @@ D & E --> F(("Wave-Particle Duality <br> $\lambda = h/p$, $E=hf$"))
 
   
 
-style A fill:#D5F5E3,stroke:#2ECC71,stroke-width:2px
+style A fill:#D5E3,stroke:#2ECC71,stroke-width:2px
 
-style B fill:#E8DAEF,stroke:#8E44AD,stroke-width:2px
+style B fill:#E3EF,stroke:#8E44AD,stroke-width:2px
 
-style C fill:#E8DAEF,stroke:#8E44AD,stroke-width:2px
+style C fill:#E3EF,stroke:#8E44AD,stroke-width:2px
 
-style D fill:#FDEDEC,stroke:#E74C3C,stroke-width:2px
+style D fill:#F3EC,stroke:#E74C3C,stroke-width:2px
 
-style E fill:#FDEDEC,stroke:#E74C3C,stroke-width:2px
+style E fill:#F3EC,stroke:#E74C3C,stroke-width:2px
 
-style F fill:#D6EAF8,stroke:#3498DB,stroke-width:2px
+style F fill:#D3F8,stroke:#3498DB,stroke-width:2px
 
 ```
 
@@ -147,7 +148,8 @@ license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
-  theme: base
+  look: handDrawn
+  theme: dark
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -172,7 +174,7 @@ config:
 flowchart LR
 
 subgraph Atom["Bound State:<br/>Atom ⚛️"]
-
+style Atom fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
 direction LR
 
 Nucleus --> Proton(" Proton (+) ")
@@ -187,7 +189,7 @@ style Atom fill:#f9f2,stroke:#333,stroke-width:2px
 
 Photon["Photon:<br/>A Quantum of Light ⚡ <br/> Energy: $E=hf$"]
 
-style Photon fill:#FFD700,stroke:#FFA500,stroke-width:2px
+style Photon fill:#F2D2,stroke:#FFA500,stroke-width:2px
 
 ```
 
@@ -214,7 +216,8 @@ license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
-  theme: base
+  look: handDrawn
+  theme: dark
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -239,7 +242,7 @@ config:
 flowchart TD
 
 subgraph Comparison["Energy Levels Comparison"]
-
+style Comparison fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
 C["Classical Mechanics"] --> C1["Energy can be ANY value <br/> (Continuous - like a ramp)"]
 
 C1 --> C2["<br> <br> <br> <br>"]
@@ -258,9 +261,9 @@ E_nIs2 --> E_nIs3["$E_3 = -1.51$ eV <br/>(n=3)"]
 
 end
 
-style C fill:#E5E7E9,stroke:#5D6D7E
+style C fill:#E5E9,stroke:#5D6D7E
 
-style Q fill:#D5F5E3,stroke:#2ECC71
+style Q fill:#D5E3,stroke:#2ECC71
 
 ```
 -----
@@ -367,7 +370,8 @@ license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
-  theme: base
+  look: handDrawn
+  theme: dark
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -392,8 +396,8 @@ config:
 flowchart TD
 
 subgraph QM_Explanations["Phenomena Explained by Quantum Mechanics"]
-
-P1[Classical Physics Puzzles 🤔] --> QMS[Quantum Mechanics Solutions 💡]
+style QM_Explanations fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
+P1["Classical Physics Puzzles 🤔"] --> QMS["Quantum Mechanics Solutions 💡"]
 
 QMS --> BBR["Blackbody Radiation <br> ($B(\lambda,T) = \frac{2hc^2}{\lambda^5}\frac{1}{e^{hc/\lambda k_B T}-1}$)"]
 
@@ -403,9 +407,9 @@ QMS --> PE["Photoelectric Effect <br> ($K_{max} = hf - \phi$)"]
 
 end
 
-style P1 fill:#FFCCCB,stroke:#FF0000
+style P1 fill:#F2CC2,stroke:#FF0000
 
-style QMS fill:#90EE90,stroke:#006400
+style QMS fill:#9BE9,stroke:#006400
 
 ```
 ----
@@ -440,27 +444,27 @@ config:
   }
 }%%
 mindmap
-  root(("Quantum Mechanics Applications 🌐"))
-    Electronics
-      Transistors (basis of all modern electronics)
-      Semiconductors
-      Light_Emitting_Diodes["Light-Emitting Diodes (LEDs) 💡"]
-    Optics & Photonics
-      Lasers 💥
-      Fiber Optics
-    Medical Field
-      Magnetic_Resonance_Imaging["Magnetic Resonance Imaging (MRI) 🩺 (uses nuclear spin, a quantum property)"]
-      Laser Surgery
-    Research & Industry
-      Electron Microscopes 🔬
-      Atomic Clocks ⏰
-    Emerging Technologies
-      Quantum Computing 💻
-      Quantum Networks & Communication
-      Quantum Sensors
-    Everyday Devices
-      Smartphones["Smartphones 📱 (billions of QM-based transistors!)"]
-      CD/DVD/Blu-ray players
+  root)"**Quantum Mechanics Applications** 🌐"(
+    Electronics))"**Electronics**"((
+      Transistors{{"Transistors<br/>(basis of all modern electronics)"}}
+      Semiconductors{{"Semiconductors"}}
+      Light_Emitting_Diodes{{"Light-Emitting Diodes<br/>(LEDs) 💡"}}
+    Optics_and_Photonics))"**Optics & Photonics**"((
+      Lasers{{"Lasers 💥"}}
+      Fiber_Optics{{"Fiber Optics"}}
+    Medical_Field))"**Medical Field**"((
+      Magnetic_Resonance_Imaging{{"Magnetic Resonance Imaging (MRI) 🩺 <br/>(uses nuclear spin, a quantum property)"}}
+      Laser_Surgery{{"Laser Surgery"}}
+    Research_and_Industry))"**Research & Industry**"((
+      Electron_Microscopes{{"Electron Microscopes 🔬"}}
+      Atomic_Clocks{{"Atomic Clocks ⏰"}}
+    Emerging_Technologies))"**Emerging Technologies**"((
+      Quantum_Computing{{"Quantum Computing 💻"}}
+      Quantum_Networks_and_Communication{{"Quantum Networks & Communication"}}
+      Quantum_Sensors{{"Quantum Sensors"}}
+    Everyday_Devices))"**Everyday Devices**"((
+      Smartphones{{"Smartphones 📱<br/>(billions of QM-based transistors!)"}}
+      CD_DVD_Blu_ray_players{{"CD/DVD/Blu-ray players"}}
 ```
 
 Truly, your cell phone wouldn't exist without quantum mechanics!
@@ -481,7 +485,8 @@ license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
-  theme: base
+  look: handDrawn
+  theme: dark
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -531,17 +536,17 @@ F --> L["National QIS Research Centers"]
 
   
 
-style A fill:#AED6F1,stroke:#3498DB
+style A fill:#A6F1,stroke:#3498DB
 
-style B fill:#A9DFBF,stroke:#27AE60
+style B fill:#A9B2,stroke:#27AE60
 
-style C fill:#F9E79F,stroke:#F1C40F
+style C fill:#F9B9,stroke:#F1C40F
 
-style D fill:#F9E79F,stroke:#F1C40F
+style D fill:#F9E9,stroke:#F1C40F
 
-style E fill:#F9E79F,stroke:#F1C40F
+style E fill:#F9E9,stroke:#F1C40F
 
-style F fill:#D7BDE2,stroke:#8E44AD
+style F fill:#D7E2,stroke:#8E44AD
 
 ```
 
@@ -569,12 +574,14 @@ info
 
 ```mermaid
 ---
-title: "CongLeSolutionX"
+title: "C<char>o&#770;</char>ngL<char>e&#770;</char>SolutionX"
 author: "Cong Le"
 version: "1.0"
 license(s): "MIT, CC BY 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
+  layout: elk
+  look: handDrawn
   theme: base
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
@@ -596,14 +603,17 @@ config:
 flowchart LR
     My_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/MY_GRAPHIC_ASSETS/refs/heads/main/MY_MEME/My-meme-ideas.png", label: "Ăn uống gì chưa ngừi đẹp?", pos: "b", w: 200, h: 150, constraint: "off" }
 
-    Closing_quote@{ shape: braces, label: "With the right context,<br/>theory become reality" }
+    Closing_quote@{ shape: braces, label: "With the right context,<br/>theory becomes reality" }
 
     Link_to_my_profile{{"<a href='https://github.com/CongLeSolutionX/CongLeSolutionX' target='_blank'>Click here if you care about my profile</a>"}}
+
+My_Meme:::Style_For_My_Meme
 
 Closing_quote ~~~ My_Meme
 My_Meme animatingEdge@--> Link_to_my_profile
 animatingEdge@{ animate: true }
 
+classDef Style_For_My_Meme fill:#F2F2,stroke:#22BB,stroke-width:4px
 
 ```
 
