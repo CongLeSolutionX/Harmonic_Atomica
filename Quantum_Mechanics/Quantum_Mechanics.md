@@ -441,27 +441,27 @@ config:
   }
 }%%
 mindmap
-  root(("Quantum Mechanics Applications 🌐"))
-    Electronics
-      Transistors (basis of all modern electronics)
-      Semiconductors
-      Light_Emitting_Diodes["Light-Emitting Diodes (LEDs) 💡"]
-    Optics & Photonics
-      Lasers 💥
-      Fiber Optics
-    Medical Field
-      Magnetic_Resonance_Imaging["Magnetic Resonance Imaging (MRI) 🩺 (uses nuclear spin, a quantum property)"]
-      Laser Surgery
-    Research & Industry
-      Electron Microscopes 🔬
-      Atomic Clocks ⏰
-    Emerging Technologies
-      Quantum Computing 💻
-      Quantum Networks & Communication
-      Quantum Sensors
-    Everyday Devices
-      Smartphones["Smartphones 📱 (billions of QM-based transistors!)"]
-      CD/DVD/Blu-ray players
+  root)"**Quantum Mechanics Applications** 🌐"(
+    Electronics))"**Electronics**"((
+      Transistors{{"Transistors<br/>(basis of all modern electronics)"}}
+      Semiconductors{{"Semiconductors"}}
+      Light_Emitting_Diodes{{"Light-Emitting Diodes<br/>(LEDs) 💡"}}
+    Optics_and_Photonics))"**Optics & Photonics**"((
+      Lasers{{"Lasers 💥"}}
+      Fiber_Optics{{"Fiber Optics"}}
+    Medical_Field))"**Medical Field**"((
+      Magnetic_Resonance_Imaging{{"Magnetic Resonance Imaging (MRI) 🩺 <br/>(uses nuclear spin, a quantum property)"}}
+      Laser_Surgery{{"Laser Surgery"}}
+    Research_and_Industry))"**Research & Industry**"((
+      Electron_Microscopes{{"Electron Microscopes 🔬"}}
+      Atomic_Clocks{{"Atomic Clocks ⏰"}}
+    Emerging_Technologies))"**Emerging Technologies**"((
+      Quantum_Computing{{"Quantum Computing 💻"}}
+      Quantum_Networks_and_Communication{{"Quantum Networks & Communication"}}
+      Quantum_Sensors{{"Quantum Sensors"}}
+    Everyday_Devices))"**Everyday Devices**"((
+      Smartphones{{"Smartphones 📱<br/>(billions of QM-based transistors!)"}}
+      CD_DVD_Blu_ray_players{{"CD/DVD/Blu-ray players"}}
 ```
 
 Truly, your cell phone wouldn't exist without quantum mechanics!
