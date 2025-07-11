@@ -368,7 +368,8 @@ license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
-  theme: base
+  look: handDrawn
+  theme: dark
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -393,8 +394,8 @@ config:
 flowchart TD
 
 subgraph QM_Explanations["Phenomena Explained by Quantum Mechanics"]
-
-P1[Classical Physics Puzzles 🤔] --> QMS[Quantum Mechanics Solutions 💡]
+style QM_Explanations fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
+P1["Classical Physics Puzzles 🤔"] --> QMS["Quantum Mechanics Solutions 💡"]
 
 QMS --> BBR["Blackbody Radiation <br> ($B(\lambda,T) = \frac{2hc^2}{\lambda^5}\frac{1}{e^{hc/\lambda k_B T}-1}$)"]
 
@@ -404,9 +405,9 @@ QMS --> PE["Photoelectric Effect <br> ($K_{max} = hf - \phi$)"]
 
 end
 
-style P1 fill:#FFCCCB,stroke:#FF0000
+style P1 fill:#F2CC2,stroke:#FF0000
 
-style QMS fill:#90EE90,stroke:#006400
+style QMS fill:#9BE9,stroke:#006400
 
 ```
 ----
@@ -482,7 +483,8 @@ license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
-  theme: base
+  look: handDrawn
+  theme: dark
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -532,17 +534,17 @@ F --> L["National QIS Research Centers"]
 
   
 
-style A fill:#AED6F1,stroke:#3498DB
+style A fill:#A6F1,stroke:#3498DB
 
-style B fill:#A9DFBF,stroke:#27AE60
+style B fill:#A9B2,stroke:#27AE60
 
-style C fill:#F9E79F,stroke:#F1C40F
+style C fill:#F9B9,stroke:#F1C40F
 
-style D fill:#F9E79F,stroke:#F1C40F
+style D fill:#F9E9,stroke:#F1C40F
 
-style E fill:#F9E79F,stroke:#F1C40F
+style E fill:#F9E9,stroke:#F1C40F
 
-style F fill:#D7BDE2,stroke:#8E44AD
+style F fill:#D7E2,stroke:#8E44AD
 
 ```
 
