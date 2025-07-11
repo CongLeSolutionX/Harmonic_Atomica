@@ -213,7 +213,8 @@ license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
-  theme: base
+  look: handDrawn
+  theme: dark
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -238,7 +239,7 @@ config:
 flowchart TD
 
 subgraph Comparison["Energy Levels Comparison"]
-
+style Comparison fill:#F2F2,stroke:#333,stroke-width:1px, color: #FFFF
 C["Classical Mechanics"] --> C1["Energy can be ANY value <br/> (Continuous - like a ramp)"]
 
 C1 --> C2["<br> <br> <br> <br>"]
@@ -257,9 +258,9 @@ E_nIs2 --> E_nIs3["$E_3 = -1.51$ eV <br/>(n=3)"]
 
 end
 
-style C fill:#E5E7E9,stroke:#5D6D7E
+style C fill:#E5E9,stroke:#5D6D7E
 
-style Q fill:#D5F5E3,stroke:#2ECC71
+style Q fill:#D5E3,stroke:#2ECC71
 
 ```
 -----
