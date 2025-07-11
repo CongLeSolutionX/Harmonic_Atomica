@@ -79,7 +79,8 @@ license(s): "MIT, CC BY-SA 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
-  theme: base
+  look: handDrawn
+  theme: dark
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -115,17 +116,17 @@ D & E --> F(("Wave-Particle Duality <br> $\lambda = h/p$, $E=hf$"))
 
   
 
-style A fill:#D5F5E3,stroke:#2ECC71,stroke-width:2px
+style A fill:#D5E3,stroke:#2ECC71,stroke-width:2px
 
-style B fill:#E8DAEF,stroke:#8E44AD,stroke-width:2px
+style B fill:#E3EF,stroke:#8E44AD,stroke-width:2px
 
-style C fill:#E8DAEF,stroke:#8E44AD,stroke-width:2px
+style C fill:#E3EF,stroke:#8E44AD,stroke-width:2px
 
-style D fill:#FDEDEC,stroke:#E74C3C,stroke-width:2px
+style D fill:#F3EC,stroke:#E74C3C,stroke-width:2px
 
-style E fill:#FDEDEC,stroke:#E74C3C,stroke-width:2px
+style E fill:#F3EC,stroke:#E74C3C,stroke-width:2px
 
-style F fill:#D6EAF8,stroke:#3498DB,stroke-width:2px
+style F fill:#D3F8,stroke:#3498DB,stroke-width:2px
 
 ```
 
